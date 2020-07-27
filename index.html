@@ -1,0 +1,562 @@
+<!Doctype html>
+<!-- 	Tyler Chang's Landing Page w/ Bootstrap
+	Research information etc.
+	Last Update: March, 2020 -->
+<html>
+<head>
+	<title> Tyler Chang CS@VT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Load Bootstrap -->
+	<link href="bootstrap.min.css" rel="stylesheet" />
+
+<!-- Set style -->
+<style>
+	html {
+		background: url(img/delvor.png) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	body { 
+		padding-top: 20px;
+		font-size: 16px;
+		background-color: rgba(250, 250, 255, 0.9)
+	}
+
+	.panel {
+		background-color: rgba(255, 255, 255, 0.99);
+	}
+
+	.margin-base-vertical {
+		margin: 40px 0;
+	}
+
+</style>
+</head>
+<body>
+   <div class="container-fluid">
+
+	<!-- Title row -->
+      <div class"row">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel panel-default">
+
+	<!-- Profile image -->
+	<img src="img/Profile.jpg" align="left" hspace="10" vspace="25"
+		style="width:150px">
+
+	<!-- Name, dept, etc. -->
+	<h1 class="margin-base-vertical">
+	<b> Tyler H. Chang </b><br>
+	Virginia Tech, Dept. of Computer Science
+	</h1>
+
+	<!-- Navigate -->
+	    <ul class="nav nav-pills">
+	      <li><a href="#about">About</a></li>
+	      <li><a href="#info">Contact</a></li>
+	      <li><a href="#projs">Projects</a></li>
+	      <li><a href="#pubs">Publications</a></li>
+	      <li><a href="#awards">Awards</a></li>
+	      <li><a href="#misc">Misc</a></li>
+	      <li><a href="files/TylerChangCV.pdf">My CV</a></li>
+	    </ul>
+   	  </div>
+      </div>
+
+	<!-- About row -->
+      <div class"row">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel panel-default">
+	   <h1 class="margin-base-vertical">
+	<a class="anchor" name="about">About me:</a>
+	   </h1>
+	<p>
+		I am a Ph.D. candidate and Cunningham fellow at
+		Virginia Polytechnic Institute and State University
+		(Virginia Tech), in the Department of Computer Science.
+		My advisor is Dr. Layne Watson and the topic of my thesis is
+		 <i>Mathematical Software for Multiobjective Optimization
+		Problems</i>.
+		On June 15, I will begin a
+		postdoctoral appointment with the LANS group at Argonne
+		National Laboratory.
+	</p>
+	<p>
+		My current research interests include Nonconvex
+		Optimization, Approximation Theory, Numerical Analysis,
+		Computational Geometry, Functional Analysis, Stochastic
+		Analysis, Algorithms, and Parallel Computing,
+		with a focus on applications
+		in Data Science, Engineering, and large scale Numerical
+		Simulations.
+	</p>
+	<p>
+		Specifically, some of my work has included:
+		<ul>
+			<li>efficiently computing <b>Delaunay Triangulations</b>
+				in medium to high dimensions;</li>
+			<li><b>Interpolation</b> of high-dimensional blackbox
+				functions;</li>
+			<li><b>Multiobjective Optimization</b> with more
+				than 2 objective;</li>
+			<li>and producing high quality, portable <b>Mathematical
+				Software</b> (both serial and parallel).</li>
+		</ul>
+	</p>
+	<p>
+		Outside of my main research, I am also interested in
+		cryptography, computational fluid dynamics, probability
+		theory, and quantum computing.
+	</p><br>
+   	  </div>
+      </div>
+
+	<!-- Contact info -->
+      <div class"row">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel panel-default">
+	   <h1 class="margin-base-vertical">
+	<a class="anchor" name="info">Connect with me:</a>
+	   </h1>
+		<a target="_blank"
+			href="mailto:thchang@vt.edu">
+		<img src="img/emicon.png" width="30" height="30" hspace="10" vspace="20">
+		</a>
+		<a target="_blank"
+			href="https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en">
+		<img src="img/gsicon.png" width="30" height="30" hspace="10" vspace="20">
+		</a>
+		<a target="_blank" 
+			href="https://github.com/thchang">
+		<img src="img/ghicon.png" width="30" height="30" hspace="10" vspace="20">
+		</a>
+		<a target="_blank" 
+			href="https://www.linkedin.com/in/tyler-chang-2524b9182/">
+		<img src="img/liicon.png" width="30" height="30" hspace="10" vspace="20">
+		</a>
+		<a target="_blank" 
+			href="https://orcid.org/0000-0001-9541-7041">
+		<img src="img/orcidicon.png" width="30" height="30" hspace="10" vspace="20">
+		</a>
+		<a target="_blank" 
+			href="https://dac.cs.vt.edu/person/tyler-chang/">
+		<img src="img/dacicon.png" width="30" height="30" hspace="10" vspace="20">
+		</a>
+   	  </div>
+      </div>
+
+	<!-- Projects -->
+      <div class"row">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel panel-default">
+	   <h1 class="margin-base-vertical">
+	<a class="anchor" name="projs">Projects and Groups:</a>
+	   </h1>
+
+	<font size=5> <b>DELAUNAYSPARSE</b> </font>
+	<img src="img/delsparse.png" align="right" hspace="10" vspace="20"
+		style="width:200px;height:200px">
+	<p>
+	The Delaunay triangulation is a well-studied simplicial mesh, widely
+	considered optimal for interpolation applications.
+	Delaunay triangulations have recently garnered some interest in the
+	machine learning community, for their interpretability in the context
+	of regression and classification problems.
+	Unfortunately, the "curse of dimensionality" manifests in the
+	size of the Delaunay triangulation, making it uncomputable for
+	high-dimensional big data problems.
+	</p>
+	<p>
+	DELAUNAYSPARSE is an open source Fortran package that computes
+	sparse subsets of the complete Delaunay triangulation, as needed to
+	perform interpolation.
+	The resulting codebase is fast, robust, and portable; and features
+	both serial and parallel implementations.
+	The final codebase and journal paper are currently under review
+	for publication.
+	</p>
+	<p>
+	For now, consider the following preliminary works.
+	(Note that significant improvements have been made to the codebase
+	described herein, and the presented runtimes are greatly improved).
+	<ul>
+	<li>
+	<a target="_blank" href="https://doi.org/10.1145/3190645.3190680">
+		Algorithm for Delaunay interpolation</a></li>
+	<li>
+	<a target="_blank" href="https://dl.acm.org/citation.cfm?id=3213071">
+		Delaunay interpolation on VarSys data</a></li>
+	<li>
+	<a target="_blank" href="https://github.com/thchang/DualSimplex">
+		GitHub repo and code demonstrating the LP solution,
+		and describing its shortcomings</a>.
+	</li>
+	</ul>
+	</p>
+	<p>
+	Also consider these related works:
+	<ul>
+	<li>
+	<a target="_blank" href="https://doi.org/10.1109/SECON.2018.8479003">
+		Computing the Delaunay umbrella neighborhood</a> /
+	<a target="_blank" href="https://github.com/thchang/DelaunayFan">
+	github.com/thchang/DelaunayFan
+	</a>
+	<li>
+	<a href="files/pres/iccopt2019-pres.pdf">
+	A Delaunay surrogate model for blackbox optimization</a> /
+	<a target="_blank" href="https://github.com/thchang/DelaunaySearch">
+	github.com/thchang/DelaunaySearch
+	</a>
+	</li>
+	</ul>
+	</p>
+
+	<font size=5> <b>VTMOP</b> </font>
+	<p>
+	<img src="img/mop.png" align="left" hspace="10" vspace="20"
+		style="width:266px;height:200px">
+	The multiobjective optimization problem (MOP) is a generalization of
+	the single objective optimization problem.
+	Instead of attempting to minimize a single cost or loss function,
+	a MOP attempts to balance the tradeoff between multiple, potentially
+	conflicting objectives.
+	Applications arise in many areas of science and engineering, including
+	model fitting, computational chemistry, portfolio optimization,
+	economics, and aircraft design.
+	The solution to a MOP is a set of nondominated points describing the
+	tradeoff between the conflicting objectives, called the Pareto front.
+	</p>
+	<p>
+	VTMOP is a flexible open source Fortran package for approximating
+	tradeoff curves between arbitrary numbers of objectives, targeted at
+	large scale multidisciplinary design optimization problems.
+	This work has been partially funded by a DOE SCGSR award, in
+	collaboration with Argonne National Lab.
+	(See <a href="#awards">Awards</a>).
+	</p>
+
+	<font size=5> <b>VarSys</b> </font>
+	<p>
+	<img src="img/varsys.png" align="right" hspace="10" vspace="20"
+		style="width:340px;height:200px">
+        One of the challenges currently facing systems specialists and
+	performance evaluators, particularly in HPCs, is performance
+	variability.
+	VarSys is a NSF funded (#1565314) multidisciplinary study of
+	performance variability.
+	The goals of the VarSys project are to
+	<b> model performance variability </b>
+	based on system configurations and application properties, and to
+	<b> manage performance variance </b> in synergy with other
+	performance concerns.
+	Applications in high performance computing, cloud computing, and
+	computer security.
+	See the
+	<a target="_blank"
+		href="http://wordpress.cs.vt.edu/varsys/">VarSys Webpage</a>
+	for more project details.
+	</p>
+	<p>
+	As a member of the math and algorithms team,
+	I aided in applying analytical, statistical, and machine learning
+	techniques for modeling and managing performance variance, based
+	on performance data gathered from real HPC systems.
+	</p>
+	<p>
+	Related Publications:
+	<ul>
+	<li>
+	<a target="_blank" href="https://dl.acm.org/citation.cfm?id=3213071">
+	Predicting I/O throughputs with Delaunay</a></li>
+	<li>
+	<a target="_blank" href="https://dl.acm.org/citation.cfm?id=3213077">
+	Comparative study of techniques</a></li>
+	<li>
+	<a target="_blank" href="https://doi.org/10.1109/SECON.2018.8478814">
+	Nonparametric technique for distribution modeling</a></li>
+	</ul>
+	</p>
+
+	<font size=5> <b>Quantum Annealing Math Library (QAML)</b> </font>
+	<p>
+	<img src="img/qaml-dark.svg" align="left" hspace="10" vspace="20"
+		style="width:340px;height:200px">
+	Quantum annealing (QA) is an implementation of the general purpose
+	adiabatic quantum computing (AQC) model for quantum computing.
+	QA balances the theoretical properties of AQC against real-world
+	practicalities, allowing for faster progress in near-term QA hardware.
+	</p>
+	<p>
+	QAML is an open source Python project, which embeds least squares
+	and polynomial sum-of-squares problems on the D-Wave quantum annealer.
+	These broad classes of problems are ubiquitous in scientific computing,
+	machine learning, and data science.
+	In collaboration with Thomas Lux and Sindu Tipirneni.
+	<ul>
+	<li>
+	<a target="_blank" href="https://doi.org/10.1007/s11128-019-2489-x">
+	Publication</a></li>
+	<li>Code available at
+	<a target="_blank" href="https://github.com/tchlux/qaml">
+	github.com/tchlux/qaml</a></li>
+	</ul>
+	</p>
+   	  </div>
+      </div>
+
+	<!-- Publications -->
+      <div class"row">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel panel-default">
+	   <h1 class="margin-base-vertical">
+	<a class="anchor" name="pubs">Publications:</a>
+	   </h1>
+
+<font size=5> <b>Selected Publications:</b> </font>
+(For full list, see  
+<a href="files/TylerChangCV.pdf">my CV</a> 
+or 
+<a target="_blank" href="https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en">my Google Scholar page</a>)
+<br><br>
+	<p>
+Tyler H. Chang, Thomas C.H. Lux, and Sai Sindhura Tipirneni.
+2019.
+Least-squares solutions to polynomial systems of equations with quantum
+annealing.
+Quantum Information Processing 18(12), Article No. 374.
+Springer.<br>
+<a href="files/papers/qaml-qinp.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+<a target="_blank"
+	href="https://doi.org/10.1007/s11128-019-2489-x">SpringerLink</a>&nbsp
+<a href="files/bibs/qaml-qinp.bib">BIB</a>
+	</p>
+	<p>
+Tyler H. Chang, Layne T. Watson, Thomas C. H. Lux, Sharath Raghvendra, Bo Li,
+Li Xu, Ali R. Butt, Kirk W. Cameron, and Yili Hong.
+2018.
+Computing the umbrella neighbourhood of a vertex in the Delaunay triangulation
+and a single Voronoi cell in arbitrary dimension.
+In Proc. IEEE SoutheastCon 2018.
+IEEE, St. Petersburg, FL, USA, 8 pages.<br>
+<a href="files/papers/delvor-ieeesec.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+<a target="_blank"
+	href="https://doi.org/10.1109/SECON.2018.8479003">IEEE Xplore</a>&nbsp
+<a href="files/bibs/delaunay-ieeesec.bib">BIB</a> &nbsp
+<a href="files/pres/delvor-pres-ieeesec.pdf">SLIDES</a>
+	</p>
+	<p>
+Tyler H. Chang, Layne T. Watson, Thomas C. H. Lux, Jon Bernard, Bo Li, Li Xu,
+Godmar Back, Ali R. Butt, Kirk W. Cameron, and Yili Hong.
+2018.
+Predicting system performance by interpolation using a high-dimensional
+Delaunay triangulation.
+In Proc. SpringSim 2018, the 26th High Performance Computing Symposium
+(HPC '18).
+SCS, Baltimore, MD, USA, Article No. 2, 12 pages. <br>
+<a href="files/papers/delaunay-hpc.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+<a target="_blank"
+	href="https://dl.acm.org/citation.cfm?id=3213071">ACM DL</a> &nbsp
+<a href="files/bibs/delaunay-hpc.bib">BIB</a> &nbsp
+	</p>
+	<p>
+Tyler H. Chang, Layne T. Watson, Thomas C. H. Lux, Bo Li, Li Xu, Ali R. Butt,
+Kirk W. Cameron, and Yili Hong.
+2018.
+A polynomial time algorithm for multivariate interpolation in arbitrary
+dimension via the Delaunay triangulation.
+In Proc. 2018 ACM Southeast Concerence (ACMSE '18).
+ACM, Richmond, KY, USA, Article No. 12, 8 pages.<br>
+<a href="files/papers/delaunay-acmse.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+<a target="_blank"
+	href="https://doi.org/10.1145/3190645.3190680">ACM DL</a> &nbsp
+<a href="files/bibs/delaunay-acmse.bib">BIB</a> &nbsp
+<a href="files/pres/delaunay-acmse-pres.pdf">SLIDES</a>
+	</p>
+	<p>
+Chaitra Raghunath, Tyler H. Chang, Layne T. Watson, Mohamed Jrad,
+Rakesh K. Kapania, and Raymond M. Kolonay.
+2017.
+Global deterministic and stochastic optimization in a service oriented
+architecture.
+In Proc. SpringSim 2017, the 25th High Performance Computing Symposium
+(HPC '17).
+SCS, Virginia Beach, VA, USA, Article No. 7, 12 pages.<br>
+<a href="files/papers/SORCER.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+<a target="_blank"
+	href="https://dl.acm.org/citation.cfm?id=3108103">ACM DL</a> &nbsp
+<a href="files/bibs/sorcer.bib">BIB</a> &nbsp
+<a href="files/pres/sorc_pres.pdf">SLIDES</a>
+	</p>
+
+<font size=5> <b>In Press:</b> </font><br><br>
+<p>
+Tyler H. Chang, Jeffrey Larson, Layne T. Watson, and Thomas C. H. Lux.
+Managing computationally expensive blackbox multiobjective optimization
+problems with libEnsemble.
+To appear in SpringSim 2020, the 28th High Performance Computing Symposium
+(HPC '20).
+SCS, Fairfax, VA, USA.
+<br>
+<a href="files/papers/libe-hpc.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+</p>
+
+<font size=5> <b>Under Review:</b> </font><br><br>
+	<p>
+Tyler H. Chang, Jeffrey Larson, and Layne T. Watson.
+Multiobjective optimization of the variability of the high-performance
+LINPACK solver.
+Under review with the 2020 Winter Simulation Conference (since April, 2020).
+	</p>
+	<p>
+Tyler H. Chang, Layne T. Watson, Thomas C.H. Lux, Ali R. Butt, Kirk W. Cameron,
+and Yili Hong.
+Algorithm XXX: DELAUNAYSPARSE: Interpolation via a sparse subset of the
+Delaunay triangulation in medium to high dimensions.
+Under review with ACM Transactions on Mathematical Software (since March, 2019).
+	</p>
+	<p>
+Thomas C. H. Lux, Layne T. Watson, Tyler H. Chang, Yili Hong,
+and Kirk W. Cameron.
+Interpolation of Sparse High-Dimensional Data.
+Under review with Numerical Algorithms, Springer (since March, 2019).
+	</p>
+
+<font size=5> <b>Contributed Talks:</b> </font><br><br>
+	<p>
+<i>A Surrogate for Local Optimization using Delaunay Triangulations</i>.
+At the Sixth International Conference on Continuous Optimization (ICCOPT).
+In Berlin, Germany. August 5--8, 2019.<br>
+<a href="files/pres/iccopt2019-pres.pdf">SLIDES</a> &nbsp
+<a target="_blank"
+	href="https://iccopt2019.berlin/downloads/ICCOPT2019_Conference_Book.pdf">BOOK</a> &nbsp
+<a target="_blank" href="https://iccopt2019.berlin/">WEBPAGE</a>
+	</p>
+   	  </div>
+      </div>
+
+	<!-- Awards -->
+      <div class"row">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel panel-default">
+	   <h1 class="margin-base-vertical">
+	<a class="anchor" name="awards">Awards:</a>
+	   </h1>
+
+	<font size=5> <b>Cunningham Doctoral Fellowship</b> </font>
+	(Fall, 2016 - Present: Virginia Tech, Graduate School)
+	<p>
+	The
+	<a target="_blank"
+href="https://graduateschool.vt.edu/funding/types-of-funding/funding-sponsored-by-the-graduate-school/cunningham-doctoral-assistantships.html">
+	Cunningham Doctoral Fellowship</a>
+	is a Virginia Tech university level fellowship that is awarded to
+	incoming doctoral students with "outstanding academic record and
+	strong potential for completing a doctoral degree".
+	<ul>
+	<li>Two year stipend and tuition scholarship, paid by the
+	graduate school of Virginia Tech.</li>
+	<li>Departmental commitment to two subsequent years of guaranteed
+	full-time graduate assistantship.</li>
+	</ul>
+	</p>
+
+	<font size=5> <b>DOE SCGSR Awardee</b> </font>
+	(June - December, 2019: US Dept. of Energy, Office of Science)
+	<p>
+	The
+	<a target="_blank"
+href="https://www.energy.gov/articles/doe-s-science-graduate-student-research-program-selects-70-students-pursue-research-doe">
+	DOE SCGSR Program</a> (2018 Solicitation 2 cycle) targets
+	doctoral students pursuing research projects of relevance to the DOE.
+	Award is based upon peer-review of a proposal
+	document, coauthored by the student, their Ph.D. advisor, and
+	a DOE lab scientist.
+	<ul>
+	<li>Awardees receive 3-12 months of funding, to execute projects
+	at a DOE host laboratory.
+	</li>
+	<li>This award was carried out at Argonne National Lab in Lemont,
+	IL from June-December, 2019.</li>
+	<li>Coauthors/advisors: Layne Watson (Virginia Tech) and Jeffrey Larson
+	(Argonne National Lab).</li>
+	</ul>
+	</p>
+
+	<font size=5> <b>Departmental Fellowships</b> </font>
+	(Fall, 2016 - Present: Virginia Tech, Dept. of Computer Science)
+	<p>
+	The Virginia Tech Dept. of Computer Science and College of Engineering
+	offer supplemental department and college level fellowship
+	opportunities.
+	<ul>
+	<li>Recipient of Davenport Leadership Fellowship for
+	2016-17 academic year and 2019-20 academic year.</li>
+	<li>Recipient of Pratt Fellowship for
+	2017-18 academic year and 2018-19 academic year.</li>
+	</ul>
+	</p>
+   	  </div>
+      </div>
+
+	<!-- Misc stuff -->
+      <div class"row">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel panel-default">
+	   <h1 class="margin-base-vertical">
+	<a class="anchor" name="misc">Miscellaneous:</a>
+	   </h1>
+
+	<h1> Class Notes </h1>
+
+	<font size=5> <b>Math</b> </font><br>
+	<ul class="nav nav-pills">
+	<li><a href="files/courses/Algebra.pdf">Algebra (Self-Taught + Some UG)</a></li>
+	<li><a href="files/courses/GeneralTopology.pdf">General Topology (Self-Taught)</a></li>
+	<li><a href="files/courses/NumberTheory.pdf">Number Theory (UG + MATH 5984)</a></li>
+	<li><a href="files/courses/HarmonicAnalysis.pdf">SS: Harmonic Analysis (MATH 5984)</a></li>
+	<li><a href="files/courses/ComplexAnalysis.pdf">Complex Analysis 1 (MATH 5235)</a></li>
+	<li><a href="files/courses/NumericAnalysis1.pdf">Numerical Analysis 1 (MATH/CS 5465)</a></li>
+	<li><a href="files/courses/NumericAnalysis2.pdf">Numerical Analysis 2 (MATH/CS 5466)</a></li>
+	<li><a href="files/courses/RealAnalysis1.pdf">Real Analysis 1 (MATH 5225)</a></li>
+	<li><a href="files/courses/RealAnalysis2.pdf">Real Analysis 2 (MATH 5226)</a></li>
+	<li><a href="files/courses/FunAnalysis.pdf">Functional Analysis 1 (MATH 6255)</a></li>
+	<li><a href="files/courses/StochasticAnalysis.pdf">Stochastic Analysis (MATH 5984)</a></li>
+	</ul>
+	<br><font size=5> <b>Computer Science</b> </font><br>
+	<ul class="nav nav-pills">
+	<li><a href="files/courses/UrbComp.pdf">SS: Urban Computing (CS 5984)</a></li>
+	<li><a href="files/courses/CompArch.pdf">Computer Architecture (CS/ECE 5504)</a></li>
+	<li><a href="files/courses/CompArch.pdf">Adv. Parallel Computing (CS 5234)</a></li>
+	<li><a href="files/courses/TheoryAlg.pdf">Theory of Algorithms (CS 5114)</a></li>
+	<li><a href="files/courses/OptML.pdf">Optimization in Machine Learning (CS 6804)</a></li>
+	<li><a href="files/courses/TGDS.pdf">Theory Guided Data Science (CS 6804)</a></li>
+	<li><a href="files/courses/QuantumComputing.pdf">Quantum Computing for CS (CS 6504)</a></li>
+	</ul>
+	<br><font size=5> <b>Engineering</b> </font><br>
+	<ul class="nav nav-pills">
+	<li><a href="files/courses/VectorCalc.pdf">Vector Calculus (MATH 4574)</a></li>
+	<li><a href="files/courses/ClassicMechanics.pdf">Classical Mechanics (Self-Taught)</a></li>
+	<li><a href="files/courses/StatMechanics.pdf">Statistical Mechanics (Self-Taught)</a></li>
+	</ul>
+
+	<h1> Helpful Resources </h1>
+
+	<ul class="nav nav-pills">
+	<li><a target="_blank" href="https://j3-fortran.org/doc/year/10/10-007.pdf">Fortran 2008 ISO Document</a></li>
+	<li><a target="_blank" href="https://gams.nist.gov/">Guide to Available Math Software (GAMS)</a></li>
+	<li><a target="_blank" href="http://www.netlib.org/lapack/lug/">LAPACK User's Guide</a></li>
+	<li><a target="_blank" href="https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf">OpenMP 4.5 Standards Document</a></li>
+	</ul>
+
+	<br><br>
+   	  </div>
+      </div>
+
+   <!-- End container -->
+   </div>
+</body>
+</html>
