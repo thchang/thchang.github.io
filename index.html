@@ -74,8 +74,8 @@
 	<a class="anchor" name="about">About me:</a>
 	   </h1>
 	<p>
-		I am a Postdoc at Argonne National Laboratory in the Mathematics and
-		Computer Science (MCS) Division working with Stefan Wild.
+		I am a Postdoc at Argonne National Laboratory in the
+		Mathematics and Computer Science (MCS) Division.
 		I received my Ph.D. in Computer Science from
 		Virginia Tech in 2020, where my thesis was
 		<a target="_blank" href="https://vtechworks.lib.vt.edu/handle/10919/98915">
@@ -86,14 +86,13 @@
 		Optimization, Approximation Theory, Numerical Analysis,
 		Computational Geometry, Functional Analysis, Algorithms,
 		and Parallel Computing, with a focus on applications
-		in Data Science, Engineering, and large scale Numerical
-		Simulations.
+		in Scientific Computing, Data Science, and Engineering.
 	</p>
 	<p>
 		Specifically, some of my work has included:
 		<ul>
-			<li><b>Multiobjective Optimization</b> with more
-				than 2 objective;</li>
+			<li><b>Multiobjective Optimization</b> of
+				computationally expensive blackbox simulations;</li>
 			<li>efficiently computing <b>Delaunay Triangulations</b>
 				in medium to high dimensions;</li>
 			<li><b>Interpolation</b> of high-dimensional blackbox
@@ -101,11 +100,6 @@
 			<li>and producing high quality, portable <b>Mathematical
 				Software</b> (both serial and parallel).</li>
 		</ul>
-	</p>
-	<p>
-		Outside of my main research, I am also interested in
-		cryptography, computational fluid dynamics, probability
-		theory, and quantum computing.
 	</p><br>
    	  </div>
       </div>
@@ -149,7 +143,7 @@
          <div class="col-xs-12 col-md-10 col-md-offset-1 
 		col-lg-8 col-lg-offset-2 panel panel-default">
 	   <h1 class="margin-base-vertical">
-	<a class="anchor" name="projs">Projects and Groups:</a>
+	<a class="anchor" name="projs">Projects:</a>
 	   </h1>
 
 	<font size=5> <b>DELAUNAYSPARSE</b> </font>
@@ -171,49 +165,17 @@
 	perform interpolation.
 	The resulting codebase is fast, robust, and portable; and features
 	both serial and parallel implementations.
-	The final codebase and journal paper are currently under review
-	for publication.
-	</p>
-	<p>
-	For now, consider the following preliminary works.
-	(Note that significant improvements have been made to the codebase
-	described herein, and the presented runtimes are greatly improved).
-	<ul>
-	<li>
-	<a target="_blank" href="https://doi.org/10.1145/3190645.3190680">
-		Algorithm for Delaunay interpolation</a></li>
-	<li>
-	<a target="_blank" href="https://dl.acm.org/citation.cfm?id=3213071">
-		Delaunay interpolation on VarSys data</a></li>
-	<li>
-	<a target="_blank" href="https://github.com/thchang/DualSimplex">
-		GitHub repo and code demonstrating the LP solution,
-		and describing its shortcomings</a>.
-	</li>
-	</ul>
-	</p>
-	<p>
-	Also consider these related works:
-	<ul>
-	<li>
-	<a target="_blank" href="https://doi.org/10.1109/SECON.2018.8479003">
-		Computing the Delaunay umbrella neighborhood</a> /
-	<a target="_blank" href="https://github.com/thchang/DelaunayFan">
-	github.com/thchang/DelaunayFan
-	</a>
-	<li>
-	<a href="files/pres/iccopt2019-pres.pdf">
-	A Delaunay surrogate model for blackbox optimization</a> /
-	<a target="_blank" href="https://github.com/thchang/DelaunaySearch">
-	github.com/thchang/DelaunaySearch
-	</a>
-	</li>
-	</ul>
+	Interfaces are available for usage as a Fortran library, C/C++ library,
+	Python module, or from the command line.
+	Download DELAUNAYSPARSE
+	<a href="https://vtopt.github.io/DelaunaySparse">here</a>
+	or from 
+	<a href="https://github.com/vtopt/DelaunaySparse">GitHub</a>.
 	</p>
 
 	<font size=5> <b>VTMOP</b> </font>
 	<p>
-	<img src="img/mop.png" align="left" hspace="10" vspace="20"
+	<img src="img/mop.png" align="right" hspace="10" vspace="20"
 		style="width:266px;height:200px">
 	The multiobjective optimization problem (MOP) is a generalization of
 	the single objective optimization problem.
@@ -230,56 +192,21 @@
 	VTMOP is a flexible open source Fortran package for approximating
 	tradeoff curves between arbitrary numbers of objectives, targeted at
 	large scale multidisciplinary design optimization problems.
-	This work has been partially funded by a DOE SCGSR award, in
-	collaboration with Argonne National Lab.
-	(See <a href="#awards">Awards</a>).
-	</p>
-
-	<font size=5> <b>VarSys</b> </font>
-	<p>
-	<img src="img/varsys.png" align="right" hspace="10" vspace="20"
-		style="width:340px;height:200px">
-        One of the challenges currently facing systems specialists and
-	performance evaluators, particularly in HPCs, is performance
-	variability.
-	VarSys is a NSF funded (#1565314) multidisciplinary study of
-	performance variability.
-	The goals of the VarSys project are to
-	<b> model performance variability </b>
-	based on system configurations and application properties, and to
-	<b> manage performance variance </b> in synergy with other
-	performance concerns.
-	Applications in high performance computing, cloud computing, and
-	computer security.
-	See the
-	<a target="_blank"
-		href="http://wordpress.cs.vt.edu/varsys/">VarSys Webpage</a>
-	for more project details.
+	This work was partially funded by a DOE SCGSR award, in
+	collaboration with Argonne National Laboratory
+	(see <a href="#awards">Awards</a>).
 	</p>
 	<p>
-	As a member of the math and algorithms team,
-	I aided in applying analytical, statistical, and machine learning
-	techniques for modeling and managing performance variance, based
-	on performance data gathered from real HPC systems.
-	</p>
-	<p>
-	Related Publications:
-	<ul>
-	<li>
-	<a target="_blank" href="https://dl.acm.org/citation.cfm?id=3213071">
-	Predicting I/O throughputs with Delaunay</a></li>
-	<li>
-	<a target="_blank" href="https://dl.acm.org/citation.cfm?id=3213077">
-	Comparative study of techniques</a></li>
-	<li>
-	<a target="_blank" href="https://doi.org/10.1109/SECON.2018.8478814">
-	Nonparametric technique for distribution modeling</a></li>
-	</ul>
+	VTMOP is currently under review for publication, and therefore not
+	yet publicly available.
+	However, a VTMOP plugin is available through the
+	<a href="https://github.com/Libensemble/libensemble">libEnsemble</a>
+	library.
 	</p>
 
 	<font size=5> <b>Quantum Annealing Math Library (QAML)</b> </font>
 	<p>
-	<img src="img/qaml-dark.svg" align="left" hspace="10" vspace="20"
+	<img src="img/qaml-dark.svg" align="right" hspace="10" vspace="20"
 		style="width:340px;height:200px">
 	Quantum annealing (QA) is an implementation of the general purpose
 	adiabatic quantum computing (AQC) model for quantum computing.
@@ -288,18 +215,12 @@
 	</p>
 	<p>
 	QAML is an open source Python project, which embeds least squares
-	and polynomial sum-of-squares problems on the D-Wave quantum annealer.
+	and polynomial sum-of-squares problems (with real, integer, Boolean
+	or mixed variables) on the D-Wave quantum annealer.
 	These broad classes of problems are ubiquitous in scientific computing,
 	machine learning, and data science.
-	In collaboration with Thomas Lux and Sindu Tipirneni.
-	<ul>
-	<li>
-	<a target="_blank" href="https://doi.org/10.1007/s11128-019-2489-x">
-	Publication</a></li>
-	<li>Code available at
-	<a target="_blank" href="https://github.com/tchlux/qaml">
-	github.com/tchlux/qaml</a></li>
-	</ul>
+	Code available on
+	<a target="_blank" href="https://github.com/tchlux/qaml">GitHub</a>.
 	</p>
    	  </div>
       </div>
@@ -318,6 +239,19 @@
 or 
 <a target="_blank" href="https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en">my Google Scholar page</a>)
 <br><br>
+	<p>
+Tyler H. Chang, Layne T. Watson, Thomas C.H. Lux, Ali R. Butt, Kirk W. Cameron,
+and Yili Hong.
+2020.
+Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the
+Delaunay triangulation in medium to high dimensions.
+ACM Transactions on Mathematical Software 46(4), Article No. 38, 20 pages. ACM.
+<br>
+<a href="files/papers/delaunay-toms.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+<a target="_blank"
+	href="https://doi.org/10.1145/3422818">ACM DL</a> &nbsp
+<a href="files/bibs/delaunay-toms.bib">BIB</a>
+	</p>
 	<p>
 Tyler H. Chang, Jeffrey Larson, Layne T. Watson, and Thomas C. H. Lux.
 Managing computationally expensive blackbox multiobjective optimization
@@ -342,20 +276,6 @@ Springer.<br>
 <a target="_blank"
 	href="https://doi.org/10.1007/s11128-019-2489-x">SpringerLink</a> &nbsp
 <a href="files/bibs/qaml-qinp.bib">BIB</a>
-	</p>
-	<p>
-Tyler H. Chang, Layne T. Watson, Thomas C. H. Lux, Sharath Raghvendra, Bo Li,
-Li Xu, Ali R. Butt, Kirk W. Cameron, and Yili Hong.
-2018.
-Computing the umbrella neighbourhood of a vertex in the Delaunay triangulation
-and a single Voronoi cell in arbitrary dimension.
-In Proc. IEEE SoutheastCon 2018.
-IEEE, St. Petersburg, FL, USA, 8 pages.<br>
-<a href="files/papers/delvor-ieeesec.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
-<a target="_blank"
-	href="https://doi.org/10.1109/SECON.2018.8479003">IEEE Xplore</a> &nbsp
-<a href="files/bibs/delaunay-ieeesec.bib">BIB</a> &nbsp
-<a href="files/pres/delvor-pres-ieeesec.pdf">SLIDES</a>
 	</p>
 	<p>
 Tyler H. Chang, Layne T. Watson, Thomas C. H. Lux, Jon Bernard, Bo Li, Li Xu,
@@ -385,21 +305,6 @@ ACM, Richmond, KY, USA, Article No. 12, 8 pages.<br>
 <a href="files/bibs/delaunay-acmse.bib">BIB</a> &nbsp
 <a href="files/pres/delaunay-acmse-pres.pdf">SLIDES</a>
 	</p>
-	<p>
-Chaitra Raghunath, Tyler H. Chang, Layne T. Watson, Mohamed Jrad,
-Rakesh K. Kapania, and Raymond M. Kolonay.
-2017.
-Global deterministic and stochastic optimization in a service oriented
-architecture.
-In Proc. SpringSim 2017, the 25th High Performance Computing Symposium
-(HPC '17).
-SCS, Virginia Beach, VA, USA, Article No. 7, 12 pages.<br>
-<a href="files/papers/SORCER.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
-<a target="_blank"
-	href="https://dl.acm.org/citation.cfm?id=3108103">ACM DL</a> &nbsp
-<a href="files/bibs/sorcer.bib">BIB</a> &nbsp
-<a href="files/pres/sorc_pres.pdf">SLIDES</a>
-	</p>
 
 <font size=5> <b>In Press:</b> </font><br><br>
 	<p>
@@ -407,13 +312,6 @@ Thomas C. H. Lux, Layne T. Watson, Tyler H. Chang, Yili Hong,
 and Kirk W. Cameron.
 Interpolation of sparse high-dimensional data.
 To appear in Numerical Algorithms, Springer.
-	</p>
-	<p>
-Tyler H. Chang, Layne T. Watson, Thomas C.H. Lux, Ali R. Butt, Kirk W. Cameron,
-and Yili Hong.
-Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the
-Delaunay triangulation in medium to high dimensions.
-To appear in ACM Transactions on Mathematical Software.
 	</p>
 	<p>
 Tyler H. Chang, Jeffrey Larson, and Layne T. Watson.
@@ -433,17 +331,7 @@ Tyler H. Chang, Layne T. Watson, Jeffrey Larson, William I. Thacker, Shubhangi D
 Algorithm XXXX: VTMOP: Solver for blackbox multiobjective optimization problems.
 Under review with ACM Transactions on Mathematical Software (since June, 2020).
 	</p>
-
-<font size=5> <b>Contributed Talks:</b> </font><br><br>
-	<p>
-<i>A Surrogate for Local Optimization using Delaunay Triangulations</i>.
-At the Sixth International Conference on Continuous Optimization (ICCOPT).
-In Berlin, Germany. August 5--8, 2019.<br>
-<a href="files/pres/iccopt2019-pres.pdf">SLIDES</a> &nbsp
-<a target="_blank"
-	href="https://iccopt2019.berlin/downloads/ICCOPT2019_Conference_Book.pdf">BOOK</a> &nbsp
-<a target="_blank" href="https://iccopt2019.berlin/">WEBPAGE</a>
-	</p>
+	<br><br>
    	  </div>
       </div>
 
@@ -477,12 +365,15 @@ href="https://www.energy.gov/articles/doe-s-science-graduate-student-research-pr
 
 	<font size=5> <b>Departmental Fellowships</b> </font>
 	(2016 - 2020: Virginia Tech, Dept. of Computer Science)
+	<p>
 	<ul>
 	<li>Recipient of Davenport Leadership Fellowship for
 	2016-17 academic year and 2019-20 academic year.</li>
 	<li>Recipient of Pratt Fellowship for
 	2017-18 academic year and 2018-19 academic year.</li>
 	</ul>
+	</p>
+	<br><br>
    	  </div>
       </div>
 
