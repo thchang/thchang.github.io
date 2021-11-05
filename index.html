@@ -73,8 +73,8 @@
 	<a class="anchor" name="about"></a>About me:
 	   </h1>
 	<p>
-		I am a Postdoc at Argonne National Laboratory in the
-		Mathematics and Computer Science (MCS) Division.
+		I am a Postdoc at Argonne National Laboratory working with
+        Stefan Wild in the Mathematics and Computer Science (MCS) Division.
 		I received my Ph.D. in Computer Science from
 		Virginia Tech in 2020, where my thesis was
 		<a target="_blank" href="https://vtechworks.lib.vt.edu/handle/10919/98915">
@@ -99,7 +99,26 @@
 			<li>and producing high quality, portable <b>Mathematical
 				Software</b> (both serial and parallel).</li>
 		</ul>
-	</p><p>
+	</p>
+    <p>
+    <b>A Personal Note:</b><br>
+    I want to add value to the scientific community, through publication of
+    research artifacts.
+    Of course, this largely consists of research articles, but
+    I am also particularly passionate about producing open source
+    scientific software.
+    I primarily code in Python and Fortran, but I also dabble in C, Matlab,
+    and Java.
+    When parallelism is needed, I may utilize some combination of
+    OpenMP, MPI, and/or CUDA.
+    I'm always interested in learning new tips and tricks for improving the
+    accessibility and ease-of-use for my projects. Check out some of my
+    <a href="#projs">Projects</a> below or on my
+    <a href="https://github.com/thchang">GitHub</a>,
+    and don't hesitate to reach out if you have questions or comments,
+    feedback always helps!
+    </p>
+    <p>
 		<a target="_blank"
 			href="mailto:tchang@anl.gov">
 		<img src="img/emicon.png" width="30" height="30" hspace="10" vspace="20">
@@ -136,9 +155,42 @@
 	<a class="anchor" name="projs"></a>Projects:
 	   </h1>
 
+	<font size=5> <b>ParMOO</b> </font>
+	<img src="img/parmoo.png" align="right" hspace="10" vspace="20"
+		style="width:300px;height:270px">
+	<p>
+	The multiobjective optimization problem (MOP) is a generalization of
+	the single objective optimization problem.
+	Instead of attempting to minimize a single cost or loss function,
+	a MOP attempts to balance the tradeoff between multiple, potentially
+	conflicting criteria.
+	The solution to a MOP is a set of nondominated points describing the
+	tradeoff between the conflicting objectives, called the Pareto front.
+    In a multiobjective <i>simulation</i> optimization problem, the cost
+    functions are derived from computationally expensive numerical simulations.
+	Examples include optimizing an aircraft simulation in order to design
+    new aircrafts or optimizing biology/chemistry simulations when designing
+    new drugs and materials.
+	</p>
+	<p>
+    ParMOO is a Python framework for solving multiobjective simulation
+    optimization problems, by exploiting the underlying structure of the
+    simulation.
+    ParMOO was designed using scientific software best practices, such
+    as GitHub workflows and test-driven development, thus allowing for the
+    addition of new features in the future.
+    In order to achieve scalability on extreme-scale hardware, ParMOO layers
+    over the
+    <a href="https://github.com/Libensemble/libensemble">libEnsemble</a>
+    library.
+	</p>
+    <p>
+    Check back soon! Our initial release is forthcoming.
+    </p>
+
 	<font size=5> <b>DELAUNAYSPARSE</b> </font>
 	<img src="img/delsparse.png" align="right" hspace="10" vspace="20"
-		style="width:200px;height:200px">
+		style="width:200px;height:190px">
 	<p>
 	The Delaunay triangulation is a well-studied simplicial mesh, widely
 	considered optimal for interpolation applications.
@@ -164,24 +216,17 @@
 	</p>
 
 	<font size=5> <b>VTMOP</b> </font>
-	<p>
-	<img src="img/mop.png" align="right" hspace="10" vspace="20"
+	<img src="img/vtmop.png" align="right" hspace="10" vspace="20"
 		style="width:266px;height:200px">
-	The multiobjective optimization problem (MOP) is a generalization of
-	the single objective optimization problem.
-	Instead of attempting to minimize a single cost or loss function,
-	a MOP attempts to balance the tradeoff between multiple, potentially
-	conflicting objectives.
-	Applications arise in many areas of science and engineering, including
-	model fitting, computational chemistry, portfolio optimization,
-	economics, and aircraft design.
-	The solution to a MOP is a set of nondominated points describing the
-	tradeoff between the conflicting objectives, called the Pareto front.
-	</p>
 	<p>
-	VTMOP is a flexible open source Fortran package for approximating
-	tradeoff curves between arbitrary numbers of objectives, targeted at
-	large scale multidisciplinary design optimization problems.
+	VTMOP is a flexible open source Fortran package for solving generic MOPs;
+    see ParMOO (above) for a description of MOPs. 
+    While many current MOP algorithms do not scale well for more than 2 or 3
+    objectives, VTMOP aims at approximating tradeoff curves between larger
+    numbers of objectives.
+    VTMOP is targeted at large scale multidisciplinary design optimization
+    problems, such as particle accelerator design optimization
+    and aerospace engineering design applications.
 	This work was partially funded by a DOE SCGSR award, in
 	collaboration with Argonne National Laboratory
 	(see <a href="#awards">Awards</a>).
@@ -189,15 +234,17 @@
 	<p>
 	VTMOP is currently under review for publication, and therefore not
 	yet publicly available.
-	However, a VTMOP plugin is available through the
+	However, a VTMOP plugin is currently available through the
 	<a href="https://github.com/Libensemble/libensemble">libEnsemble</a>
-	library.
+	library.</p>
+    <p>
+    Check back soon! We expect to release in the next few months!
 	</p>
 
 	<font size=5> <b>Quantum Annealing Math Library (QAML)</b> </font>
-	<p>
 	<img src="img/qaml-dark.svg" align="right" hspace="10" vspace="20"
-		style="width:340px;height:200px">
+		style="width:170px;height:100px">
+	<p>
 	Quantum annealing (QA) is an implementation of the general purpose
 	adiabatic quantum computing (AQC) model for quantum computing.
 	QA balances the theoretical properties of AQC against real-world
