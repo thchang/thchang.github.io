@@ -1,11 +1,12 @@
 <!Doctype html>
 <!-- 	Tyler Chang's Landing Page w/ Bootstrap
 	Research information etc.
-	Last Update: Jan, 2022 -->
+	Last Update: Apr, 2022 -->
 <html>
 <head>
 	<title> Tyler Chang MCS@ANL</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!-- Load Bootstrap -->
 	<link href="bootstrap.min.css" rel="stylesheet" />
 
@@ -29,6 +30,24 @@
 		background-color: rgba(255, 255, 255, 0.99);
 	}
 
+	.panel-top {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: justify;
+        text-justify: inter-word;
+        border: 0px solid black;
+		background-color: rgba(255, 255, 255, 0.99);
+	}
+
+	.panel-inner {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        text-align: justify;
+        text-justify: inter-word;
+        border: 0px solid black;
+		background-color: rgba(255, 255, 255, 0.99);
+	}
+
 	.margin-base-vertical {
 		margin: 40px 0;
 	}
@@ -42,16 +61,21 @@
       <div class"row">
          <div class="col-xs-12 col-md-10 col-md-offset-1 
 		col-lg-8 col-lg-offset-2 panel panel-default">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel-top panel-default">
 
 	<!-- Profile image -->
-	<img src="img/Profile.jpg" align="left" hspace="10" vspace="25"
-		style="width:150px">
+    <div class="row">
+	<img src="img/Profile.jpg" class="img-responsive" align="left" width="20%" hspace="15em" vspace="30em">
 
 	<!-- Name, dept, etc. -->
 	<h1 class="margin-base-vertical">
 	<b> Tyler H. Chang </b><br>
-	Argonne National Laboratory, MCS Division
+	Argonne National Laboratory,
+    <br>
+    MCS Division
 	</h1>
+    </div>
 
 	<!-- Navigate -->
 	    <ul class="nav nav-pills">
@@ -63,12 +87,15 @@
 	      <li><a href="files/TylerChangCV.pdf">My CV</a></li>
 	    </ul>
    	  </div>
+   	  </div>
       </div>
 
 	<!-- About row -->
       <div class"row">
          <div class="col-xs-12 col-md-10 col-md-offset-1 
 		col-lg-8 col-lg-offset-2 panel panel-default">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel-inner panel-default">
 	   <h1 class="margin-base-vertical">
 	<a class="anchor" name="about"></a>About me:
 	   </h1>
@@ -81,11 +108,27 @@
 		Mathematical Software for Multiobjective Optimization Problems</a>.
 	</p>
 	<p>
-		My current research interests include Nonconvex
-		Optimization, Approximation Theory, Numerical Analysis,
-		Computational Geometry, Functional Analysis, Algorithms,
-		and Parallel Computing, with a focus on applications
-		in Scientific Computing, Data Science, and Engineering.
+		My current research interests include
+        <b>
+        optimization,
+        approximation theory,
+		computational geometry,
+        algorithms,
+        </b>
+		and
+        <b>
+        parallel computing,
+        </b>
+        for applications
+		in
+        <b>
+        scientific computing,
+        data science,
+        </b>
+		and
+        <b>
+        engineering.
+        </b>
 	</p>
 	<p>
 		Specifically, some of my work has included:
@@ -100,6 +143,7 @@
 				Software</b> (both serial and parallel).</li>
 		</ul>
 	</p>
+    <br><br>
     <p>
     I am particularly passionate about producing open source
     scientific software.
@@ -109,32 +153,34 @@
     and don't hesitate to reach out if you have questions, comments, or
     feedback!
     </p>
+    <br><br>
     <p>
 		<a target="_blank"
 			href="mailto:tchang@anl.gov">
-		<img src="img/emicon.png" width="30" height="30" hspace="10" vspace="20">
+		<img src="img/emicon.png" width="50em" height="50em" hspace="20em" vspace="20em">
 		</a>
 		<a target="_blank"
 			href="https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en">
-		<img src="img/gsicon.png" width="30" height="30" hspace="10" vspace="20">
+		<img src="img/gsicon.png" width="50em" height="50em" hspace="20em" vspace="20em">
 		</a>
 		<a target="_blank" 
 			href="https://github.com/thchang">
-		<img src="img/ghicon.png" width="30" height="30" hspace="10" vspace="20">
+		<img src="img/ghicon.png" width="50em" height="50em" hspace="20em" vspace="20em">
 		</a>
 		<a target="_blank" 
 			href="https://www.linkedin.com/in/tyler-chang-2524b9182/">
-		<img src="img/liicon.png" width="30" height="30" hspace="10" vspace="20">
+		<img src="img/liicon.png" width="50em" height="50em" hspace="20em" vspace="20em">
 		</a>
 		<a target="_blank" 
 			href="https://orcid.org/0000-0001-9541-7041">
-		<img src="img/orcidicon.png" width="30" height="30" hspace="10" vspace="20">
+		<img src="img/orcidicon.png" width="50em" height="50em" hspace="20em" vspace="20em">
 		</a>
 		<a target="_blank" 
 			href="https://twitter.com/thchang94">
-		<img src="img/twittericon.png" width="30" height="30" hspace="10" vspace="20">
+		<img src="img/twittericon.png" width="50em" height="50em" hspace="20em" vspace="20em">
 		</a>
-	</p><br>
+	</p>
+   	  </div>
    	  </div>
       </div>
 
@@ -142,14 +188,15 @@
       <div class"row">
          <div class="col-xs-12 col-md-10 col-md-offset-1
 		col-lg-8 col-lg-offset-2 panel panel-default">
+         <div class="col-xs-12 col-md-10 col-md-offset-1
+		col-lg-8 col-lg-offset-2 panel-inner panel-default">
 	   <h1 class="margin-base-vertical">
 	<a class="anchor" name="projs"></a>Projects:
 	   </h1>
 
-	<font size=5> <b>ParMOO</b> </font>
-	<img src="img/parmoo.png" align="right" hspace="10" vspace="20"
-		style="width:300px;height:270px">
+    <font size=5> <b>ParMOO</b> </font>
 	<p>
+	<img src="img/parmoo.png" class="img-responsive" align="right" width="45%" hspace="20em">
 	The multiobjective optimization problem (MOP) is a generalization of
 	the single objective optimization problem.
 	Instead of attempting to minimize a single cost or loss function,
@@ -176,13 +223,15 @@
     library.
 	</p>
     <p>
-    Check back soon! Our initial release is forthcoming.
+    <ul>
+    <li>Check back soon! We expect to release in the next few months!</li>
+    </ul>
     </p>
+    <br><br>
 
 	<font size=5> <b>DELAUNAYSPARSE</b> </font>
-	<img src="img/delsparse.png" align="right" hspace="10" vspace="20"
-		style="width:200px;height:190px">
 	<p>
+	<img src="img/delsparse.png" class="img-responsive" align="right" width="30%" hspace="20em">
 	The Delaunay triangulation is a well-studied simplicial mesh, widely
 	considered optimal for interpolation applications.
 	Delaunay triangulations have recently garnered some interest in the
@@ -200,16 +249,23 @@
 	both serial and parallel implementations.
 	Interfaces are available for usage as a Fortran library, C/C++ library,
 	Python module, or from the command line.
-	Download DELAUNAYSPARSE
-	<a href="https://vtopt.github.io/DelaunaySparse">here</a>
-	or from 
-	<a href="https://github.com/vtopt/DelaunaySparse">GitHub</a>.
+    </p>
+    <p>
+    <ul>
+	<li><a href="https://vtopt.github.io/DelaunaySparse">Webpage</a>
+    (including download links, getting started, and related publications)</li>
+	<li><a href="https://github.com/vtopt/DelaunaySparse">GitHub</a></li>
+    <li><a target="_blank"
+	href="https://doi.org/10.1145/3190645.3190680">algorithm publication</a></li>
+    <li><a target="_blank"
+    href="https://doi.org/10.1145/3422818">software publication</a></li>
+    </ul>
 	</p>
+    <br><br>
 
 	<font size=5> <b>VTMOP</b> </font>
-	<img src="img/vtmop.png" align="right" hspace="10" vspace="20"
-		style="width:266px;height:200px">
 	<p>
+	<img src="img/vtmop.png" class="img-responsive" align="right" width="45%" hspace="20em">
 	VTMOP is a flexible open source Fortran package for solving generic MOPs;
     see ParMOO (above) for a description of MOPs. 
     While many current MOP algorithms do not scale well for more than 2 or 3
@@ -229,13 +285,69 @@
 	<a href="https://github.com/Libensemble/libensemble">libEnsemble</a>
 	library.</p>
     <p>
-    Check back soon! We expect to release in the next few months!
+    <ul>
+    <li>Check back soon! Our paper has been accepted, and the full release is forthcoming!</li>
+    <li><a target="_blank"
+    href="https://github.com/Libensemble/libensemble/blob/main/libensemble/gen_funcs/vtmop.py">libEnsemble interface (Python)</a></li>
+    <li><a target="_blank"
+	href="https://doi.org/10.1080/10556788.2015.1048861">algorithm publication</a></li>
+    <li><a target="_blank"
+	href="https://doi.org/10.1145/3529258">software publication</a></li>
+    <li><a target="_blank"
+	href="https://doi.org/10.22360/springsim.2020.hpc.001">libEnsemble interface publication</a></li>
+    </ul>
 	</p>
+    <br><br>
+
+	<font size=5> <b>VarSys</b> </font>
+	<p>
+	<img src="img/varsys.png" class="img-responsive" align="right" width="25%" hspace="20em">
+    The VarSys Project at Virginia Tech was a 4-year NSF-funded
+    (<a target="_blank"
+    href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1565314">
+    CISE CSR #1565314</a> and
+    <a target="_blank"
+    href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1838271">
+    CISE CSR #1838271</a>)
+    study of performance variability.
+    The project goals were to understand, model, and manage
+    performance variability in HPC and Cloud systems.
+    To study these goals, we investigated performance jitter using
+    several common benchmark tools, such as the
+    <a target="_blank" href="http://www.iozone.org">IOzone benchmark tool</a>,
+    for studying I/O throughput variability,
+    and the
+    <a target="_blank"
+    href="https://www.netlib.org/benchmark/hpl">High-Performance Linpack (HPL) benchmark solver</a>,
+    which is used to measure peak FLOPs by the
+    <a target="_blank"
+    href="https://www.top500.org"> HPC Top 500 list</a>.
+    </p>
+    <p>
+    As a member of the math and algorithms team in the VarSys project,
+    I have applied DELAUNAYSPARSE to modeling performance variability,
+    using the IOzone benchmark's I/O throughput data.
+    and used VTMOP to manage the tradeoff between
+    mean throughput and throughput variability for the HPL benchmark solver.
+    See the corresponding publications below.
+	</p>
+	<p>
+    <ul>
+    <li><a target="_blank"
+    href="https://varsys.cs.vt.edu/about-varsys/">VarSys webpage</a></li>
+    <li>Check back soon! Once VTMOP is released, code will follow to tune HPL for throughput variability and mean throughput!</li>
+    <li><a target="_blank"
+	href="https://doi.org/10.1109/WSC48552.2020.9383875">Using VTMOP to optimize performance variability of HPL</a></li>
+    <li><a target="_blank"
+	href="https://dl.acm.org/doi/10.5555/3213069.3213071">Using DELAUNAYSPARSE to predict performance variability of IOzone benchmark</a></li>
+    </li>
+    </ul>
+	</p>
+    <br><br>
 
 	<font size=5> <b>Quantum Annealing Math Library (QAML)</b> </font>
-	<img src="img/qaml-dark.svg" align="right" hspace="10" vspace="20"
-		style="width:170px;height:100px">
 	<p>
+	<img src="img/qaml-dark.svg" class="img-responsive" align="right" width="15%" hspace="20em">
 	Quantum annealing (QA) is an implementation of the general purpose
 	adiabatic quantum computing (AQC) model for quantum computing.
 	QA balances the theoretical properties of AQC against real-world
@@ -247,9 +359,15 @@
 	or mixed variables) on the D-Wave quantum annealer.
 	These broad classes of problems are ubiquitous in scientific computing,
 	machine learning, and data science.
-	Code available on
-	<a target="_blank" href="https://github.com/tchlux/qaml">GitHub</a>.
+    </p>
+    <p>
+    <ul>
+	<li><a target="_blank" href="https://github.com/tchlux/qaml">GitHub</a></li>
+    <li><a target="_blank"
+	href="https://doi.org/10.1007/s11128-019-2489-x">Publication</a></li>
+    </ul>
 	</p>
+   	  </div>
    	  </div>
       </div>
 
@@ -257,6 +375,8 @@
       <div class"row">
          <div class="col-xs-12 col-md-10 col-md-offset-1 
 		col-lg-8 col-lg-offset-2 panel panel-default">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel-inner panel-default">
 	   <h1 class="margin-base-vertical">
 	<a class="anchor" name="pubs"></a>Publications:
 	   </h1>
@@ -271,7 +391,7 @@ or
 Tyler H. Chang, Jeffrey Larson, and Layne T. Watson.
 2020.
 Multiobjective optimization of the variability of the high-performance
-LINPACK solver.
+Linpack solver.
 In Proc. 2020 Winter Simulation Conference (WSC 2020).
 Virtual event, pp. 3081--3092.
 <br>
@@ -320,20 +440,6 @@ Springer.<br>
 <a href="files/bibs/qaml-qinp.bib">BIB</a>
 	</p>
 	<p>
-Tyler H. Chang, Layne T. Watson, Thomas C. H. Lux, Jon Bernard, Bo Li, Li Xu,
-Godmar Back, Ali R. Butt, Kirk W. Cameron, and Yili Hong.
-2018.
-Predicting system performance by interpolation using a high-dimensional
-Delaunay triangulation.
-In Proc. SpringSim 2018, the 26th High Performance Computing Symposium
-(HPC '18).
-SCS, Baltimore, MD, USA, Article No. 2, 12 pages. <br>
-<a href="files/papers/delaunay-hpc.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
-<a target="_blank"
-	href="https://dl.acm.org/citation.cfm?id=3213071">ACM DL</a> &nbsp
-<a href="files/bibs/delaunay-hpc.bib">BIB</a> &nbsp
-	</p>
-	<p>
 Tyler H. Chang, Layne T. Watson, Thomas C. H. Lux, Bo Li, Li Xu, Ali R. Butt,
 Kirk W. Cameron, and Yili Hong.
 2018.
@@ -347,26 +453,29 @@ ACM, Richmond, KY, USA, Article No. 12, 8 pages.<br>
 <a href="files/bibs/delaunay-acmse.bib">BIB</a> &nbsp
 <a href="files/pres/delaunay-acmse-pres.pdf">SLIDES</a>
 	</p>
+    <br><br>
 
 <font size=5> <b>In Press:</b> </font><br><br>
 	<p>
-Yueyao Wang, Li Xu, Yili Hong, Rong Pan, Tyler H. Chang, Thomas C. H. Lux, Jon Bernard, Layne T. Watson, and Kirk W. Cameron.
-Design strategies and approximation methods for high-performance computing variability management.
-To appear in Journal of Quality Technology.
+Tyler H. Chang, Layne T. Watson, Jeffrey Larson, William I. Thacker, Shubhangi Deshpande, and Thomas C.H. Lux.
+2022.
+Algorithm XXXX: VTMOP: Solver for blackbox multiobjective optimization problems.
+To appear in ACM Transactions on Mathematical Software.
+<br>
+<a href="files/papers/vtmop-toms.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+<a target="_blank"
+	href="https://doi.org/10.1145/3529258">ACM DL</a> &nbsp
+<a href="files/bibs/vtmop-toms.bib">BIB</a>
 	</p>
+    <br><br>
 
 <font size=5> <b>Under Review:</b> </font><br><br>
 	<p>
 Thomas C.H. Lux, Layne T. Watson, Tyler H. Chang, and William I. Thacker.
 Algorithm XXXX: MQSI---Monotone quintic spline interpolation.
-Under review with ACM Transactions on Mathematical Software (since August, 2020).
+Under review with ACM Transactions on Mathematical Software (since August 2020).
 	</p>
-	<p>
-Tyler H. Chang, Layne T. Watson, Jeffrey Larson, William I. Thacker, Shubhangi Deshpande, and Thomas C.H. Lux.
-Algorithm XXXX: VTMOP: Solver for blackbox multiobjective optimization problems.
-Under review with ACM Transactions on Mathematical Software (since June, 2020).
-	</p>
-	<br><br>
+   	  </div>
    	  </div>
       </div>
 
@@ -374,40 +483,53 @@ Under review with ACM Transactions on Mathematical Software (since June, 2020).
       <div class"row">
          <div class="col-xs-12 col-md-10 col-md-offset-1 
 		col-lg-8 col-lg-offset-2 panel panel-default">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel-inner panel-default">
 	   <h1 class="margin-base-vertical">
 	<a class="anchor" name="awards"></a>Awards:
 	   </h1>
 
 	<font size=5> <b>Nominee for Outstanding Dissertation Award</b> </font>
-	(January, 2021: Virginia Tech, Graduate School)
+    <br>
+	(January 2021: Virginia Tech, Graduate School)
 	<p>
-    In 2021, I was a finalist for Virginia Tech's graduate school wide
-<a href=https://graduateschool.vt.edu/about/awards/student/oustanding-dissertation-award.html>Outstanding Dissertation Award</a>.
-    I was nominated by the Dept. of Computer Science for my 2020 Ph.D.
-    dissertation.
+    <ul>
+    <li>In 2021, I was a finalist for Virginia Tech's graduate school wide
+<a target="_blank" href=https://graduateschool.vt.edu/about/awards/student/oustanding-dissertation-award.html>Outstanding Dissertation Award</a></li>
+    <li>I was nominated by the Dept. of Computer Science for my 2020 Ph.D.
+    <a target="_blank" href="https://vtechworks.lib.vt.edu/handle/10919/98915">dissertation</a></li>
+    </ul>
 	</p>
 
 	<font size=5> <b>Cunningham Doctoral Fellowship</b> </font>
-	(Fall, 2016 - May, 2020: Virginia Tech, Graduate School)
+    <br>
+	(August 2016 - May 2020: Virginia Tech, Graduate School)
 	<p>
-	The
+    <ul>
+    <li>The
 	<a target="_blank"
 href="https://graduateschool.vt.edu/funding/types-of-funding/funding-sponsored-by-the-graduate-school/cunningham-doctoral-assistantships.html">
 	Cunningham Doctoral Fellowship</a>
-	is a Virginia Tech university level fellowship.
+	is a Virginia Tech university level fellowship.</li>
+    </ul>
 	</p>
 
 	<font size=5> <b>DOE SCGSR Awardee</b> </font>
-	(June - December, 2019: US Dept. of Energy, Office of Science)
+    <br>
+	(June 2019 - December 2019: US Dept. of Energy, Office of Science)
 	<p>
-	Recipient of the
+    <ul>
+    <li>Recipient of the
 	<a target="_blank"
 href="https://www.energy.gov/articles/doe-s-science-graduate-student-research-program-selects-70-students-pursue-research-doe">
-	US DOE, Office of Science Graduate Student Research Program</a>
-	(2018 Solicitation 2 cycle).
+	US DOE, Office of Science Graduate Student Research Program</a></li>
+	<li>2018 Solicitation 2 cycle</li>
+	<li>Obtained funding for a 6 month appointment (June - December 2019) at Argonne National Laboratory to develop VTMOP software</li>
+    </ul>
 	</p>
 
 	<font size=5> <b>Departmental Fellowships</b> </font>
+    <br>
 	(2016 - 2020: Virginia Tech, Dept. of Computer Science)
 	<p>
 	<ul>
@@ -417,7 +539,7 @@ href="https://www.energy.gov/articles/doe-s-science-graduate-student-research-pr
 	2017-18 academic year and 2018-19 academic year.</li>
 	</ul>
 	</p>
-	<br><br>
+   	  </div>
    	  </div>
       </div>
 
@@ -425,6 +547,8 @@ href="https://www.energy.gov/articles/doe-s-science-graduate-student-research-pr
       <div class"row">
          <div class="col-xs-12 col-md-10 col-md-offset-1 
 		col-lg-8 col-lg-offset-2 panel panel-default">
+         <div class="col-xs-12 col-md-10 col-md-offset-1 
+		col-lg-8 col-lg-offset-2 panel-inner panel-default">
 	   <h1 class="margin-base-vertical">
 	<a class="anchor" name="misc"></a>Miscellaneous:
 	   </h1>
@@ -477,8 +601,8 @@ href="https://www.energy.gov/articles/doe-s-science-graduate-student-research-pr
 	<li><a target="_blank" href="https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf">OpenMP 4.5 Standards Document</a></li>
 	</ul>
 
-	<br><br>
    	  </div>
+      </div>
       </div>
 
    <!-- End container -->
