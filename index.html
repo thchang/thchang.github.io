@@ -4,7 +4,7 @@
 Tyler Chang's Research Page
 Research info, links, pubs, etc.
 Created w/ bootstrap.min.css
-Last Update: 4/22
+Last Update: 12/22
 -->
 
 <html>
@@ -15,7 +15,7 @@ Last Update: 4/22
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Load Bootstrap -->
-<link href="bootstrap.min.css" rel="stylesheet" />
+<link href="styles/bootstrap.min.css" rel="stylesheet" />
 
 <!-- Set style -->
 <style>
@@ -91,7 +91,7 @@ Last Update: 4/22
     <!-- Navigation pill menu -->
     <ul class="nav nav-pills">
       <li><a href="#about">About</a></li>
-      <li><a href="#projs">Projects</a></li>
+      <li><a href="#projs">Software</a></li>
       <li><a href="#pubs">Publications</a></li>
       <li><a href="#awards">Awards</a></li>
       <li><a href="#misc">Misc</a></li>
@@ -160,10 +160,10 @@ Last Update: 4/22
     <br><br>
 
     <p>
-    I am particularly passionate about producing open source
+    I am particularly passionate about producing open-source
     scientific software.
     Check out some of my
-    <a href="#projs">Projects</a> below or on my
+    <a href="#projs">Software</a> below or on my
     <a target="_blank"
     href="https://github.com/thchang">GitHub</a>,
     and don't hesitate to reach out if you have questions, comments, or
@@ -210,12 +210,14 @@ Last Update: 4/22
   <div class="col-xs-12 col-md-10 col-md-offset-1
     col-lg-8 col-lg-offset-2 panel-inner panel-default">
     <h1 class="margin-base-vertical">
-    <a class="anchor" name="projs"></a>Projects:
+    <a class="anchor" name="projs"></a>Software:
     </h1>
 
+    <div class"row">
     <font size=5> <b>ParMOO</b> </font>
 	<p>
-	<img src="img/parmoo.png" class="img-responsive" align="right" width="45%" hspace="20em">
+    <p>
+    <img src="img/parmoo.png" class="img-responsive" align="right" width="40%" hspace="20em">
 	The multiobjective optimization problem (MOP) is a generalization of
 	the single objective optimization problem.
 	Instead of attempting to minimize a single cost or loss function,
@@ -229,8 +231,7 @@ Last Update: 4/22
     aerospace design engineering,
     material and drug manufacturing,
     and particle accelerator design.
-	</p>
-	<p>
+    </p><p>
     ParMOO is a Python framework for solving multiobjective simulation
     optimization problems, by exploiting the underlying structure of the
     simulation.
@@ -239,15 +240,22 @@ Last Update: 4/22
     <a target="_blank"
     href="https://github.com/Libensemble/libensemble">libEnsemble</a>
     library.
-	</p>
     <p>
     <ul>
-    <li>Check back soon! We expect to release in the next few months!</li>
+	<li><a target="_blank"
+    href="https://parmoo.readthedocs.io/en/latest">Docs</a>
+    (including quickstart, installation, use cases, API, and tutorials)</li>
+	<li><a target="_blank"
+    href="https://github.com/parmoo/parmoo">GitHub</a></li>
+	<li><a target="_blank"
+    href="https://www.youtube.com/watch?v=gQha8URLEHM">Recorded tutorial</a></li>
     </ul>
     </p>
 
     <br><br>
+    </div>
 
+    <div class"row">
 	<font size=5> <b>DELAUNAYSPARSE</b> </font>
 	<p>
 	<img src="img/delsparse.png" class="img-responsive" align="right" width="30%" hspace="20em">
@@ -261,7 +269,7 @@ Last Update: 4/22
 	high-dimensional big data problems.
 	</p>
 	<p>
-	DELAUNAYSPARSE is an open source Fortran package that computes
+	DELAUNAYSPARSE is an open-source Fortran package that computes
 	sparse subsets of the complete Delaunay triangulation, as needed to
 	perform interpolation.
 	The resulting codebase is fast, robust, and portable; and features
@@ -272,7 +280,7 @@ Last Update: 4/22
     <p>
     <ul>
 	<li><a target="_blank"
-    href="https://vtopt.github.io/DelaunaySparse">Webpage</a>
+    href="https://vtopt.github.io/DelaunaySparse">Docs/Webpage</a>
     (including download links, getting started, and related publications)</li>
 	<li><a target="_blank"
     href="https://github.com/vtopt/DelaunaySparse">GitHub</a></li>
@@ -284,11 +292,13 @@ Last Update: 4/22
 	</p>
 
     <br><br>
+    </div>
 
+    <div class"row">
 	<font size=5> <b>VTMOP</b> </font>
 	<p>
 	<img src="img/vtmop.png" class="img-responsive" align="right" width="45%" hspace="20em">
-	VTMOP is a flexible open source Fortran package for solving generic MOPs;
+	VTMOP is a flexible open-source Fortran package for solving generic MOPs;
     see ParMOO (above) for a description of MOPs. 
     While many current MOP algorithms do not scale well for more than 2 or 3
     objectives, VTMOP aims at approximating tradeoff curves between larger
@@ -301,17 +311,23 @@ Last Update: 4/22
 	(see <a href="#awards">Awards</a>).
 	</p>
 	<p>
-	VTMOP is currently under review for publication, and therefore not
-	yet publicly available.
-	However, a VTMOP plugin is currently available through the
+	The original VTMOP source code is implemented in Fortran 2008, using
+    OpenMP to issue simulation tasks asynchronously.
+	However, a VTMOP generator function is also available for Python usage
+    through the
 	<a target="_blank"
     href="https://github.com/Libensemble/libensemble">libEnsemble</a>
 	library.</p>
     <p>
     <ul>
-    <li>Check back soon! Our paper has been accepted, and the full release is forthcoming!</li>
     <li><a target="_blank"
-    href="https://github.com/Libensemble/libensemble/blob/main/libensemble/gen_funcs/vtmop.py">libEnsemble interface (Python)</a></li>
+    href="https://vtopt.github.io/VTMOP">Docs/Webpage</a>
+    </li>
+    <li><a target="_blank"
+    href="https://github.com/vtopt/VTMOP">GitHub</a>
+    </li>
+    <li><a target="_blank"
+    href="https://github.com/Libensemble/libe-community-examples">libEnsemble interface (Python)</a></li>
     <li><a target="_blank"
 	href="https://doi.org/10.1080/10556788.2015.1048861">algorithm publication</a></li>
     <li><a target="_blank"
@@ -322,7 +338,10 @@ Last Update: 4/22
 	</p>
 
     <br><br>
+    </div>
 
+<!--
+    <div class"row">
 	<font size=5> <b>VarSys</b> </font>
 	<p>
 	<img src="img/varsys.png" class="img-responsive" align="right" width="25%" hspace="20em">
@@ -371,7 +390,10 @@ Last Update: 4/22
 	</p>
 
     <br><br>
+    </div>
+-->
 
+    <div class"row">
 	<font size=5> <b>Quantum Annealing Math Library (QAML)</b> </font>
 	<p>
 	<img src="img/qaml-dark.svg" class="img-responsive" align="right" width="15%" hspace="20em">
@@ -381,7 +403,7 @@ Last Update: 4/22
 	practicalities, allowing for faster progress in near-term QA hardware.
 	</p>
 	<p>
-	QAML is an open source Python project, which embeds least squares
+	QAML is an open-source Python project, which embeds least squares
 	and polynomial sum-of-squares problems (with real, integer, Boolean
 	or mixed variables) on the D-Wave quantum annealer.
 	These broad classes of problems are ubiquitous in scientific computing,
@@ -395,6 +417,7 @@ Last Update: 4/22
 	href="https://doi.org/10.1007/s11128-019-2489-x">Publication</a></li>
     </ul>
 	</p>
+    </div>
 
   </div>
   </div>
@@ -422,6 +445,17 @@ Last Update: 4/22
     <br><br>
 
     <p>
+    Tyler H. Chang, Layne T. Watson, Jeffrey Larson, Nicole Neveu, William I. Thacker, Shubhangi Deshpande, and Thomas C.H. Lux.
+    2022.
+    Algorithm 1028: VTMOP: Solver for blackbox multiobjective optimization problems.
+    ACM Transactions on Mathematical Software 48(3), Article No. 36, 34 pages.
+    <br>
+    <a href="files/papers/vtmop-toms.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
+    <a target="_blank"
+    href="https://doi.org/10.1145/3529258">ACM DL</a> &nbsp
+    <a href="files/bibs/vtmop-toms.bib">BIB</a>
+    </p>
+    <p>
     Tyler H. Chang, Jeffrey Larson, and Layne T. Watson.
     2020.
     Multiobjective optimization of the variability of the high-performance
@@ -442,7 +476,7 @@ Last Update: 4/22
     2020.
     Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the
     Delaunay triangulation in medium to high dimensions.
-    ACM Transactions on Mathematical Software 46(4), Article No. 38, 20 pages. ACM.
+    ACM Transactions on Mathematical Software 46(4), Article No. 38, 20 pages.
     <br>
     <a href="files/papers/delaunay-toms.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
     <a target="_blank"
@@ -494,24 +528,18 @@ Last Update: 4/22
 
     <font size=5> <b>In Press:</b> </font><br><br>
     <p>
-    Tyler H. Chang, Layne T. Watson, Jeffrey Larson, William I. Thacker, Shubhangi Deshpande, and Thomas C.H. Lux.
-    2022.
-    Algorithm XXXX: VTMOP: Solver for blackbox multiobjective optimization problems.
+    Thomas C.H. Lux, Layne T. Watson, Tyler H. Chang, and William I. Thacker.
+    Algorithm XXXX: MQSI---Monotone quintic spline interpolation.
     To appear in ACM Transactions on Mathematical Software.
-    <br>
-    <a href="files/papers/vtmop-toms.pdf"><img src="img/pdficon.png" width="40" height="40"></a> &nbsp
-    <a target="_blank"
-    href="https://doi.org/10.1145/3529258">ACM DL</a> &nbsp
-    <a href="files/bibs/vtmop-toms.bib">BIB</a>
     </p>
 
     <br><br>
     
     <font size=5> <b>Under Review:</b> </font><br><br>
     <p>
-    Thomas C.H. Lux, Layne T. Watson, Tyler H. Chang, and William I. Thacker.
-    Algorithm XXXX: MQSI---Monotone quintic spline interpolation.
-    Under review with ACM Transactions on Mathematical Software (since August 2020).
+    Tyler H. Chang and Stefan M. Wild.
+    ParMOO: A Python library for parallel multiobjective simulation optimization.
+    Under review with Journal of Open Source Software (since May 2022).
     </p>
 
   </div>
@@ -567,7 +595,7 @@ href="https://graduateschool.vt.edu/funding/types-of-funding/funding-sponsored-b
 	<li>One of 70 proposals funded during 2018 Solicitation 2 cycle</li>
 	<li>Award funded a 6 mo. appointment (June - December 2019) at
     Argonne National Laboratory to develop VTMOP software
-    (see <a href="#projs">Projects</a>)</li>
+    (see <a href="#projs">Software</a>)</li>
     </ul>
 	</p>
 
