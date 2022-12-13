@@ -1,0 +1,434 @@
+\documentclass[10pt]{article}
+% Useful packages
+\usepackage{geometry, hyperref, sectsty}
+
+% Reduce bibtex indent
+\makeatletter
+\def\@biblabel#1{}
+\makeatother
+
+% Set the page style. Uncomment one of the following:
+% US STYLE
+\geometry{letterpaper,
+          total={7in,9.5in},
+          left=0.75in,
+          top=0.75in}
+% EUROPEAN STYLE
+%\geometry{a4paper,
+%          total={170mm,280mm},
+%          left=20mm,
+%          top=10mm}
+
+% Set default spacing and font
+\parindent = 0pt
+\parskip = 6pt
+\renewcommand{\familydefault}{\sfdefault}
+
+% Set section size/spacing
+\sectionfont{\fontsize{14}{4}\selectfont}
+\sectionfont{\fontsize{14}{16}\selectfont\sectionrule{0ex}{0pt}{-1ex}{1pt}}
+\subsectionfont{\fontsize{12}{4}\selectfont}
+
+% Define bullitem macro for adding bullet-points
+\def\bullitem{\parskip 1pt \par\hangindent=15pt \hangafter=1
+\noindent\hbox to 20pt{\hfil$\bullet$\hfil}\ignorespaces}
+
+% Define hrulefull macro for section delimiters
+\def\hrulefull{\noindent\rule{\textwidth}{0.2pt}}
+
+% Define tab macros
+\newcommand\tabboxsmall[1]{\noindent\hbox to 0.07\textwidth{#1\hfill}\hskip 2em}
+\newcommand\tabboxmed[1]{\noindent\hbox to 0.18\textwidth{#1\hfill}\hskip 2em}
+\newcommand\tabboxlarge[1]{\noindent\hbox to 0.47\textwidth{#1\hfill}\hskip 2em}
+
+
+\begin{document}
+{\huge \bf {\bf Tyler H. Chang}}
+
+\medskip
+
+\tabboxlarge{Argonne National Laboratory}E-mail: \href{mailto:tchang@anl.gov}{tchang@anl.gov}\\
+\tabboxlarge{Mathematics \& Computer Science (MCS) Division}Website: \url{https://thchang.github.io}\\
+\tabboxlarge{9700 S. Cass Ave, Bldg. 240, Lemont, IL 60439}GitHub: \url{https://github.com/thchang}\\
+
+\section*{Interests}
+Numerical optimization, machine learning, computational geometry, analysis of algorithms, and scientific software
+\section*{Education}
+Ph.D., May 2020, Computer Science, Virginia Polytechnic Institute \& State University (Virginia Tech)
+
+\bullitem {\sl Thesis: Math. Softw. for Multiobjective Optimization Problems; Outstanding Dissertation Award nominee}
+
+
+\bigskip
+
+B.S., May 2016, Computer Science \& Mathematics (double-major), Virginia Wesleyan University
+
+\bullitem {\sl Summa cum laude; 2x ACM ICPC site champion; 8x Dean's list; 4x all-ODAC (conference) for varsity tennis}
+
+\section*{Research Experience}
+\tabboxmed{Jun 2020 - Present.} {\bf Postdoctoral appointee: Argonne National Laboratory}, MCS Division
+\bullitem Built, tested, and documented a Python framework for deploying multiobjective optimization solvers
+\bullitem Deployed optimization solvers for accelerator design, material manufacturing, and inverse problems
+\bullitem Advised graduate and undergraduate interns and contributed to research proposals
+
+\bigskip
+
+\tabboxmed{Aug 2016 - May 2020.} {\bf Cunningham fellow: Virginia Tech}, Dept. of Computer Science
+\bullitem Designed parallel algorithms and software for multivariate interpolation and blackbox optimization
+\bullitem Applied solvers to problems in HPC performance modeling and tuning
+\bullitem Conducted fundamental research in approximation theory and computational geometry
+
+\bigskip
+
+\tabboxmed{Jun 2019 - Dec 2019.} {\bf SCGSR awardee: Argonne National Laboratory}, MCS Division
+\bullitem Conducting research in multiobjective optimization software via DOE SCGSR program (see awards)
+
+\bigskip
+
+\tabboxmed{Feb 2016 - Aug 2016.} {\bf Research assistant: Old Dominion University}, Dept. of Computer Science
+\bullitem Aided in parallelizing NASA's FUN3D CFD kernel on NVIDIA GPUs using CUDA and MPI
+
+\bigskip
+
+\tabboxmed{Dec 2015 - Jan 2016.} {\bf Intern: US Army Research Labs}, Computational Science Division\\
+ \tabboxmed{May 2015 - Aug 2015.} {\bf Intern: US Army Research Labs}, Computational Science Division
+\bullitem Accelerating software for real-time optimal control (summer) \& using AR technology for info viz (winter)
+
+\bigskip
+
+\tabboxmed{Dec 2014 - Jan 2015.} {\bf Intern: US Army Research Labs}, Guidance Technology Branch\\
+ \tabboxmed{May 2014 - Aug 2014.} {\bf Intern: US Army Research Labs}, Guidance Technology Branch
+\bullitem Using OpenCV for real-time sensing (summer) \& developing software for embedded systems (winter)
+\section*{Awards}
+\tabboxsmall{2021.} {\bf Nominee for Outstanding Dissertation Award: Virginia Tech}, Graduate School
+
+\smallskip
+
+\tabboxsmall{2019.} {\bf Davenport Leadership Fellowship: Virginia Tech}, College of Engineering
+
+\smallskip
+
+\tabboxsmall{2018.} {\bf SCGSR Award: DOE Office of Science}, Graduate Student Research (SCGSR) Program
+
+\smallskip
+
+\tabboxsmall{2018.} {\bf Pratt Fellowship: Virginia Tech}, College of Engineering
+
+\smallskip
+
+\tabboxsmall{2017.} {\bf Pratt Fellowship: Virginia Tech}, College of Engineering
+
+\smallskip
+
+\tabboxsmall{2016.} {\bf Cunningham Doctoral Fellowship: Virginia Tech}, Graduate School
+
+\smallskip
+
+\tabboxsmall{2016.} {\bf Davenport Leadership Fellowship: Virginia Tech}, College of Engineering
+
+\smallskip
+
+\tabboxsmall{2016.} {\bf Outstanding Student in Computer Science \& Mathematics: Virginia Wesleyan University}
+\section*{Publicly Available Software}
+2022. {\bf ParMOO}: Python library for parallel multiobjective simulation optimization. Release: 0.1.0\\
+Devs: {\bf T. H. Chang} (lead), S. M. Wild, and H. Dickinson \hskip 2emPrimary Prog. Lang: {\tt Python 3}\\
+{\tt git:} \url{https://github.com/parmoo/parmoo}
+
+\medskip
+
+2022. {\bf VTMOP}: Solver for blackbox multiobjective optimization problems. \\
+Devs: {\bf T. H. Chang} (sole) \hskip 2emPrimary Prog. Lang: {\tt Fortran 2008}\\
+{\tt git:} \url{https://github.com/vtopt/VTMOP}
+
+\medskip
+
+2020. {\bf DelaunaySparse}: Interpolation via a sparse subset of the Delaunay triangulation. \\
+Devs: {\bf T. H. Chang} (lead) and T. C. H. Lux \hskip 2emPrimary Prog. Lang: {\tt Fortran 2003}\\
+{\tt git:} \url{https://github.com/vtopt/DelaunaySparse}
+
+\medskip
+
+2019. {\bf QAML}: Quantum annealing math library. \\
+Devs: T. C. H. Lux, {\bf T. H. Chang}, and S. S. Tipirneni \hskip 2emPrimary Prog. Lang: {\tt Python 3}\\
+{\tt git:} \url{https://github.com/tchlux/qaml}
+\section*{Publications}
+\subsection*{Publications In-Press}
+N. Neveu, {\bf T. H. Chang}, P. Franz, S. Hudson, and J. Larson. Comparison of multiobjective optimization methods for the LCLS-II photoinjector. {\sl To appear in Computer Physics Communication}. {\tt doi:} \href{https://doi.org/10.1016/j.cpc.2022.108566}{10.1016/j.cpc.2022.108566}
+
+\medskip
+
+T. C. H. Lux, L. T. Watson, {\bf T. H. Chang}, and W. I. Thacker. Algorithm XXXX: MQSI---Monotone quintic spline interpolation. {\sl To appear in ACM Transactions on Mathematical Software}. {\tt doi:} \href{https://doi.org/10.1145/3570157}{10.1145/3570157}
+
+\medskip
+
+Y. Wang, L. Xu, Y. Hong, R. Pan, {\bf T. H. Chang}, T. C. H. Lux, J. Bernard, L. T. Watson, and K. W. Cameron. Design strategies and approximation methods for high-performance computing variability management. {\sl To appear in Journal of Quality Technology}. {\tt doi:} \href{https://doi.org/10.1080/00224065.2022.2035285}{10.1080/00224065.2022.2035285}
+\subsection*{Publications Under Review}
+{\bf T. H. Chang} and S. M. Wild. ParMOO: a Python library for parallel multiobjective simulation optimization. {\sl Submitted to Journal of Open Source Software}, May 2022. JOSS Open Review: \url{https://github.com/openjournals/joss-reviews/issues/4468}. 
+\subsection*{Publications In Preparation}
+{\bf T. H. Chang} and S. M. Wild. Designing a framework for solving multiobjective simulation optimization problems. \(\sim\)80\% completion. 
+\subsection*{Peer-Reviewed Journal Articles}
+2022. {\bf T. H. Chang}, L. T. Watson, J. Larson, N. Neveu, W. I. Thacker, S. Deshpande, and T. C. H. Lux. Algorithm 1028: VTMOP: Solver for blackbox multiobjective optimization problems. {\sl ACM Transactions on Mathematical Software} 48(3), Article 36, 34 pages. {\tt doi:} \href{https://doi.org/10.1145/3529258}{10.1145/3529258}
+
+\medskip
+
+2021. L. Xu, T. C. H. Lux, {\bf T. H. Chang}, B. Li, Y. Hong, L. T. Watson, A. R. Butt, D. Yao, and K. W. Cameron. Prediction of high-performance computing input/output variability and its application to optimization for system configurations. {\sl Quality Engineering} 33(2), pp. 318--334. {\tt doi:} \href{https://doi.org/10.1080/08982112.2020.1866203}{10.1080/08982112.2020.1866203}
+
+\medskip
+
+2021. T. C. H. Lux, L. T. Watson, {\bf T. H. Chang}, J. Bernard, B. Li, L. Xu, G. Back, A. R. Butt, K. W. Cameron, and Y. Hong. Interpolation of sparse high-dimensional data. {\sl Numerical Algorithms} 88(1), pp. 281--313. {\tt doi:} \href{https://doi.org/10.1007/s11075-020-01040-2}{10.1007/s11075-020-01040-2}
+
+\medskip
+
+2020. {\bf T. H. Chang}, L. T. Watson, T. C. H. Lux, A. R. Butt, K. W. Cameron, and Y. Hong. Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the Delaunay triangulation in medium to high dimensions. {\sl ACM Transactions on Mathematical Software} 46(4), Article 38, 20 pages. {\tt doi:} \href{https://doi.org/10.1145/3422818}{10.1145/3422818}
+
+\medskip
+
+2020. L. Xu, Y. Wang, T. C. H. Lux, {\bf T. H. Chang}, J. Bernard, B. Li, Y. Hong, K. W. Cameron, and L. T. Watson. Modeling I/O performance variability in high-performance computing systems using mixture distributions. {\sl Journal of Parallel and Distributed Computing} 139, pp. 87--98. {\tt doi:} \href{https://doi.org/10.1016/j.jpdc.2020.01.005}{10.1016/j.jpdc.2020.01.005}
+
+\medskip
+
+2019. {\bf T. H. Chang}, T. C. H. Lux, and S. S. Tipirneni. Least-squares solutions to polynomial systems of equations with quantum annealing. {\sl Quantum Information Processing} 18(12), Article 374, 17 pages. {\tt doi:} \href{https://doi.org/10.1007/s11128-019-2489-x}{10.1007/s11128-019-2489-x}
+\subsection*{Peer-Reviewed Conference Papers}
+2020. {\bf T. H. Chang}, J. Larson, and L. T. Watson. Multiobjective optimization of the variability of the high-performance Linpack solver. {\sl In Proc. 2020 Winter Simulation Conference (WSC 2020)}, pp. 3081--3092. virtual event. {\tt doi:} \href{https://doi.org/10.1109/WSC48552.2020.9383875}{10.1109/WSC48552.2020.9383875}
+
+\medskip
+
+2020. {\bf T. H. Chang}, J. Larson, L. T. Watson, and T. C. H. Lux. Managing computationally expensive blackbox multiobjective optimization problems with libEnsemble. {\sl In Proc. 2020 Spring Simulation Conference (SpringSim '20)}, Article 31, 12 pages. virtual event. {\tt doi:} \href{https://doi.org/10.22360/springsim.2020.hpc.001}{10.22360/springsim.2020.hpc.001}
+
+\medskip
+
+2020. T. C. H. Lux, L. T. Watson, {\bf T. H. Chang}, L. Xu, Y. Wang, and Y. Hong. An algorithm for constructing monotone quintic interpolating splines. {\sl In Proc. 2020 Spring Simulation Conference (SpringSim '20)}, Article 33, 12 pages. virtual event. {\tt doi:} \href{https://doi.org/10.22360/springsim.2020.hpc.003}{10.22360/springsim.2020.hpc.003}
+
+\medskip
+
+2020. T. C. H. Lux and {\bf T. H. Chang}. Analytic test functions for generalizable evaluation of convex optimization techniques. {\sl In Proc. IEEE SoutheastCon 2020 Vol. 2}, 8 pages. Raleigh, NC, USA. {\tt doi:} \href{https://doi.org/10.1109/SoutheastCon44009.2020.9368254}{10.1109/SoutheastCon44009.2020.9368254}
+
+\medskip
+
+2020. T. C. H. Lux, L. T. Watson, {\bf T. H. Chang}, L. Xu, Y. Wang, J. Bernard, Y. Hong, and K. W. Cameron. Effective nonparametric distribution modeling for distribution approximation applications. {\sl In Proc. IEEE SoutheastCon 2020 Vol. 2}, 6 pages. Raleigh, NC, USA. {\tt doi:} \href{https://doi.org/10.1109/SoutheastCon44009.2020.9368295}{10.1109/SoutheastCon44009.2020.9368295}
+
+\medskip
+
+2018. {\bf T. H. Chang}, L. T. Watson, T. C. H. Lux, S. Raghvendra, B. Li, L. Xu, A. R. Butt, K. W. Cameron, and Y. Hong. Computing the umbrella neighbourhood of a vertex in the Delaunay triangulation and a single Voronoi cell in arbitrary dimension. {\sl In Proc. IEEE SoutheastCon 2018}, 8 pages. St. Petersburg, FL, USA. {\tt doi:} \href{https://doi.org/10.1109/SECON.2018.8479003}{10.1109/SECON.2018.8479003}
+
+\medskip
+
+2018. T. C. H. Lux, L. T. Watson, {\bf T. H. Chang}, J. Bernard, B. Li, X. Yu, L. Xu, G. Back, A. R. Butt, K. W. Cameron, Y. Hong, and D. Yao. Nonparametric distribution models for predicting and managing computational performance variability. {\sl In Proc. IEEE SoutheastCon 2018}, 7 pages. St. Petersburg, FL, USA. {\tt doi:} \href{https://doi.org/10.1109/SECON.2018.8478814}{10.1109/SECON.2018.8478814}
+
+\medskip
+
+2018. {\bf T. H. Chang}, L. T. Watson, T. C. H. Lux, J. Bernard, B. Li, L. Xu, G. Back, A. R. Butt, K. W. Cameron, and Y. Hong. Predicting system performance by interpolation using a high-dimensional Delaunay triangulation. {\sl In Proc. 2018 Spring Simulation Conference (SpringSim '18)}, Article 2, 12 pages. Baltimore, MD, USA. {\tt doi:} \href{https://doi.org/10.22360/springsim.2018.hpc.003}{10.22360/springsim.2018.hpc.003}
+
+\medskip
+
+2018. T. C. H. Lux, L. T. Watson, {\bf T. H. Chang}, J. Bernard, B. Li, L. Xu, G. Back, A. R. Butt, K. W. Cameron, and Y. Hong. Predictive modeling of I/O characteristics in high performance computing systems. {\sl In Proc. 2018 Spring Simulation Conference (SpringSim '18)}, Article 8, 10 pages. Baltimore, MD, USA. {\tt doi:} \href{https://doi.org/10.22360/springsim.2018.hpc.009}{10.22360/springsim.2018.hpc.009}
+
+\medskip
+
+2018. {\bf T. H. Chang}, L. T. Watson, T. C. H. Lux, B. Li, L. Xu, A. R. Butt, K. W. Cameron, and Y. Hong. A polynomial time algorithm for multivariate interpolation in arbitrary dimension via the Delaunay triangulation. {\sl In Proc. 2018 ACM Southeast Conference (ACMSE '18)}, Article 12, 8 pages. Richmond, KY, USA. {\tt doi:} \href{https://doi.org/10.1145/3190645.3190680}{10.1145/3190645.3190680}
+
+\medskip
+
+2018. T. C. H. Lux, L. T. Watson, {\bf T. H. Chang}, J. Bernard, B. Li, X. Yu, L. Xu, G. Back, A. R. Butt, K. W. Cameron, D. Yao, and Y. Hong. Novel meshes for multivariate interpolation and approximation. {\sl In Proc. 2018 ACM Southeast Conference (ACMSE '18)}, Article 13, 7 pages. Richmond, KY, USA. {\tt doi:} \href{https://doi.org/10.1145/3190645.3190687}{10.1145/3190645.3190687}
+
+\medskip
+
+2017. C. Raghunath, {\bf T. H. Chang}, L. T. Watson, M. Jrad, R. K. Kapania, and R. M. Kolonay. Global deterministic and stochastic optimization in a service oriented architecture. {\sl In Proc. 2017 Spring Simulation Conference (SpringSim '17)}, Article 7, 12 pages. Virginia Beach, VA, USA. {\tt doi:} \href{https://doi.org/10.22360/springsim.2017.hpc.023}{10.22360/springsim.2017.hpc.023}
+\subsection*{Technical Reports and Dissertations}
+2022. {\bf T. H. Chang} and S. M. Wild. {\sl ParMOO: Python library for parallel multiobjective simulation optimization}. Technical Report Version 0.1.0. Argonne National Laboratory, Lemont, Illinois, USA. {\tt url:} \url{https://parmoo.readthedocs.io/en/latest}
+
+\medskip
+
+2020. A. K. Gillette and {\bf T. H. Chang}. {\sl ALGORITHMS: assessing latent space dimension by Delaunay loss}. Technical Report LLNL-CONF-814930. Lawrence Livermore National Laboratory, Livermore, California, USA. {\tt url:} \url{https://www.osti.gov/servlets/purl/1756748}
+
+\medskip
+
+2020. {\bf T. H. Chang}. {\sl Mathematical software for multiobjective optimization problems}. Ph.D. Dissertation. Department of Computer Science, Virginia Polytechnic Institute and State University (Virginia Tech), Blacksburg, VA, USA. {\bf Dept. of Computer Science Nominee for Outstanding Dissertation Award}. {\tt url:} \url{http://hdl.handle.net/10919/98915}
+
+\medskip
+
+2016. {\bf T. H. Chang}. {\sl GPU saturation for multiple matrix-vector multiplications}. Bachelor's Thesis. Department of Computer Science, Virginia Wesleyan University, Virginia Beach, VA, USA. 
+\section*{Talks}
+\subsection*{Conference Talks}
+Sep 2022. Geometric considerations when surrogate modeling. {\sl SIAM Conference on Mathematics of Data Science (MDS 2022)}, San Diego, CA, USA. 
+
+\medskip
+
+Jul 2022. ParMOO: a parallel framework for multiobjective simulation optimization problems. {\sl Seventh International Conference on Continuous Optimization (ICCOPT 2022)}, Bethlehem, PA, USA. 
+
+\medskip
+
+Jul 2021. Surrogate modeling of simulations for multiobjective optimization applications. {\sl SIAM Conference on Optimization (OP 2022)}, virtual event. 
+
+\medskip
+
+Mar 2021. Computing sparse subsets of the Delaunay triangulation in high-dimensions for interpolation and graph problems. {\sl SIAM Conference on Computational Science and Engineering (CSE 2021)}, virtual event. 
+
+\medskip
+
+Dec 2020. Multiobjective optimization of the variability of the high-performance Linpack solver. {\sl 2020 Winter Simulation Conference (WSC 2020)}, virtual event. 
+
+\medskip
+
+Nov 2020. Multiobjective optimization of simulations with PARMOO. {\sl Argonne Postdoctoral Research and Career Symposium}, virtual event. 
+
+\medskip
+
+May 2020. Managing computationally expensive blackbox multiobjective optimization problems with libEnsemble. {\sl Spring Simulation Conference (SpringSim '20)}, virtual event. 
+
+\medskip
+
+Aug 2019. A surrogate for local optimization using Delaunay triangulations. {\sl Sixth International Conference on Continuous Optimization (ICCOPT 2019)}, Berlin, Germany. 
+
+\medskip
+
+Apr 2018. Computing the umbrella neighbourhood of a vertex in the Delaunay triangulation and a single Voronoi cell in arbitrary dimension. {\sl IEEE SoutheastCon 2020}, St. Petersburg, FL, USA. 
+
+\medskip
+
+Apr 2018. Nonparametric distribution models for predicting and managing computational performance variability. {\sl IEEE SoutheastCon 2020}, St. Petersburg, FL, USA. 
+
+\medskip
+
+Mar 2018. A polynomial time algorithm for multivariate interpolation in arbitrary dimension via the Delaunay triangulation. {\sl ACM Southeast Conference (ACMSE '18)}, Richmond, KY, USA. 
+
+\medskip
+
+Apr 2017. Global deterministic and stochastic optimization in a service oriented architecture. {\sl Spring Simulation Conference (SpringSim '17)}, Virginia Beach, VA, USA. 
+
+\medskip
+
+Apr 2016. GPU saturation for multiple matrix-vector multiplications. {\sl Virginia Wesleyan College, Undergraduate Research Symposium}, Virginia Beach, VA, USA. 
+
+\medskip
+
+Apr 2014. The new Mastermind. {\sl Virginia Wesleyan College, Undergraduate Research Symposium}, Virginia Beach, VA, USA. 
+\subsection*{Seminars and Colloquia}
+Feb 2020. Algorithms and software for Delaunay interpolation and multiobjective optimization. {\sl Sandia National Laboratory, Wind Energy Technology Division Seminar}, virtual event. 
+
+\medskip
+
+Feb 2020. Algorithms and software for Delaunay interpolation and multiobjective optimization. {\sl Argonne National Laboratory, Mathematics and Computer Science Division Seminar}, Lemont, IL, USA. 
+
+\medskip
+
+Jan 2020. Algorithms and software for Delaunay interpolation and multiobjective optimization. {\sl Sandia National Laboratory, Center for Computing Research Seminar}, Albuquerque, NM, USA. 
+\subsection*{Tutorials and Guest Lectures}
+Oct 2022. An introduction to multiobjective simulation optimization with ParMOO. {\sl The Science Academy, Science Circle Cohort, guest speaker}, virtual event. Recording: \url{https://www.youtube.com/watch?v=gQha8URLEHM}. 
+
+\medskip
+
+May 2022. An introduction to multiobjective simulation optimization with ParMOO. {\sl Univeristy of Chicago, Pritzker School of Molecular Engineering, guest lecture}, virtual event. 
+\section*{Funding}
+\subsection*{Current}
+\tabboxsmall{FY 2022.} Money for my mixtape. \\
+\tabboxmed{{\bf Role: co-PI.}}\tabboxmed{ With: O. Guy.}\\
+Lil Wayne: {\it Lil Cash Money in 2022}.\\
+Type: Unrestriced gift.\hskip 2em Budget: \$20.\hskip 2em Length: 6 months.
+\subsection*{Pending}
+\tabboxsmall{FY 1999.} My Big Expensive Institution. \\
+\tabboxmed{{\bf Role: investigator.}}\tabboxmed{ Director: A. Guy.}\tabboxmed{ ANL Lead: B. Guy.}\\
+DOE ASCR: {\it Big Cash Money in 1999} (DE-FOA-999999).\\
+Type: full proposal (20 pages + appendices).\hskip 2em Budget: \$99.9M.\hskip 2em Length: 5 years.
+\section*{Professional Services and Activities}
+\subsection*{Journal Referee}
+\bullitem ACM Transactions on Mathematical Software (2021--Present)
+\bullitem The Visual Computer Journal (2021)
+\bullitem Quantum Information Processing (2021)
+\bullitem MDPI: Mathematical and Computer Applications (2021)
+\bullitem Journal of Machine Learning Research (2019)
+
+
+\subsection*{Conference Reviewer}
+\bullitem Int. Conf. for High Performance Computing, Networking, Storage, and Analysis 2021 (SC 21)
+\bullitem IEEE SoutheastCon 2020
+\bullitem IEEE SoutheastCon 2019
+\bullitem IEEE SoutheastCon 2018
+
+
+\subsection*{Minisymposium Organizer}
+\bullitem SIAM Conference on Optimization (2021)
+\bullitem SIAM Conference on Computational Science and Engineering (2021)
+
+
+\subsection*{Professional Membership}
+\bullitem ACM (2015--Present)
+\bullitem SIAM (2016--Present)
+\bullitem MOS (2022--Present)
+
+
+\section*{Institutional Services}
+\subsection*{Argonne}
+\tabboxmed{Nov 2022 - Present.} {\bf Organizing Committee: FASTMath Institute Seminar Series}
+\bullitem Providing input on topics and recruiting seminar speakers
+
+\bigskip
+
+\tabboxmed{Nov 2022.} {\bf Technical Reviewer: Sustainable Research Pathways}
+\bullitem Providing technical reviews of faculty and student submissions to SRP program
+\subsection*{Virginia Tech}
+\tabboxmed{Aug 2017 - May 2020.} {\bf Founding Member: Virginia Tech, Computer Science Graduate Counsel}
+\bullitem Organized professional and social events for graduate students and communicated student concerns to faculty
+
+\bigskip
+
+\tabboxmed{Mar 2019.} {\bf Primary Student Organizer: Virginia Tech, Comp. Sci. Graduate Preview Weekend}
+\bullitem Organized recruitment events for prospective graduate students and coordinated meetings with faculty
+\section*{Advising}
+\tabboxmed{ Jun 2021 - Aug 2021.} Student Name2 (Some University2), summer student via Other DOE Internship program
+\bullitem Project: YouTubing stuff
+
+
+\bigskip
+
+\tabboxmed{ Jun 2020 - Aug 2020.} Student Name1 (Some University1), summer student via Argonne Internship program
+\bullitem Project: googling stuff
+
+
+
+\section*{Mentoring}
+\tabboxsmall{ Jun 2020.} Mentee Name (Some University), friend via Argonne friendship program
+
+
+\section*{Post-Dissertation Courses}
+\tabboxsmall{ Jul 2022.}{\sl Distributionally Robust Optimization}, ICCOPT Summer School
+
+\tabboxsmall{ Jul 2022.}{\sl Mathematical Optimization in Julia with JuMP}, ICCOPT Summer School
+
+\tabboxsmall{ Aug 2020.}{\sl Probability, Geometry, and Computation in High Dimensions Boot Camp}, Simons Institute Workshop
+
+\tabboxsmall{ Jul 2020.}{\sl Advanced Python}, LinkedIn Learning
+
+
+\section*{Teaching}
+\tabboxmed{Jan 2022 - Present.} {\bf Adjunct Professor: College of DuPage}, Dept. of Computer and Information Science
+\bullitem CIS 2531: Introduction to Python Programming
+
+\bigskip
+
+\tabboxmed{Jan 2020 - May 2020.} {\bf Instructor of Record: Virginia Tech}, Dept. of Computer Science
+\bullitem CS 3114: Data Structures and Algorithms (in Java)
+
+\bigskip
+
+\tabboxmed{Jan 2013 - Dec 2015.} {\bf Subject Tutor: Virginia Wesleyan University}, Learning Center
+\bullitem Tutored undergraduate courses in calculus, computer science, and statistics
+\section*{Misc. Travel Awards}
+\tabboxsmall{ Feb 2021.}{\sl SIAM Early Career Travel Award}, \$160 to cover SIAM CSE 2021 registration
+
+\tabboxsmall{ Apr 2020.}{\sl Virginia Tech Computer Science Graduate Travel Award}, \$400 to attend SpringSim 2020
+
+\tabboxsmall{ Aug 2019.}{\sl Virginia Tech Graduate Student Association Travel Fund}, \$225 to attend ICCOPT 2019
+
+\tabboxsmall{ Jun 2019.}{\sl Virginia Tech Computer Science Graduate Travel Award}, \$600 to attend ICCOPT 2019
+
+\tabboxsmall{ Apr 2019.}{\sl ICCOPT Travel Grant Program}, €450 to attend ICCOPT 2019
+
+\tabboxsmall{ Apr 2018.}{\sl Virginia Tech Graduate Student Association Travel Fund}, \$225 to attend IEEE SoutheastCon 2018
+
+\tabboxsmall{ Mar 2018.}{\sl Virginia Tech Computer Science Graduate Travel Award}, \$400 to attend IEEE SoutheastCon 2018
+
+\tabboxsmall{ Aug 2016.}{\sl Virginia Tech Cunningham Travel Fund}, \$1000 unrestricted travel fund for Cunningham fellow
+
+
+\end{document}

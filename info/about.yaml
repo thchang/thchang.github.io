@@ -1,0 +1,268 @@
+- bio:
+    short: >
+        I am currently a Postdoc at Argonne National Laboratory in the
+        Mathematics and Computer Science Division.
+        I received my Ph.D. in Computer Science from Virginia Tech in 2020,
+        where my dissertation was "Mathematical Software for Multiobjective
+        Optimization Problems."
+    research-intro: >
+        I develop frameworks and algorithms at the intersection
+        of optimization, approximation theory, and machine learning.
+        I apply these tools on scientific applications such as
+        material manufacturing, aerospace engineering, and HPC tuning.
+        My active areas of research are
+    interests:
+        - numerical optimization
+        - machine learning
+        - computational geometry
+        - analysis of algorithms
+        - scientific software
+    scientific-software: >
+        I am particularly passionate about open-source software.
+        Check out some of my software contributions below or visit my GitHub,
+        and don't hesitate to reach out if you have questions, comments,
+        or feedback!
+
+- research-stmt:
+    what: >
+        I am interested in solving scientific problems by combining
+        techniques from blackbox optimization, approximation theory, and
+        machine learning techniques.
+    why: >
+        Owing to decades of research and careful analysis, many techniques
+        in blackbox optimization and approximation theory are easy to
+        interpret and verify.
+        These properties are important in many scientific settings
+        such as mission-critical deployments and exploratory research.
+        However, some of these techniques are not scalable or flexible
+        enough for usage in modern applications,
+        which can be high-dimensional, overparameterized, and may
+        involve complex design or action spaces.
+        On the other hand, modern machine learning has been extremely
+        successful in scaling to large complex problems by using
+        computationally cheap heuristics for extracting structure from
+        large volumes of high-dimensional data.
+    goals: "The goals of my research are to:"
+    goals-list:
+        - design flexible and scalable algorithms for leveraging blackbox
+          optimization and numerical approximation techniques
+          in modern settings;
+        - create hybrid machine learning/numerical algorithms, techniques, and
+          frameworks to exploit structure in complex, overparameterized
+          problems;
+        - improve our understanding of the behavior of classical numerical
+          methods in complex, high-dimensional domains; and
+        - make these hybrid techniques accessible to the general public
+          through the production of high-quality scientific software.
+    examples: "Some examples of my past and ongoing work include:"
+    examples-list:
+        - multiobjective optimization of computationally expensive simulations
+          and experiments,
+        - multivariate interpolation of high-dimensional scientific and
+          engineering data,
+        - designing fast and scalable algorithms for computing subsets of
+          the Delaunay triangulation in high-dimensional spaces, and
+        - implementation of portable and maintainable open-source
+          scientific software packages.
+
+- skills:
+    Programming Langs:
+        - Python
+        - Fortran
+        - C/C++
+        - Java
+        - Matlab
+    Operating Systems:
+        - MacOS
+        - Unix/Linux
+    Markup Languages:
+        - HTML/CSS
+        - Markdown
+        - reStructuredText
+        - YAML
+        - LaTeX
+        - plain TeX
+    Tools + Frameworks:
+        - numpy
+        - pandas
+        - scipy
+        - matplotlib
+        - tensorflow.keras
+        - sklearn
+        - PIL
+        - OpenCV
+        - pytest
+        - sphinx
+        - PyPI/pip
+        - conda-forge
+        - MPI
+        - OpenMP
+        - CUDA
+        - Slurm
+        - BLAS
+        - LAPACK
+        - git
+        - GitHub Actions
+        - GitFlow
+
+- experience:
+    start: Jun 2020
+    title: Postdoctoral appointee
+    institution: Argonne National Laboratory
+    department: MCS Division
+    description:
+        - Built, tested, and documented a Python framework for deploying multiobjective optimization solvers
+        - Deployed optimization solvers for accelerator design, material manufacturing, and inverse problems
+        - Advised graduate and undergraduate interns and contributed to research proposals
+
+- teaching:
+    start: Jan 2022
+    title: Adjunct Professor
+    institution: College of DuPage
+    department: Dept. of Computer and Information Science
+    description:
+        - 'CIS 2531: Introduction to Python Programming'
+
+- award:
+    year: 2021
+    title: Nominee for Outstanding Dissertation Award
+    institution: Virginia Tech
+    department: Graduate School
+    description:
+        - Finalist for Outstanding Dissertation Award, nominated by CS faculty for 2020 dissertation
+
+- degree:
+    year: May 2020
+    title: Ph.D.
+    subtitle: Computer Science
+    institution: Virginia Polytechnic Institute & State University (Virginia Tech)
+    description:
+        - 'Thesis: Math. Softw. for Multiobjective Optimization Problems; Outstanding Dissertation Award nominee'
+
+- experience:
+    start: Aug 2016
+    end: May 2020
+    title: Cunningham fellow
+    institution: Virginia Tech
+    department: Dept. of Computer Science
+    description:
+        - Designed parallel algorithms and software for multivariate interpolation and blackbox optimization
+        - Applied solvers to problems in HPC performance modeling and tuning
+        - Conducted fundamental research in approximation theory and computational geometry
+
+- teaching:
+    start: Jan 2020
+    end: May 2020
+    title: Instructor of Record
+    institution: Virginia Tech
+    department: Dept. of Computer Science
+    description:
+        - 'CS 3114: Data Structures and Algorithms (in Java)'
+
+- award:
+    year: 2019
+    title: Davenport Leadership Fellowship
+    institution: Virginia Tech
+    department: College of Engineering
+    description:
+        - Supplemental award given by the College of Engineering on a per-year basis
+
+- appointment:
+    start: Jun 2019
+    end: Dec 2019
+    title: SCGSR awardee
+    institution: Argonne National Laboratory
+    department: MCS Division
+    description:
+        - Conducting research in multiobjective optimization software via DOE SCGSR program (see awards)
+
+- award:
+    year: 2018
+    title: SCGSR Award
+    institution: DOE Office of Science
+    department: Graduate Student Research (SCGSR) Program
+    description:
+        - One of 70 proposals funded by the Graduate Student Research (SCGSR) program during 2018, 2nd call
+
+- award:
+    year: 2018
+    title: Pratt Fellowship
+    institution: Virginia Tech
+    department: College of Engineering
+    description:
+        - Supplemental award given by the College of Engineering on a per-year basis
+
+- award:
+    year: 2017
+    title: Pratt Fellowship
+    institution: Virginia Tech
+    department: College of Engineering
+    description:
+        - Supplemental award given by the College of Engineering on a per-year basis
+
+- award:
+    year: 2016
+    title: Cunningham Doctoral Fellowship
+    institution: Virginia Tech
+    department: Graduate School
+    description:
+        - Institution-wide award guaranteeing 4 years of research funding to incoming doctoral students
+
+- award:
+    year: 2016
+    title: Davenport Leadership Fellowship
+    institution: Virginia Tech
+    department: College of Engineering
+    description:
+        - Supplemental award given by the College of Engineering on a per-year basis
+
+- experience:
+    start: Feb 2016
+    end: Aug 2016
+    title: Research assistant
+    institution: Old Dominion University
+    department: Dept. of Computer Science
+    description:
+        - Aided in parallelizing NASA's FUN3D CFD kernel on NVIDIA GPUs using CUDA and MPI
+
+- award:
+    year: 2016
+    title: Outstanding Student in Computer Science & Mathematics
+    institution: Virginia Wesleyan University
+    description:
+        - One of 2 students selected to share award by Depts. of Mathematics and Computer Science
+
+- degree:
+    year: May 2016
+    title: B.S.
+    subtitle: Computer Science & Mathematics (double-major)
+    institution: Virginia Wesleyan University
+    description:
+        - "Summa cum laude; 2x ACM ICPC site champion; 8x Dean's list; 4x all-ODAC (conference) for varsity tennis"
+
+- intern:
+    start: ["Dec 2015", "May 2015"]
+    end: ["Jan 2016", "Aug 2015"]
+    title: [Intern, Intern]
+    institution: [US Army Research Labs, US Army Research Labs]
+    department: [Computational Science Division, Computational Science Division]
+    description:
+        - Accelerating software for real-time optimal control (summer) & using AR technology for info viz (winter)
+
+- tutoring:
+    start: Jan 2013
+    end: Dec 2015
+    title: Subject Tutor
+    institution: Virginia Wesleyan University
+    department: Learning Center
+    description:
+        - 'Tutored undergraduate courses in calculus, computer science, and statistics'
+
+- intern:
+    start: ["Dec 2014", "May 2014"]
+    end: ["Jan 2015", "Aug 2014"]
+    title: [Intern, Intern]
+    institution: [US Army Research Labs, US Army Research Labs]
+    department: [Guidance Technology Branch, Guidance Technology Branch]
+    description:
+        - Using OpenCV for real-time sensing (summer) & developing software for embedded systems (winter)
