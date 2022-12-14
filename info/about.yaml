@@ -8,7 +8,7 @@
     research-intro: >
         I develop frameworks and algorithms at the intersection
         of optimization, approximation theory, and machine learning.
-        I apply these tools on scientific applications such as
+        I apply these tools on scientific problems such as
         material manufacturing, aerospace engineering, and HPC tuning.
         My active areas of research are
     interests:
@@ -26,11 +26,11 @@
 - research-stmt:
     what: >
         I am interested in solving scientific problems by combining
-        techniques from blackbox optimization, approximation theory, and
+        techniques from model-based optimization, approximation theory, and
         machine learning.
     why: >
         Owing to decades of research and careful analysis, many techniques
-        in blackbox optimization and approximation theory are easy to
+        in model-based optimization and approximation theory are easy to
         interpret and verify.
         These properties are important in many scientific settings
         such as mission-critical deployments and exploratory research.
@@ -44,7 +44,7 @@
         large volumes of high-dimensional data.
     goals: "The goals of my research are to:"
     goals-list:
-        - design flexible and scalable algorithms for leveraging blackbox
+        - design flexible and scalable algorithms for leveraging model-based
           optimization and numerical approximation techniques
           in modern settings;
         - create hybrid machine learning/numerical algorithms, techniques, and
