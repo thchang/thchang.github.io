@@ -1,0 +1,103 @@
+- web:
+    SHORTTITLE: Tyler Chang - Argonne National Laboratory
+    BGIMAGE: img/delvor.png
+    BGCOLOR: rgba(250, 250, 255, 0.9)
+    FGCOLOR: rgba(255, 255, 255, 1.0)
+
+- me:
+    name: Tyler H. Chang
+    alias:
+        - T. H. Chang
+    institution: Argonne National Laboratory
+    department: Mathematics & Computer Science (MCS) Division
+    address: 9700 S. Cass Ave, Bldg. 240, Lemont, IL 60439
+    image: img/profile_2022_web.jpg
+    email: tchang@anl.gov
+    website: https://thchang.github.io
+    links:
+        GitHub: https://github.com/thchang
+        Scholar: https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en
+        LinkedIn: https://www.linkedin.com/in/tyler-chang-2524b9182
+        Orcid: https://orcid.org/0000-0001-9541-7041
+        Twitter: https://twitter.com/thchang94
+    images:
+        email: img/email-icon.png
+        GitHub: img/github-icon.png
+        Scholar: img/scholar-icon.png
+        LinkedIn: img/linkedin-icon.png
+        Orcid: img/orcid-icon.png
+        Twitter: img/twitter-icon.png
+    tabs:
+        CV: ./cv.pdf
+
+- advisor:
+    name: Jeffrey Larson
+    start: Dec 2022
+    type: Postdoctoral advisor and SCGSR co-advisor
+    institution: Argonne National Lab
+    website: https://wildsm.github.io
+    description:
+        - Current postdoctoral adivsor at Argonne and SCGSR advisor in 2019 internship
+        - 'Ongoing collaborations in applications of multiobjective optimization and usage of <a href="https://libensemble.readthedocs.io/en/latest">libEnsemble</a> in multiobjective solvers'
+
+- advisor:
+    name: Stefan M. Wild
+    start: Jun 2020
+    end: Dec 2022
+    type: Postdoctoral advisor
+    institution: Lawrence Berkley National Lab
+    website: https://wildsm.github.io
+    description:
+        - Advised 2.5 years of postdoc at Argonne
+        - 'Ongoing collaborations in design and applications of <a href="https://parmoo.readthedocs.io/en/latest">ParMOO software</a>'
+
+- advisor:
+    name: Layne T. Watson
+    start: Aug 2016
+    end: May 2020
+    type: PhD advisor
+    institution: Virginia Tech
+    website: https://people.cs.vt.edu/~ltw/shortvita.html
+    description:
+        - 'Advised dissertation: <a href="https://vtechworks.lib.vt.edu/handle/10919/98915">Mathematical Software for Multiobjective Optimization Problems</a>'
+        - Ongoing collaborations in numerical software, blackbox optimization, and approximation theory
+
+- advisee:
+    name: Manisha Garg
+    type: intern at Argonne via NSF MSGI program
+    institution: PhD student at UIUC
+    start: Jun 2022
+    end: Aug 2022
+    description:
+        - "Project: Model agnostic sampling techniques for generating design-of-experiments"
+
+- advisee:
+    name: Hyrum Dickinson
+    type: intern at Argonne via DOE SULI program
+    institution: Undergrad at UIUC
+    start: Jun 2022
+    end: Aug 2022
+    description:
+        - "Project: Visualization tools for the ParMOO library"
+
+- mentee:
+    name: Srinivas Eswar
+    type: via Argonne Navigator Program
+    institution: Argonne postdoc
+    year: Aug 2022
+
+- mentee:
+    name: Bosco Ndemeye
+    type: via SIAM CSE Mentoring Program
+    institution: PhD student at Univ. of Oregon
+    year: Aug 2022
+
+- collaborator:
+    name: Thomas C. H. Lux
+    start: Aug 2016
+    institution: Meta Research
+    type: academic brother, friend, collaborator, Halo campaign buddy, etc.
+    website: https://tchlux.github.io
+    description:
+        - 'Math/algorithms teammate on the <a href="https://varsys.cs.vt.edu/">VarSys project at VT</a> and finder-of-all-bugs in <a href="https://vtopt.github.io/DelaunaySparse">DelaunaySparse</a> software'
+        - Ongoing collaborations in software maintenance and performance optimization
