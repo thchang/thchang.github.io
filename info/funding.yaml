@@ -1,26 +1,121 @@
 - proposalreject:
-    year: FY 1999
-    title: My Big Expensive Institution
+    year: FY 2022
+    title: Statistical and Mathematical Innovations for Next Generation Facilities
     agency: DOE ASCR
-    foa: Big Cash Money in 1999
-    number: DE-FOA-999999
+    foa: 2022 Mathematical Multifaceted Integrated Capability Centers (MMICCS)
+    number: DE-FOA-0002704
     type: full proposal
     numpages: 20 pages + appendices
     role: investigator
     collaborators:
-        - Director: A. Guy
-        - ANL Lead: B. Guy
-    budget: $99.9M
+        - Director: R. Joseph
+        - ANL Lead: Z. Di
+    budget: $12.7M
     length: 5 years
 
-- funding:
+- proposalreject:
     year: FY 2022
-    title: Money for my mixtape
-    agency: Lil Wayne
-    foa: Lil Cash Money in 2022
-    type: Unrestriced gift
+    title: Visual Analytics for Complex Network Workflows to Accelerate Science into Decision Making
+    agency: DOE ASCR
+    foa: Data Visualization for Scientific Discovery, Decision-Making, and Communication
+    number: DE-FOA-0002726
+    type: full proposal
+    numpages: 16 pages + appendices
+    role: key personnel
+    collaborators:
+        - PI: G. Chin
+        - ANL Lead: T. Munson
+    budget: $2.7M
+    length: 3 years
+
+- proposalreject:
+    year: FY 2022
+    title: Accelerating Multi-Objective Neural Architecture Search
+    agency: ANL CELS
+    foa: 2022 LDRD Advanced Computing Expedition
+    type: short proposal
+    numpages: 1 paragraph + admin info.
     role: co-PI
     collaborators:
-        - With: O. Guy
-    budget: $20
-    length: 6 months
+        - With: S. Khairy
+    budget: $33.6K
+    length: 8 weeks
+
+- proposalreject:
+    year: FY 2020
+    title: FAIR Delaunay Benchmarking of Scientific AI Workflows
+    agency: DOE ASCR
+    foa: FAIR Frameworks for Data and AI Models
+    number: LAB 20-2306
+    type: full proposal
+    numpages: 13 pages + appendices
+    role: key personnel
+    collaborators:
+        - PI: A. Gillette
+        - ANL Lead: Z. Di
+    budget: $2.1M
+    length: 3 years
+
+- funding:
+    start: FY 2020
+    title: "FASTMath Institute"
+    agency: Argonne
+    foa: "DOE ASCR: SciDAC-5"
+    number: DE-AC02-06CH11357
+    role: postdoc
+    collaborators:
+        - Director: E. Ng (LBNL)
+        - ANL Lead: T. Munson
+    type: DOE SciDAC Institute
+
+- fundingold:
+    start: Aug 2021
+    end: Oct 2021
+    title: "Autonomous Discovery"
+    agency: Argonne
+    foa: "DOE/Argonne: LDRD Prime"
+    number: DE-AC02-06CH11357
+    role: part-time postdoc
+    collaborators:
+        - PI: K. Pupek
+    type: DOE Prime Contract
+
+- fundingold:
+    start: Jun 2019
+    end: Dec 2019
+    title: "An Adaptive Weighting Scheme for Multiobjective Optimization"
+    agency: Argonne and Virginia Tech
+    foa: "DOE SC: Graduate Student Research Program"
+    number: DE-SC001466
+    role: Student Awardee
+    collaborators:
+        - Advisors: J. Larson and L. Watson
+    type: Living Stipend
+
+- fundingold:
+    start: FY 2018
+    end: FY 2019
+    title: "Continuing: VarSys: Managing variability of high-performance computing systems"
+    agency: Virginia Tech
+    foa: "NSF CNS: CSR: Large - continuing grant"
+    number: CNS-1838271
+    role: part-time RA
+    collaborators:
+        - PIs: K. Cameron
+        - co-PIs: L. Watson, A. Butt, D. Yao, and Y. Hong
+    type: NSF Award
+    budget: $1.2M
+
+- fundingold:
+    start: FY 2016
+    end: FY 2017
+    title: "VarSys: Managing variability of high-performance computing systems"
+    agency: Virginia Tech
+    foa: "NSF CNS: CSR: Large"
+    number: CNS-1565314
+    role: part-time RA
+    collaborators:
+        - PI: K. Cameron
+        - co-PIs: L. Watson, A. Butt, D. Yao, and Y. Hong
+    type: NSF Award
+    budget: $1.2M

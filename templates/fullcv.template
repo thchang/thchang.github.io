@@ -48,6 +48,16 @@ info/talks.bib, talkTex: seminar
 ## Tutorials and Guest Lectures
 info/talks.bib, talkTex: tutorial, guestlecture
 
+# Funding
+## Current Funding
+info/funding.yaml, proposalTex: funding
+
+## Past Funding
+info/funding.yaml, proposalTex: fundingpast
+
+## Past Proposals (rejected)
+info/funding.yaml, proposalTex: proposalreject
+
 # Professional Services and Activities
 ## Journal Referee
 info/service.yaml, bulletDateTex: journalref
@@ -70,6 +80,9 @@ info/service.yaml, experienceLongTex: virginiatech
 
 # Advising
 info/meta.yaml, peopleTex: advisee
+
+# Mentoring
+info/meta.yaml, peopleShortTex: mentee
 
 # Post-Dissertation Courses
 info/learning.yaml, multilineTex:

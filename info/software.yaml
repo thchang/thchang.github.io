@@ -28,7 +28,7 @@
             the simulation.
             In order to achieve scalability on extreme-scale hardware, ParMOO
             layers over the libEnsemble library.
-    logo: img/parmoo.png
+    logo: img/parmoo-icon.png
     links:
         - Docs: https://parmoo.readthedocs.io/en/latest
         - Tutorial: https://www.youtube.com/watch?v=gQha8URLEHM
@@ -56,7 +56,7 @@
         OpenMP to issue simulation tasks asynchronously.
         However, a VTMOP generator function is also available for Python usage
         through the libEnsemble library.
-    logo: img/vtmop.png
+    logo: img/vtopt-icon.png
     links:
         - Docs/Webpage: https://vtopt.github.io/VTMOP
         - libEnsemble (Python) interface: href="https://github.com/Libensemble/libe-community-examples
@@ -88,7 +88,7 @@
         both serial and parallel implementations.
         Interfaces are available for usage as a Fortran library,
         C/C++ library, Python module, or from the command line.
-    logo: img/delsparse.png
+    logo: img/vtopt-icon.png
     links:
         - Docs/website: https://vtopt.github.io/DelaunaySparse
         - Algorithm paper: https://doi.org/10.1145/3190645.3190680

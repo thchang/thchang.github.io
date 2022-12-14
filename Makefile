@@ -1,12 +1,23 @@
 INSTALL = ../thchang-style
-BUILDDIR = ./build
+BUILDDIR = .
+IMGDIR = img
 
-all: $(BUILDDIR)/web.html $(BUILDDIR)/cv.pdf
+all: $(BUILDDIR)/web.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf
 
-$(BUILDDIR)/web.html: templates/web.template info/*
+$(BUILDDIR)/index.html: info/* templates/web.template
 	python3 $(INSTALL)/parser.py templates/web.template $(BUILDDIR)
-	mv build/web.html ./index.html
-	mv build/timeline.svg ./timeline.svg
+	#cp -r img $(BUILDDIR)/img # comment out this line if building in-place
+	mv web.html index.html # set the landing page
 
-$(BUILDDIR)/cv.pdf: templates/cv.template info/*
+$(BUILDDIR)/cv.pdf: info/* templates/cv.template
 	python3 $(INSTALL)/parser.py templates/cv.template $(BUILDDIR)
+
+$(BUILDDIR)/fullcv.pdf: info/* templates/fullcv.template
+	python3 $(INSTALL)/parser.py templates/fullcv.template $(BUILDDIR)
+
+$(BUILDDIR)/resume.pdf: info/* templates/resume.template
+	python3 $(INSTALL)/parser.py templates/resume.template $(BUILDDIR)
+
+clean:
+	rm -f $(BUILDDIR)/*.log $(BUILDDIR)/*.out $(BUILDDIR)/*.aux $(BUILDDIR)/timeline.svg
+	rm -f $(BUILDDIR)/web.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf

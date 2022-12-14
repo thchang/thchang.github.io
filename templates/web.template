@@ -6,10 +6,18 @@ info/meta.yaml, titleWeb: me
 # About Me
 info/about.yaml, paragraphWeb: bio
 info/about.yaml, timelineWeb: experience, degree, teaching, appointment, intern
+info/meta.yaml, contactRowWeb: me
+
+% News
+# News
+## Upcoming Talks and Events
+info/news.bib, newsWeb:
+
+## Recent Talks
+info/talks.bib, newsWeb:
 
 % Research
 # Research and Publications
-## Research Statement
 info/about.yaml, paragraphWeb: research-stmt
 
 ## Representative Publications
@@ -22,63 +30,39 @@ info/pubs.bib, collapsablePubWeb: article, inproceedings, techreport, thesis, in
 # Publicly Available Software
 info/software.yaml, softwareWeb:
 
-% Funding
-# Funding
-## Current
-info/funding.yaml, proposalWeb: funding
+% Collaborators
+# Collaborators
+## Summer Students Advised
+info/meta.yaml, peopleWeb: advisee
 
-## Pending
-info/funding.yaml, proposalWeb: proposalreject
+## Advisors
+info/meta.yaml, peopleWeb: advisor
 
-% Service & Awards
-# Professional Services and Awards
-## Minisymposia Organized
-info/service.yaml, bulletDateWeb: minisymporg
+## Other Close Collaborators
+info/meta.yaml, peopleWeb: collaborator
 
-## Journal Referee
-info/service.yaml, bulletDateWeb: journalref
-
-## Conference Reviewer
-info/service.yaml, bulletNoDateWeb: confref
-
-## Institutional Services
-
-info/service.yaml, experienceShortWeb: argonne, virginiatech
-
-## Awards
-
-info/about.yaml, experienceShortWeb: award
-
-## Professional Membership
-info/service.yaml, bulletDateWeb: member
-
-% Teaching & Mentoring
-# Teaching and Mentoring Students
-
+% Teaching
+# Teaching
 ## Courses Taught
 info/about.yaml, experienceLongWeb: teaching
 
-## Students Advised
-info/meta.yaml, peopleWeb: advisee
-
-## Mentoring
-info/meta.yaml, peopleShortWeb: mentee
-
-% Misc
-# Misc Links
 ## Lecture Notes
 info/linktree.yaml, linktreeWeb: notes
 
+% Misc
+# Misc Information
 ## Organizations I am/have been part of
 info/linktree.yaml, linktreeWeb: orgs
 
 ## Resources for Computational Scientists
 info/linktree.yaml, linktreeWeb: sites, docs
 
+## Opportunities for Students
+info/linktree.yaml, linktreeWeb: students
+
 ## My Sister is a Pro Tennis Player!
 info/linktree.yaml, linktreeWeb: sophie
 
 ## My Grandfather was a Geophysicist
 info/linktree.yaml, linktreeWeb: AAT
-
 
