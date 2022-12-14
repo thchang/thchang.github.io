@@ -48,16 +48,16 @@ info/about.yaml, experienceLongWeb: teaching
 ## Lecture Notes
 info/linktree.yaml, linktreeWeb: notes
 
-% Misc
-# Misc Information
-## Organizations I am/have been part of
-info/linktree.yaml, linktreeWeb: orgs
-
-## Resources for Computational Scientists
-info/linktree.yaml, linktreeWeb: sites, docs
-
 ## Opportunities for Students
 info/linktree.yaml, linktreeWeb: students
+
+% Misc
+# Misc Information
+## Organizations I am/was part of
+info/linktree.yaml, linktreeWeb: orgs
+
+## My Fav Resources
+info/linktree.yaml, linktreeWeb: sites, docs
 
 ## My Sister is a Pro Tennis Player!
 info/linktree.yaml, linktreeWeb: sophie
