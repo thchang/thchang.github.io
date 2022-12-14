@@ -2,14 +2,11 @@
     short: >
         I am currently a Postdoc at Argonne National Laboratory in the
         Mathematics and Computer Science Division.
-        I received my Ph.D. in Computer Science from Virginia Tech in 2020,
-        where my dissertation was "Mathematical Software for Multiobjective
-        Optimization Problems."
     research-intro: >
         I develop frameworks and algorithms at the intersection
-        of optimization, approximation theory, and machine learning.
-        I apply these tools on scientific problems such as
-        material manufacturing, aerospace engineering, and HPC tuning.
+        of optimization, approximation theory, and machine learning
+        for scientific applications such as
+        material design, computational physics, and HPC tuning.
         My active areas of research are
     interests:
         - numerical optimization
@@ -18,10 +15,8 @@
         - analysis of algorithms
         - scientific software
     scientific-software: >
-        I am particularly passionate about open-source software.
-        Check out some of my software contributions below or visit my GitHub,
-        and don't hesitate to reach out if you have questions, comments,
-        or feedback!
+        Check out some of my software contributions below or visit my GitHub
+        and don't hesitate to reach out!
 
 - research-stmt:
     what: >
@@ -32,16 +27,16 @@
         Owing to decades of research and careful analysis, many techniques
         in model-based optimization and approximation theory are easy to
         interpret and verify.
-        These properties are important in many scientific settings
-        such as mission-critical deployments and exploratory research.
+        These properties are essential in many scientific applications
+        such as mission-critical control and exploratory research.
         However, some of these techniques are not scalable or flexible
-        enough for usage in modern applications,
+        enough for modern applications,
         which can be high-dimensional, overparameterized, and may
         involve complex design or action spaces.
         On the other hand, modern machine learning has been extremely
         successful in scaling to large complex problems by using
         computationally cheap heuristics for extracting structure from
-        large volumes of high-dimensional data.
+        data.
     goals: "The goals of my research are to:"
     goals-list:
         - design flexible and scalable algorithms for leveraging model-based
