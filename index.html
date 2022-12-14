@@ -120,8 +120,7 @@
   <div class="col-xs-12 col-md-10 col-md-offset-1 
     col-lg-8 col-lg-offset-2 panel-inner panel-default">
     <h1 class="margin-base-vertical">
-    </a>About Me
-:
+    </a>About Me:
     </h1>
 
 
@@ -171,8 +170,7 @@ and don't hesitate to reach out!
   <div class="col-xs-12 col-md-10 col-md-offset-1 
     col-lg-8 col-lg-offset-2 panel-inner panel-default">
     <h1 class="margin-base-vertical">
-    </a>News
-:
+    </a>News:
     </h1>
 
 
@@ -221,8 +219,7 @@ and don't hesitate to reach out!
   <div class="col-xs-12 col-md-10 col-md-offset-1 
     col-lg-8 col-lg-offset-2 panel-inner panel-default">
     <h1 class="margin-base-vertical">
-    </a>Research and Publications
-:
+    </a>Research and Publications:
     </h1>
 
 
@@ -307,7 +304,7 @@ scientific software packages.</li>
 <p>
     <button onclick="pubsNoYearShow()"
         id="pubsNoYearButton">
-        NoYear (3 items)</button>
+        NoYear (2 items)</button>
     </p>
     <p id="pubsNoYearList"></p>
     <script>
@@ -316,8 +313,7 @@ scientific software packages.</li>
     function pubsNoYearShow() {
         document.getElementById("pubsNoYearList").innerHTML = `
     <button onclick="pubsNoYearHide()">hide</button><br>
-    N. Neveu, <b>T. H. Chang</b>, P. Franz, S. Hudson, and J. Larson. Comparison of multiobjective optimization methods for the LCLS-II photoinjector. <i>To appear in Computer Physics Communication</i>. <a href="https://doi.org/10.1016/j.cpc.2022.108566">doi: 10.1016/j.cpc.2022.108566</a><br><a onclick="window.prompt('Bib entry:',\`@misc{neveu2022comparison, author={Neveu, Nicole and Chang, Tyler H. and Franz, Paris and Hudson, Stephen and Larson, Jeffrey}, title={Comparison of multiobjective optimization methods for the {LCLS-II} photoinjector}, howpublished = {In press}, journal={To appear in Computer Physics Communication}, doi = {10.1016/j.cpc.2022.108566} } \`)">View bib entry</a>
-<br><br>T. C. H. Lux, L. T. Watson, <b>T. H. Chang</b>, and W. I. Thacker. Algorithm XXXX: MQSI---Monotone quintic spline interpolation. <i>To appear in ACM Transactions on Mathematical Software</i>. <a href="https://doi.org/10.1145/3570157">doi: 10.1145/3570157</a><br><a onclick="window.prompt('Bib entry:',\`@misc{lux2022algorithm, author={Lux, Thomas C. H. and Watson, Layne T. and Chang, Tyler H. and Thacker, William I.}, title={Algorithm {XXXX}: {MQSI}---{M}onotone quintic spline interpolation}, howpublished = {In press}, journal = {To appear in ACM Transactions on Mathematical Software}, doi = {10.1145/3570157} } \`)">View bib entry</a>
+    T. C. H. Lux, L. T. Watson, <b>T. H. Chang</b>, and W. I. Thacker. Algorithm XXXX: MQSI---Monotone quintic spline interpolation. <i>To appear in ACM Transactions on Mathematical Software</i>. <a href="https://doi.org/10.1145/3570157">doi: 10.1145/3570157</a><br><a onclick="window.prompt('Bib entry:',\`@misc{lux2022algorithm, author={Lux, Thomas C. H. and Watson, Layne T. and Chang, Tyler H. and Thacker, William I.}, title={Algorithm {XXXX}: {MQSI}---{M}onotone quintic spline interpolation}, howpublished = {In press}, journal = {To appear in ACM Transactions on Mathematical Software}, doi = {10.1145/3570157} } \`)">View bib entry</a>
 <br><br>Y. Wang, L. Xu, Y. Hong, R. Pan, <b>T. H. Chang</b>, T. C. H. Lux, J. Bernard, L. T. Watson, and K. W. Cameron. Design strategies and approximation methods for high-performance computing variability management. <i>To appear in Journal of Quality Technology</i>. <a href="https://doi.org/10.1080/00224065.2022.2035285">doi: 10.1080/00224065.2022.2035285</a><br><a onclick="window.prompt('Bib entry:',\`@misc{wang2022design, author = {Wang, Yueyao and Xu, Li and Hong, Yili and Pan, Rong and Chang, Tyler H. and Lux, Thomas C. H. and Bernard, Jon and Watson, Layne T. and Cameron, Kirk W.}, title = {Design strategies and approximation methods for high-performance computing variability management}, howpublished = {In press}, journal = {To appear in Journal of Quality Technology}, doi = {10.1080/00224065.2022.2035285} } \`)">View bib entry</a>
 
     `;
@@ -325,6 +321,27 @@ scientific software packages.</li>
 
     function pubsNoYearHide() {
         document.getElementById("pubsNoYearList").innerHTML = "";
+    }
+    </script>
+    <p>
+    <button onclick="pubs2023Show()"
+        id="pubs2023Button">
+        2023 (1 items)</button>
+    </p>
+    <p id="pubs2023List"></p>
+    <script>
+    var pubs2023Button = document.getElementById("pubs2023Button");
+    pubs2023Button.style.cssText = 'width: 100%';
+    function pubs2023Show() {
+        document.getElementById("pubs2023List").innerHTML = `
+    <button onclick="pubs2023Hide()">hide</button><br>
+    2023. N. Neveu, <b>T. H. Chang</b>, P. Franz, S. Hudson, and J. Larson. Comparison of multiobjective optimization methods for the LCLS-II photoinjector. <i>Computer Physics Communication</i> 283, Article 108566, 10 pages. <a href="https://doi.org/10.1016/j.cpc.2022.108566">doi: 10.1016/j.cpc.2022.108566</a><br><a onclick="window.prompt('Bib entry:',\`@article{neveu2023comparison, author={Neveu, Nicole and Chang, Tyler H. and Franz, Paris and Hudson, Stephen and Larson, Jeffrey}, title={Comparison of multiobjective optimization methods for the {LCLS-II} photoinjector}, year = {2023}, journal={Computer Physics Communication}, volume={283}, articleno={108566}, numpages={10}, doi = {10.1016/j.cpc.2022.108566} } \`)">View bib entry</a>
+
+    `;
+    }
+
+    function pubs2023Hide() {
+        document.getElementById("pubs2023List").innerHTML = "";
     }
     </script>
     <p>
@@ -505,8 +522,7 @@ scientific software packages.</li>
   <div class="col-xs-12 col-md-10 col-md-offset-1 
     col-lg-8 col-lg-offset-2 panel-inner panel-default">
     <h1 class="margin-base-vertical">
-    </a>Publicly Available Software
-:
+    </a>Publicly Available Software:
     </h1>
 
 
@@ -750,8 +766,7 @@ machine learning, and data science.
   <div class="col-xs-12 col-md-10 col-md-offset-1 
     col-lg-8 col-lg-offset-2 panel-inner panel-default">
     <h1 class="margin-base-vertical">
-    </a>Collaborators
-:
+    </a>Collaborators:
     </h1>
 
 
@@ -826,8 +841,7 @@ Aug 2016 - Present.  <a href="https://tchlux.github.io">Thomas Lux (Meta Researc
   <div class="col-xs-12 col-md-10 col-md-offset-1 
     col-lg-8 col-lg-offset-2 panel-inner panel-default">
     <h1 class="margin-base-vertical">
-    </a>Teaching
-:
+    </a>Teaching:
     </h1>
 
 
@@ -871,8 +885,7 @@ Aug 2016 - Present.  <a href="https://tchlux.github.io">Thomas Lux (Meta Researc
   <div class="col-xs-12 col-md-10 col-md-offset-1 
     col-lg-8 col-lg-offset-2 panel-inner panel-default">
     <h1 class="margin-base-vertical">
-    </a>Misc Information
-:
+    </a>Misc Information:
     </h1>
 
 
@@ -968,7 +981,7 @@ Aug 2016 - Present.  <a href="https://tchlux.github.io">Thomas Lux (Meta Researc
 <a href="https://www.linkedin.com/in/tyler-chang-2524b9182"><img src="img/linkedin-icon.png" width="22em" hspace="6em" vspace="6em"></a>
 <a href="https://orcid.org/0000-0001-9541-7041"><img src="img/orcid-icon.png" width="22em" hspace="6em" vspace="6em"></a>
 <a href="https://twitter.com/thchang94"><img src="img/twitter-icon.png" width="22em" hspace="6em" vspace="6em"></a><br><br>
-Last update: 2022-12-13
+Last update: 2022-12-14
 <br><br>
 <a href="https://github.com/thchang/thchang-style">Copy this style</a>
 <br><br><br><br>

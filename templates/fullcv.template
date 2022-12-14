@@ -49,12 +49,6 @@ info/talks.bib, talkTex: seminar
 info/talks.bib, talkTex: tutorial, guestlecture
 
 # Funding
-## Current Funding
-info/funding.yaml, proposalTex: funding
-
-## Past Funding
-info/funding.yaml, proposalTex: fundingpast
-
 ## Past Proposals (rejected)
 info/funding.yaml, proposalTex: proposalreject
 
