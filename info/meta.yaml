@@ -94,7 +94,7 @@
 - advisee:
     name: Hyrum Dickinson
     type: intern at Argonne via DOE SULI program
-    institution: Undergrad at UIUC
+    institution: undergrad at UIUC
     start: Jun 2022
     end: Aug 2022
     description:
@@ -103,12 +103,12 @@
 - mentee:
     name: Srinivas Eswar
     type: via Argonne Navigator Program
-    institution: Argonne postdoc
+    institution: postdoc at Argonne
     year: Aug 2022
 
 - mentee:
     name: Bosco Ndemeye
     type: via SIAM CSE Mentoring Program
     institution: PhD student at Univ. of Oregon
-    year: Aug 2022
+    year: Mar 2021
 
