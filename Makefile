@@ -2,7 +2,7 @@ INSTALL = ../thchang-style
 BUILDDIR = .
 IMGDIR = img
 
-all: $(BUILDDIR)/web.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf
+all: $(BUILDDIR)/index.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf
 
 $(BUILDDIR)/index.html: info/* templates/web.template
 	python3 $(INSTALL)/parser.py templates/web.template $(BUILDDIR)
