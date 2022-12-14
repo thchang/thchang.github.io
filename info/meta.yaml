@@ -34,14 +34,14 @@
     name: Jeffrey Larson
     start: Dec 2022
     type: Postdoctoral advisor and SCGSR co-advisor
-    institution: Argonne National Lab
+    institution: Argonne
     website: https://jmlarson1.github.io/
     description:
-        - Current postdoctoral adivsor at Argonne and SCGSR advisor in 2019 internship
+        - Current postdoctoral advisor and 2019 DOE SCGSR advisor
         - 'Ongoing collaborations in applications of multiobjective optimization and usage of <a href="https://libensemble.readthedocs.io/en/latest">libEnsemble</a> in multiobjective solvers'
 
 - advisor:
-    name: Stefan M. Wild
+    name: Stefan Wild
     start: Jun 2020
     end: Dec 2022
     type: Postdoctoral advisor
@@ -52,7 +52,7 @@
         - 'Ongoing collaborations in design and applications of <a href="https://parmoo.readthedocs.io/en/latest">ParMOO software</a>'
 
 - advisor:
-    name: Layne T. Watson
+    name: Layne Watson
     start: Aug 2016
     end: May 2020
     type: PhD advisor
@@ -61,6 +61,26 @@
     description:
         - 'Advised dissertation: <a href="https://vtechworks.lib.vt.edu/handle/10919/98915">Mathematical Software for Multiobjective Optimization Problems</a>'
         - Ongoing collaborations in numerical software, blackbox optimization, and approximation theory
+
+- collaborator:
+    name: Andrew Gillette
+    start: Mar 2020
+    institution: Lawrence Livermore National Lab
+    type: collaborator
+    website: https://akgillette.github.io/
+    description:
+        - 'Early user of the <a href="https://vtopt.github.io/DelaunaySparse">DelaunaySparse</a> software and coinvestigator into its applications in data science'
+        - Ongoing collaborations in geometric and topologic methods for machine learning and data science
+
+- collaborator:
+    name: Thomas Lux
+    start: Aug 2016
+    institution: Meta Research
+    type: academic brother, collaborator, friend
+    website: https://tchlux.github.io
+    description:
+        - 'Math/algorithms teammate on the <a href="https://varsys.cs.vt.edu/">VarSys project at VT</a> and finder-of-all-bugs in <a href="https://vtopt.github.io/DelaunaySparse">DelaunaySparse</a> software'
+        - Ongoing collaborations in software maintenance, performance optimization, and co-oping all Halo campaigns on legendary difficulty
 
 - advisee:
     name: Manisha Garg
@@ -92,12 +112,3 @@
     institution: PhD student at Univ. of Oregon
     year: Aug 2022
 
-- collaborator:
-    name: Thomas C. H. Lux
-    start: Aug 2016
-    institution: Meta Research
-    type: academic brother, friend, collaborator, Halo campaign buddy, etc.
-    website: https://tchlux.github.io
-    description:
-        - 'Math/algorithms teammate on the <a href="https://varsys.cs.vt.edu/">VarSys project at VT</a> and finder-of-all-bugs in <a href="https://vtopt.github.io/DelaunaySparse">DelaunaySparse</a> software'
-        - Ongoing collaborations in software maintenance and performance optimization
