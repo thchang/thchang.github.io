@@ -1,0 +1,53 @@
+- talk:
+    year: Oct 2022
+    description: >
+        Gave tutorial <i>An introduction to multiobjective simulation optimization with ParMOO</i> in Jousef Murad's Science Academy, <a href="https://www.youtube.com/watch?v=gQha8URLEHM">recorded on YouTube</a>
+
+- talk:
+    year: Sep 2022
+    description: "Gave talk <i>Geometric considerations when surrogate modeling</i> at SIAM MDS in San Diego"
+
+- student:
+    year: Aug 2022
+    description: Congrats to Manisha Garg for completing and presenting project <i>Model agnostic sampling techniques for generating design-of-experiments</i>
+
+- student:
+    year: Aug 2022
+    description: Congrats to Hyrum Dickinson for completing and presenting project <i>Visualization tools for the ParMOO library</i>
+
+- talk:
+    year: Jul 2022
+    description: "Gave talk <i>ParMOO: a parallel framework for multiobjective simulation optimization problems</i> at ICCOPT in Bethlehem, PA"
+
+- student:
+    year: Jun 2022
+    description: Welcomed NSF MSGI recipient Manisha Garg from UIUC
+
+- student:
+    year: May 2022
+    description: Welcomed DOE SULI recipient Hyrum Dickinson from UIUC
+
+- poster:
+    year: May 2022
+    description: "Presented poster <i>ParMOO: Python library for parallel multiobjective simulation optimization</i> at ACMNTW workshop in Evanston, IL"
+
+- talk:
+    year: May 2022
+    description: Gave guest lecture <i>An introduction to multiobjective simulation optimization with ParMOO</i> at UChicago, Pritzker School of Molecular Engineering
+
+- release:
+    year: May 2022
+    description: Released VTMOP on <a href="https://github.com/vtopt/vtmop">GitHub</a>
+
+- paper:
+    year: May 2022
+    description: 'Paper <a href="https://dl.acm.org/doi/10.1145/3529258">Algorithm 1028: VTMOP</a> accepted for publication in <i>ACM TOMS</i>'
+
+- release:
+    year: May 2022
+    description: >
+        Released ParMOO ver. 0.1.0 (initial release) on <a href="https://github.com/parmoo/parmoo">GitHub</a>
+
+- class:
+    year: Feb 2022
+    description: Teaching 12-week course <i>Intro to Python</i> at College of DuPage

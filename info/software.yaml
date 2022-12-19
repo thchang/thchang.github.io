@@ -98,7 +98,7 @@
     title: QAML
     subtitle: Quantum annealing math library
     year: 2019
-    author: T. C. H. Lux, T. H. Chang, and S. S. Tipirneni
+    author: T. C. H. Lux (lead), T. H. Chang, and S. S. Tipirneni
     language: Python 3
     git: https://github.com/tchlux/qaml
     description: >

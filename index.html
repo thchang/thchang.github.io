@@ -175,35 +175,53 @@ and don't hesitate to reach out!
 
 
 
-<h2>Upcoming Talks and Events</h2>
+<h2>Upcoming Events</h2>
 
 <p>
 
 <div style="background-color:rgb(240,240,240);padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;">
-<b>Early 2023: </b><i>ParMOO release 0.2.0</i> at GitHub
+<b>Early 2023: </b>releasing ParMOO ver. 0.2.0 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
 <br><br>
-<b>Feb 2023: </b><i>ParMOO: A Python library for parallel multiobjective simulation optimization</i> at SIAM CSE 23
+<b>Feb 2023: </b>Giving talk <i>ParMOO: A Python library for parallel multiobjective simulation optimization</i> at SIAM CSE in Amsterdam
 <br><br>
-<b>May 2023: </b><i>Exploiting problem structures with ParMOO - A Python library for parallel multiobjective simulation optimization</i> at SIAM OP 23
+<b>May 2023: </b>Giving talk <i>Exploiting problem structure with ParMOO -- A Python library for parallel multiobjective simulation optimization</i> at SIAM OP in Seattle
 </div>
 </p>
 
-<h2>Recent Talks</h2>
+<h2>Recent Events</h2>
 
 <p>
 
 <div style="background-color:rgb(240,240,240);padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;">
-<b>2022: </b><i>An introduction to multiobjective simulation optimization with ParMOO</i> at The Science Academy, Science Circle Cohort, guest speaker
+<b>Oct 2022: </b>
+Gave tutorial <i>An introduction to multiobjective simulation optimization with ParMOO</i> in Jousef Murad's Science Academy, <a href="https://www.youtube.com/watch?v=gQha8URLEHM">recorded on YouTube</a>
+
 <br><br>
-<b>2022: </b><i>Geometric considerations when surrogate modeling</i> at SIAM Conference on Mathematics of Data Science (MDS 2022)
+<b>Sep 2022: </b>Gave talk <i>Geometric considerations when surrogate modeling</i> at SIAM MDS in San Diego
 <br><br>
-<b>2022: </b><i>ParMOO: a parallel framework for multiobjective simulation optimization problems</i> at Seventh International Conference on Continuous Optimization (ICCOPT 2022)
+<b>Aug 2022: </b>Congrats to Manisha Garg for completing and presenting project <i>Model agnostic sampling techniques for generating design-of-experiments</i>
 <br><br>
-<b>2022: </b><i>An introduction to multiobjective simulation optimization with ParMOO</i> at Univeristy of Chicago, Pritzker School of Molecular Engineering, guest lecture
+<b>Aug 2022: </b>Congrats to Hyrum Dickinson for completing and presenting project <i>Visualization tools for the ParMOO library</i>
 <br><br>
-<b>2021: </b><i>Surrogate modeling of simulations for multiobjective optimization applications</i> at SIAM Conference on Optimization (OP 2021)
+<b>Jul 2022: </b>Gave talk <i>ParMOO: a parallel framework for multiobjective simulation optimization problems</i> at ICCOPT in Bethlehem, PA
 <br><br>
-<b>2021: </b><i>Computing sparse subsets of the Delaunay triangulation in high-dimensions for interpolation and graph problems</i> at SIAM Conference on Computational Science and Engineering (CSE 2021)
+<b>Jun 2022: </b>Welcomed NSF MSGI recipient Manisha Garg from UIUC
+<br><br>
+<b>May 2022: </b>Welcomed DOE SULI recipient Hyrum Dickinson from UIUC
+<br><br>
+<b>May 2022: </b>Presented poster <i>ParMOO: Python library for parallel multiobjective simulation optimization</i> at ACMNTW workshop in Evanston, IL
+<br><br>
+<b>May 2022: </b>Gave guest lecture <i>An introduction to multiobjective simulation optimization with ParMOO</i> at UChicago, Pritzker School of Molecular Engineering
+<br><br>
+<b>May 2022: </b>Released VTMOP on <a href="https://github.com/vtopt/vtmop">GitHub</a>
+<br><br>
+<b>May 2022: </b>Paper <a href="https://dl.acm.org/doi/10.1145/3529258">Algorithm 1028: VTMOP</a> accepted for publication in <i>ACM TOMS</i>
+<br><br>
+<b>May 2022: </b>
+Released ParMOO ver. 0.1.0 (initial release) on <a href="https://github.com/parmoo/parmoo">GitHub</a>
+
+<br><br>
+<b>Feb 2022: </b>Teaching 12-week course <i>Intro to Python</i> at College of DuPage
 </div>
 </p>
 <a class="anchor" name="Research"></a>
@@ -283,19 +301,67 @@ scientific software packages.</li>
 <h2>Representative Publications</h2>
 
 <p>
-<b>T. H. Chang</b> and S. M. Wild. <i>ParMOO: a Python library for parallel multiobjective simulation optimization</i>. <i> Submitted to Journal of Open Source Software</i>, May 2022. JOSS Open Review: <a href="https://github.com/openjournals/joss-reviews/issues/4468">here</a>. <br><a onclick="window.prompt('Bib entry:',`@misc{chang2022parmoo, author={Chang, Tyler H. and Wild, Stefan M.}, title={{ParMOO}: A {P}ython library for parallel multiobjective simulation optimization}, howpublished = {Submitted}, note={{\\sl Submitted to Journal of Open Source Software}, May 2022. JOSS Open Review: \\url{https://github.com/openjournals/joss-reviews/issues/4468}} } `)">View bib entry</a>
+    <button onclick="pubsAllShortShow()"
+        id="pubsAllShortButton">
+        All (5 items)</button>
+    </p>
+    <p id="pubsAllShortList"></p>
+    <script>
+    var pubsAllShortButton = document.getElementById("pubsAllShortButton");
+    pubsAllShortButton.style.cssText = 'width: 100%';
+    function pubsAllShortShow() {
+        document.getElementById("pubsAllShortList").innerHTML = `
+    <button onclick="pubsAllShortHide()">hide</button><br>
+    <b>T. H. Chang</b> and S. M. Wild. <i>ParMOO: a Python library for parallel multiobjective simulation optimization</i>. . <i> Submitted to Journal of Open Source Software</i>, May 2022. JOSS Open Review: <a href="https://github.com/openjournals/joss-reviews/issues/4468">here</a>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2022parmoo, author={Chang, Tyler H. and Wild, Stefan M.}, title={{ParMOO}: A {P}ython library for parallel multiobjective simulation optimization}, howpublished = {Submitted}, note={{\\sl Submitted to Journal of Open Source Software}, May 2022. JOSS Open Review: \\url{https://github.com/openjournals/joss-reviews/issues/4468}} } \`)">View bib entry</a>
+<br><br>2022. <b>T. H. Chang</b>, L. T. Watson, J. Larson, N. Neveu, W. I. Thacker, S. Deshpande, and T. C. H. Lux. Algorithm 1028: VTMOP: Solver for blackbox multiobjective optimization problems. <i>ACM Transactions on Mathematical Software</i> 48(3), Article 36, 34 pages. <a href="https://doi.org/10.1145/3529258">doi: 10.1145/3529258</a><br><a onclick="window.prompt('Bib entry:',\`@article{chang2022algorithm, author={Chang, Tyler H. and Watson, Layne T. and Larson, Jeffrey and Neveu, Nicole and Thacker, William I. and Deshpande, Shubhangi and Lux, Thomas C. H.}, title={Algorithm 1028: {VTMOP}: {S}olver for blackbox multiobjective optimization problems}, year={2022}, journal = {ACM Transactions on Mathematical Software}, volume = {48}, number = {3}, articleno = {36}, numpages = {34}, publisher = {Association of Computing Machinery}, doi={10.1145/3529258} } \`)">View bib entry</a>
+<br><br>2020. <b>T. H. Chang</b>, J. Larson, and L. T. Watson. Multiobjective optimization of the variability of the high-performance Linpack solver. <i>In Proc. 2020 Winter Simulation Conference (WSC 2020)</i>, pp. 3081--3092. <a href="https://doi.org/10.1109/WSC48552.2020.9383875">doi: 10.1109/WSC48552.2020.9383875</a><br><a onclick="window.prompt('Bib entry:',\`@inproceedings{chang2020multiobjective, author = {Chang, Tyler H. and Larson, Jeffrey and Watson, Layne T.}, title = {Multiobjective Optimization of the Variability of the High-Performance {L}inpack Solver}, year = {2020}, booktitle = {Proc. 2020 Winter Simulation Conference (WSC 2020)}, pages = {3081--3092}, location = {virtual event}, organization = {Association of Computing Machinery}, doi = {10.1109/WSC48552.2020.9383875} } \`)">View bib entry</a>
+<br><br>2020. <b>T. H. Chang</b>, L. T. Watson, T. C. H. Lux, A. R. Butt, K. W. Cameron, and Y. Hong. Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the Delaunay triangulation in medium to high dimensions. <i>ACM Transactions on Mathematical Software</i> 46(4), Article 38, 20 pages. <a href="https://doi.org/10.1145/3422818">doi: 10.1145/3422818</a><br><a onclick="window.prompt('Bib entry:',\`@article{chang2020algorithm, author = {Chang, Tyler H. and Watson, Layne T. and Lux, Thomas C. H. and Butt, Ali R. and Cameron, Kirk W. and Hong, Yili}, title = {Algorithm 1012: {DELAUNAYSPARSE}: {I}nterpolation via a sparse subset of the {D}elaunay triangulation in medium to high dimensions}, year = {2020}, journal = {ACM Transactions on Mathematical Software}, volume = {46}, number = {4}, articleno = {38}, numpages = {20}, publisher = {Association of Computing Machinery}, doi = {10.1145/3422818} } \`)">View bib entry</a>
+<br><br>2018. <b>T. H. Chang</b>, L. T. Watson, T. C. H. Lux, B. Li, L. Xu, A. R. Butt, K. W. Cameron, and Y. Hong. A polynomial time algorithm for multivariate interpolation in arbitrary dimension via the Delaunay triangulation. <i>In Proc. 2018 ACM Southeast Conference (ACMSE '18)</i>, Article 12, 8 pages. <a href="https://doi.org/10.1145/3190645.3190680">doi: 10.1145/3190645.3190680</a><br><a onclick="window.prompt('Bib entry:',\`@inproceedings{chang2018polynomial, author = {Chang, Tyler H. and Watson, Layne T. and Lux, Thomas C. H. and Li, Bo and Xu, Li and Butt, Ali R. and Cameron, Kirk W. and Hong, Yili}, title = {A polynomial time algorithm for multivariate interpolation in arbitrary dimension via the {D}elaunay triangulation}, year = {2018}, booktitle = {Proc. 2018 ACM Southeast Conference (ACMSE '18)}, articleno = {12}, numpages = {8}, location = {Richmond, KY, USA}, organization = {Association of Computing Machinery}, doi = {10.1145/3190645.3190680} } \`)">View bib entry</a>
 
-<br><br>
-2022. <b>T. H. Chang</b>, L. T. Watson, J. Larson, N. Neveu, W. I. Thacker, S. Deshpande, and T. C. H. Lux. Algorithm 1028: VTMOP: Solver for blackbox multiobjective optimization problems. <i>ACM Transactions on Mathematical Software</i> 48(3), Article 36, 34 pages. <a href="https://doi.org/10.1145/3529258">doi: 10.1145/3529258</a><br><a onclick="window.prompt('Bib entry:',`@article{chang2022algorithm, author={Chang, Tyler H. and Watson, Layne T. and Larson, Jeffrey and Neveu, Nicole and Thacker, William I. and Deshpande, Shubhangi and Lux, Thomas C. H.}, title={Algorithm 1028: {VTMOP}: {S}olver for blackbox multiobjective optimization problems}, year={2022}, journal = {ACM Transactions on Mathematical Software}, volume = {48}, number = {3}, articleno = {36}, numpages = {34}, publisher = {Association of Computing Machinery}, doi={10.1145/3529258} } `)">View bib entry</a>
+    `;
+    }
 
-<br><br>
-2020. <b>T. H. Chang</b>, J. Larson, and L. T. Watson. Multiobjective optimization of the variability of the high-performance Linpack solver. <i>In Proc. 2020 Winter Simulation Conference (WSC 2020)</i>, pp. 3081--3092. <a href="https://doi.org/10.1109/WSC48552.2020.9383875">doi: 10.1109/WSC48552.2020.9383875</a><br><a onclick="window.prompt('Bib entry:',`@inproceedings{chang2020multiobjective, author = {Chang, Tyler H. and Larson, Jeffrey and Watson, Layne T.}, title = {Multiobjective Optimization of the Variability of the High-Performance {L}inpack Solver}, year = {2020}, booktitle = {Proc. 2020 Winter Simulation Conference (WSC 2020)}, pages = {3081--3092}, location = {virtual event}, organization = {Association of Computing Machinery}, doi = {10.1109/WSC48552.2020.9383875} } `)">View bib entry</a>
+    function pubsAllShortHide() {
+        document.getElementById("pubsAllShortList").innerHTML = "";
+    }
+    </script>
+    <p>
 
-<br><br>
-2020. <b>T. H. Chang</b>, L. T. Watson, T. C. H. Lux, A. R. Butt, K. W. Cameron, and Y. Hong. Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the Delaunay triangulation in medium to high dimensions. <i>ACM Transactions on Mathematical Software</i> 46(4), Article 38, 20 pages. <a href="https://doi.org/10.1145/3422818">doi: 10.1145/3422818</a><br><a onclick="window.prompt('Bib entry:',`@article{chang2020algorithm, author = {Chang, Tyler H. and Watson, Layne T. and Lux, Thomas C. H. and Butt, Ali R. and Cameron, Kirk W. and Hong, Yili}, title = {Algorithm 1012: {DELAUNAYSPARSE}: {I}nterpolation via a sparse subset of the {D}elaunay triangulation in medium to high dimensions}, year = {2020}, journal = {ACM Transactions on Mathematical Software}, volume = {46}, number = {4}, articleno = {38}, numpages = {20}, publisher = {Association of Computing Machinery}, doi = {10.1145/3422818} } `)">View bib entry</a>
+</p>
 
-<br><br>
-2018. <b>T. H. Chang</b>, L. T. Watson, T. C. H. Lux, B. Li, L. Xu, A. R. Butt, K. W. Cameron, and Y. Hong. A polynomial time algorithm for multivariate interpolation in arbitrary dimension via the Delaunay triangulation. <i>In Proc. 2018 ACM Southeast Conference (ACMSE '18)</i>, Article 12, 8 pages. <a href="https://doi.org/10.1145/3190645.3190680">doi: 10.1145/3190645.3190680</a><br><a onclick="window.prompt('Bib entry:',`@inproceedings{chang2018polynomial, author = {Chang, Tyler H. and Watson, Layne T. and Lux, Thomas C. H. and Li, Bo and Xu, Li and Butt, Ali R. and Cameron, Kirk W. and Hong, Yili}, title = {A polynomial time algorithm for multivariate interpolation in arbitrary dimension via the {D}elaunay triangulation}, year = {2018}, booktitle = {Proc. 2018 ACM Southeast Conference (ACMSE '18)}, articleno = {12}, numpages = {8}, location = {Richmond, KY, USA}, organization = {Association of Computing Machinery}, doi = {10.1145/3190645.3190680} } `)">View bib entry</a>
+<h2>Recent Talks</h2>
+
+<p>
+    <button onclick="pubsAllMedShow()"
+        id="pubsAllMedButton">
+        All (10 items)</button>
+    </p>
+    <p id="pubsAllMedList"></p>
+    <script>
+    var pubsAllMedButton = document.getElementById("pubsAllMedButton");
+    pubsAllMedButton.style.cssText = 'width: 100%';
+    function pubsAllMedShow() {
+        document.getElementById("pubsAllMedList").innerHTML = `
+    <button onclick="pubsAllMedHide()">hide</button><br>
+    2022. An introduction to multiobjective simulation optimization with ParMOO. <i>In The Science Academy, Science Circle Cohort, guest speaker</i>. Recording: <a href="https://www.youtube.com/watch?v=gQha8URLEHM">here</a>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2022sciencecircle, title = {An Introduction to Multiobjective Simulation Optimization with {ParMOO}}, year = {2022}, booktitle={The Science Academy, Science Circle Cohort, guest speaker}, address={virtual event}, month={Oct}, organization={The Science Academy}, howpublished = {Tutorial}, note={Recording: \\url{https://www.youtube.com/watch?v=gQha8URLEHM}} } \`)">View bib entry</a>
+<br><br>2022. Geometric considerations when surrogate modeling. <i>In SIAM Conference on Mathematics of Data Science (MDS 2022)</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2022mds, title = {Geometric Considerations when Surrogate Modeling}, year = {2022}, booktitle = {SIAM Conference on Mathematics of Data Science (MDS 2022)}, address = {San Diego, CA, USA}, month = {Sep}, organization = {SIAM}, howpublished = {Conference talk} } \`)">View bib entry</a>
+<br><br>2022. ParMOO: a parallel framework for multiobjective simulation optimization problems. <i>In Seventh International Conference on Continuous Optimization (ICCOPT 2022)</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2022iccopt, title = {{ParMOO}: A Parallel Framework for Multiobjective Simulation Optimization Problems}, year = {2022}, booktitle = {Seventh International Conference on Continuous Optimization (ICCOPT 2022)}, address = {Bethlehem, PA, USA}, month = {Jul}, organization = {Mathematical Optimization Society (MOS)}, howpublished = {Conference talk} } \`)">View bib entry</a>
+<br><br>2022. An introduction to multiobjective simulation optimization with ParMOO. <i>In Univeristy of Chicago, Pritzker School of Molecular Engineering, guest lecture</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2022pme, title = {An Introduction to Multiobjective Simulation Optimization with {ParMOO}}, year = {2022}, booktitle={Univeristy of Chicago, Pritzker School of Molecular Engineering, guest lecture}, address={virtual event}, month={May}, organization={University of Chicago}, howpublished = {Guest lecture} } \`)">View bib entry</a>
+<br><br>2021. Surrogate modeling of simulations for multiobjective optimization applications. <i>In SIAM Conference on Optimization (OP 2021)</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2021op, title = {Surrogate Modeling of Simulations for Multiobjective Optimization Applications}, year = {2021}, booktitle = {SIAM Conference on Optimization (OP 2021)}, address = {virtual event}, month = {Jul}, organization = {SIAM}, howpublished = {Conference talk} } \`)">View bib entry</a>
+<br><br>2021. Computing sparse subsets of the Delaunay triangulation in high-dimensions for interpolation and graph problems. <i>In SIAM Conference on Computational Science and Engineering (CSE 2021)</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2021cse, title = {Computing Sparse Subsets of the {D}elaunay Triangulation in High-Dimensions for Interpolation and Graph Problems}, year = {2021}, booktitle = {SIAM Conference on Computational Science and Engineering (CSE 2021)}, address = {virtual event}, month = {Mar}, organization = {SIAM}, howpublished = {Conference talk} } \`)">View bib entry</a>
+<br><br>2020. Multiobjective optimization of the variability of the high-performance Linpack solver. <i>In 2020 Winter Simulation Conference (WSC 2020)</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2020wsc, title = {Multiobjective Optimization of the Variability of the High-Performance {L}inpack Solver}, year = {2020}, booktitle = {2020 Winter Simulation Conference (WSC 2020)}, address = {virtual event}, month = {Dec}, organization = {ACM/SIGSIM, ASA, ASIM, IEEE/SMC, IISE, INFORMS-SIM, NIST, and SCS, ORS}, howpublished = {Conference talk} } \`)">View bib entry</a>
+<br><br>2020. Multiobjective optimization of simulations with PARMOO. <i>In Argonne Postdoctoral Research and Career Symposium</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2020anlpsa, title = {Multiobjective Optimization of Simulations with {PARMOO}}, year = {2020}, booktitle = {Argonne Postdoctoral Research and Career Symposium}, address = {virtual event}, month = {Nov}, organization = {Argonne National Laboratory}, howpublished = {Conference talk} } \`)">View bib entry</a>
+<br><br>2020. Managing computationally expensive blackbox multiobjective optimization problems with libEnsemble. <i>In Spring Simulation Conference (SpringSim '20)</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2020springsim, title = {Managing computationally expensive blackbox multiobjective optimization problems with lib{E}nsemble}, year = {2020}, booktitle = {Spring Simulation Conference (SpringSim '20)}, address = {virtual event}, month = {May}, organization = {SCS}, howpublished = {Conference talk} } \`)">View bib entry</a>
+<br><br>2020. Algorithms and software for Delaunay interpolation and multiobjective optimization. <i>In Sandia National Laboratory, Wind Energy Technology Division Seminar</i>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2020sandiawet, title = {Algorithms and Software for {D}elaunay Interpolation and Multiobjective Optimization}, year = {2020}, month={Feb}, booktitle = {Sandia National Laboratory, Wind Energy Technology Division Seminar}, address = {virtual event}, organization = {Sandia National Laboratory}, howpublished = {Seminar} } \`)">View bib entry</a>
+
+    `;
+    }
+
+    function pubsAllMedHide() {
+        document.getElementById("pubsAllMedList").innerHTML = "";
+    }
+    </script>
+    <p>
 
 </p>
 
@@ -709,7 +775,7 @@ C/C++ library, Python module, or from the command line.
 <br>
 <img src="img/qaml-dark.svg" display="block" align="right" height="50em" width="auto" hspace="20em">
 2019. <b>QAML</b>: Quantum annealing math library<br>
-Devs: T. C. H. Lux, <b>T. H. Chang</b>, and S. S. Tipirneni<br>
+Devs: T. C. H. Lux (lead), <b>T. H. Chang</b>, and S. S. Tipirneni<br>
 Primary Prog. Lang: Python 3
 <br>
 <button onclick="QAMLDesc()">More Info</button>
@@ -981,7 +1047,7 @@ Aug 2016 - Present.  <a href="https://tchlux.github.io">Thomas Lux (Meta Researc
 <a href="https://www.linkedin.com/in/tyler-chang-2524b9182"><img src="img/linkedin-icon.png" width="22em" hspace="2em" vspace="6em"></a>
 <a href="https://orcid.org/0000-0001-9541-7041"><img src="img/orcid-icon.png" width="22em" hspace="2em" vspace="6em"></a>
 <a href="https://twitter.com/thchang94"><img src="img/twitter-icon.png" width="22em" hspace="2em" vspace="6em"></a><br><br>
-Last update: 2022-12-14
+Last update: 2022-12-19
 <br><br>
 <a href="https://github.com/thchang/thchang-style">Copy this style</a>
 <br><br><br><br>

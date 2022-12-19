@@ -106,7 +106,7 @@
     institution: Argonne National Laboratory
     department: MCS Division
     description:
-        - Built, tested, and documented a Python framework for deploying multiobjective optimization solvers
+        - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
         - Deployed optimization solvers for accelerator design, material manufacturing, and inverse problems
         - Advised graduate and undergraduate interns and contributed to research proposals
 

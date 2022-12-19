@@ -9,18 +9,21 @@ info/about.yaml, timelineWeb: experience, degree, teaching, appointment
 
 % News
 # News
-## Upcoming Talks and Events
-info/news.bib, newsWeb:
+## Upcoming Events
+info/news.yaml, newsWeb:
 
-## Recent Talks
-info/talks.bib, newsWeb:
+## Recent Events
+info/recent.yaml, newsWeb:
 
 % Research
 # Research and Publications
 info/about.yaml, paragraphWeb: research-stmt
 
 ## Representative Publications
-info/shortlist.bib, anypubWeb:
+info/shortlist.bib, collapsableShortWeb:
+
+## Recent Talks
+info/talks.bib, collapsableMedWeb:
 
 ## All Papers and Reports
 info/pubs.bib, collapsablePubWeb: article, inproceedings, techreport, thesis, inpress
