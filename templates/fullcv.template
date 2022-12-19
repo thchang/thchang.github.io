@@ -78,11 +78,11 @@ info/meta.yaml, peopleTex: advisee
 # Mentoring
 info/meta.yaml, peopleShortTex: mentee
 
-# Post-Dissertation Courses
-info/learning.yaml, multilineTex:
-
 # Teaching
 info/about.yaml, experienceLongTex: tutoring, teaching
+
+# Post-Dissertation Courses
+info/learning.yaml, multilineTex:
 
 # Misc. Travel Awards
 info/minor.yaml, multilineTex: travelaward

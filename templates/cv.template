@@ -65,11 +65,11 @@ info/service.yaml, experienceLongTex: virginiatech
 # Advising
 info/meta.yaml, peopleTex: advisee
 
-# Post-Dissertation Courses
-info/learning.yaml, multilineTex:
-
 # Teaching
 info/about.yaml, experienceLongTex: tutoring, teaching
+
+# Post-Dissertation Courses
+info/learning.yaml, multilineTex:
 
 # Technical Skills
 info/about.yaml, skillsTex: skills
