@@ -33,7 +33,7 @@
 - advisor:
     name: Jeffrey Larson
     start: Dec 2022
-    type: Postdoctoral advisor and SCGSR co-advisor
+    type: Postdoctoral advisor
     institution: Argonne
     website: https://jmlarson1.github.io/
     description:
@@ -64,7 +64,6 @@
 
 - collaborator:
     name: Andrew Gillette
-    start: Mar 2020
     institution: Lawrence Livermore National Lab
     type: collaborator
     website: https://akgillette.github.io/
@@ -74,7 +73,6 @@
 
 - collaborator:
     name: Thomas Lux
-    start: Aug 2016
     institution: Meta Research
     type: academic brother, collaborator, friend
     website: https://tchlux.github.io
