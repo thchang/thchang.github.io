@@ -62,23 +62,37 @@
         - Providing input on topics and recruiting seminar speakers
 
 - argonne:
+    year: Dec 2022
+    title: Hiring Committee
+    institution: MCS Division
+    description:
+        - Interviewing potential candidates for postdoctoral openings
+
+- argonne:
     year: Nov 2022
     title: Technical Reviewer
     institution: Sustainable Research Pathways
     description:
         - Providing technical reviews of faculty and student submissions to SRP program
 
+- argonne:
+    year: Apr 2022
+    title: Red Team Reviewer
+    institution: ASCR Pre-proposals
+    description:
+        - Providing red team reviews of staff pre-proposals, for internal downselection for DOE ASCR FOAs
+
 - virginiatech:
     start: Aug 2017
     end: May 2020
     title: Founding Member
-    institution: Virginia Tech, Computer Science Graduate Counsel
+    institution: Computer Science Graduate Counsel
     description:
         - Organized professional and social events for graduate students and communicated student concerns to faculty
 
 - virginiatech:
     year: Mar 2019
     title: Primary Student Organizer
-    institution: Virginia Tech, Comp. Sci. Graduate Preview Weekend
+    institution: Computer Science Graduate Preview Weekend
     description:
         - Organized recruitment events for prospective graduate students and coordinated meetings with faculty

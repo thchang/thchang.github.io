@@ -72,11 +72,14 @@
         - Unix/Linux
     Markup Languages:
         - HTML/CSS
+        - GNU Make
+        - LaTeX
+        - BibTeX
+        - plain TeX
         - Markdown
         - reStructuredText
         - YAML
-        - LaTeX
-        - plain TeX
+        - JSON
     Tools + Frameworks:
         - numpy
         - pandas
