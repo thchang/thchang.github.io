@@ -61,45 +61,46 @@
           scientific software packages.
 
 - skills:
-    Programming Langs:
+    Languages:
         - Python
         - Fortran
         - C/C++
         - Java
         - Matlab
-    Operating Systems:
+    OS:
         - MacOS
         - Unix/Linux
-    Markup Languages:
+    Markup:
         - HTML/CSS
         - GNU Make
-        - LaTeX
-        - BibTeX
-        - plain TeX
+        - TeX/LaTeX/bibTeX
         - Markdown
         - reStructuredText
         - YAML
         - JSON
-    Tools + Frameworks:
+    Libraries:
         - numpy
         - pandas
         - scipy
         - matplotlib
-        - tensorflow.keras
+        - keras
+        - pytorch
         - sklearn
         - PIL
         - OpenCV
+        - MPI
+        - OpenMP
+        - CUDA
+        - BLAS
+        - LAPACK
+    Tools/Frameworks:
         - pytest
         - sphinx
         - PyPI/pip
         - conda-forge
-        - MPI
-        - OpenMP
-        - CUDA
-        - Slurm
-        - BLAS
-        - LAPACK
+        - slurm
         - git
+        - CI/CD
         - GitHub Actions
         - GitFlow
 
