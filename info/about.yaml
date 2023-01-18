@@ -111,8 +111,7 @@
     department: MCS Division
     description:
         - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
-        - Deployed optimization solvers for accelerator design, material manufacturing, and inverse problems
-        - Advised graduate and undergraduate interns and contributed to research proposals
+        - Deployed optimization solvers for particle accelerator design, chemical design (see projects), and computational physics
 
 - teaching:
     start: Jan 2022
@@ -121,6 +120,14 @@
     department: Dept. of Computer and Information Science
     description:
         - 'CIS 2531: Introduction to Python Programming'
+
+- project:
+    start: Oct 2021
+    title: Self-Driving Labs
+    subtitle: automating material discovery via continuous-flow chemistry
+    description:
+        - Used a Bayesian/active learning framework to steer an automated feed, CFR, and NMR in a user-free feedback loop
+        - Discovered ideal mixtures/settings to produce the battery electrolyte 2,2,2-TFMC in a continuous-flow reactor (CFR)
 
 - award:
     year: 2021
@@ -145,9 +152,17 @@
     institution: Virginia Tech
     department: Dept. of Computer Science
     description:
-        - Designed parallel algorithms and software for multivariate interpolation and blackbox optimization
-        - Applied solvers to problems in HPC performance modeling and tuning
-        - Conducted fundamental research in approximation theory and computational geometry
+        - Designed parallel algorithms and software for predicive modeling, blackbox optimization, and computational geometry
+        - Applied solvers to model and tune HPC systems (see projects) to control performance variability
+
+- project:
+    start: Sep 2016
+    end: May 2020
+    title: The VarSys Project
+    subtitle: NSF-funded study of performance variability in HPC systems
+    description:
+        - An interdisciplinary project, I was a member of our math and algorithms team working to model and control variability
+        - I successfully tuned the leadership-class HPC Bebop, resulting in a 3x variance reduction in the Linpack benchmark
 
 - teaching:
     start: Jan 2020

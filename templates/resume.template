@@ -11,8 +11,11 @@ info/about.yaml, experienceLongTex: experience, intern, appointment
 # Education
 info/about.yaml, degreeLongTex: degree
 
-# Awards
-info/about.yaml, experienceShortTex: award
+# Relevant Projects
+info/about.yaml, experienceLongTex: project
+
+# Selected Publications (from over 24 total)
+info/shortlist.bib, miscPubTex:
 
 # Publicly Available Software
 info/software.yaml, softwareTex:
@@ -20,9 +23,3 @@ info/software.yaml, softwareTex:
 # Leadership Activities
 ## Students Advised
 info/meta.yaml, peopleShortTex: advisee
-
-## Minisymposia Organized
-info/service.yaml, bulletDateTex: minisymporg
-
-## Institutional Service
-info/service.yaml, experienceShortTex: argonne, virginiatech
