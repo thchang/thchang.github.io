@@ -161,8 +161,8 @@
     title: The VarSys Project
     subtitle: NSF-funded study of performance variability in HPC systems
     description:
-        - An interdisciplinary project, I was a member of our math and algorithms team working to model and control variability
-        - I tuned the Linpack solver on the leadership-class HPC Bebop, resulting in a 3x reduction in performance variability
+        - Member of the math and algorithms team on an interdisciplinary project to model and control performance variability
+        - Tuned the Linpack solver on the leadership-class HPC Bebop, resulting in a 3x reduction in performance variability
 
 - teaching:
     start: Jan 2020
