@@ -162,7 +162,7 @@
     subtitle: NSF-funded study of performance variability in HPC systems
     description:
         - An interdisciplinary project, I was a member of our math and algorithms team working to model and control variability
-        - I successfully tuned the leadership-class HPC Bebop, resulting in a 3x variance reduction in the Linpack benchmark
+        - I tuned the Linpack solver on the leadership-class HPC Bebop, resulting in a 3x reduction in performance variability
 
 - teaching:
     start: Jan 2020
