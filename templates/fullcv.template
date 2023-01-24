@@ -52,6 +52,9 @@ info/talks.bib, talkTex: seminar
 info/talks.bib, talkTex: tutorial, guestlecture
 
 # Funding
+## Pending Proposals
+info/funding.yaml, proposalTex: proposalpending
+
 ## Past Proposals (rejected)
 info/funding.yaml, proposalTex: proposalreject
 
