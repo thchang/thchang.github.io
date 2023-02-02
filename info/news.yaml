@@ -1,7 +1,3 @@
-- release:
-    year: Early 2023
-    description: releasing ParMOO ver. 0.2.0 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
-
 - talk:
     year: Feb 2023
     description: "Giving talk <i>ParMOO: A Python library for parallel multiobjective simulation optimization</i> at SIAM CSE in Amsterdam"

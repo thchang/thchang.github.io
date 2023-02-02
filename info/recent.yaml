@@ -1,3 +1,7 @@
+- release:
+    year: Feb 2023
+    description: Released ParMOO ver. 0.2.0 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
+
 - talk:
     year: Oct 2022
     description: >
@@ -42,12 +46,3 @@
 - paper:
     year: May 2022
     description: 'Paper <a href="https://dl.acm.org/doi/10.1145/3529258">Algorithm 1028: VTMOP</a> accepted for publication in <i>ACM TOMS</i>'
-
-- release:
-    year: May 2022
-    description: >
-        Released ParMOO ver. 0.1.0 (initial release) on <a href="https://github.com/parmoo/parmoo">GitHub</a>
-
-- class:
-    year: Feb 2022
-    description: Teaching 12-week course <i>Intro to Python</i> at College of DuPage
