@@ -17,7 +17,7 @@ info/recent.yaml, newsWeb:
 
 % Research
 # Research and Publications
-info/about.yaml, paragraphWeb: research-stmt
+info/about.yaml, paragraphWeb: research-stmt-short
 
 ## Representative Publications
 info/shortlist.bib, collapsableShortWeb:

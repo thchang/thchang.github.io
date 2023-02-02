@@ -246,36 +246,16 @@ Released ParMOO ver. 0.1.0 (initial release) on <a href="https://github.com/parm
 I am interested in solving scientific problems by combining
 techniques from model-based optimization, approximation theory, and
 machine learning.
+This work will facilitate reliable, interpretable, and
+structure-exploiting machine learning for a variety of applications.
+Specifically, my research goals are to
 
-</p>
-<p>
-
-Owing to decades of research and careful analysis, many techniques
-in model-based optimization and approximation theory are easy to
-interpret and verify.
-These properties are essential in many scientific applications
-such as mission-critical control and exploratory research.
-However, some of these techniques are not scalable or flexible
-enough for modern applications,
-which can be high-dimensional, overparameterized, and may
-involve complex design or action spaces.
-On the other hand, modern machine learning has been extremely
-successful in scaling to large complex problems by using
-computationally cheap heuristics for extracting structure from
-data.
-
-</p>
-<p>
-The goals of my research are to:
 </p>
 <p>
 <ul>
-<li>design flexible and scalable algorithms for leveraging model-based
+<li>design algorithms and frameworks for applying model-based
 optimization and numerical approximation techniques
-in modern settings;</li>
-<li>create hybrid machine learning/numerical algorithms, techniques, and
-frameworks to exploit structure in complex, overparameterized
-problems;</li>
+in latent-space representations of complex domains;</li>
 <li>improve our understanding of the behavior of classical numerical
 methods in complex, high-dimensional domains; and</li>
 <li>make these hybrid techniques accessible to the general public
@@ -287,14 +267,14 @@ Some examples of my past and ongoing work include:
 </p>
 <p>
 <ul>
-<li>multiobjective optimization of computationally expensive simulations
-and experiments,</li>
-<li>multivariate interpolation of high-dimensional scientific and
-engineering data,</li>
-<li>designing fast and scalable algorithms for computing subsets of
-the Delaunay triangulation in high-dimensional spaces, and</li>
-<li>implementation of portable and maintainable open-source
-scientific software packages.</li>
+<li>multiobjective optimization and active learning problems
+involving time-consuming simulations and experiments,</li>
+<li>predictive modeling with limited amounts of high-dimensional
+scientific and engineering data,</li>
+<li>design and analysis of algorithms for numerical modeling
+in complex domains, and</li>
+<li>development of software packages for optimization and geometric
+interpolation.</li>
 </ul>
 </p>
 
@@ -312,7 +292,7 @@ scientific software packages.</li>
     function pubsAllShortShow() {
         document.getElementById("pubsAllShortList").innerHTML = `
     <button onclick="pubsAllShortHide()">hide</button><br>
-    <b>T. H. Chang</b> and S. M. Wild. <i>ParMOO: a Python library for parallel multiobjective simulation optimization</i>. . <i> Submitted to Journal of Open Source Software</i>, May 2022. JOSS Open Review: <a href="https://github.com/openjournals/joss-reviews/issues/4468">here</a>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2022parmoo, author={Chang, Tyler H. and Wild, Stefan M.}, title={{ParMOO}: A {P}ython library for parallel multiobjective simulation optimization}, howpublished = {Submitted}, note={{\\sl Submitted to Journal of Open Source Software}, May 2022. JOSS Open Review: \\url{https://github.com/openjournals/joss-reviews/issues/4468}} } \`)">View bib entry</a>
+    <b>T. H. Chang</b> and S. M. Wild. ParMOO: a Python library for parallel multiobjective simulation optimization. <i>To apper in The Journal of Open Source Software</i>. JOSS Open Review: <a href="https://github.com/openjournals/joss-reviews/issues/4468">here</a>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2023parmoo, author={Chang, Tyler H. and Wild, Stefan M.}, title={{ParMOO}: A {P}ython library for parallel multiobjective simulation optimization}, howpublished = {In press}, journal = {To apper in The Journal of Open Source Software}, note = {JOSS Open Review: \\url{https://github.com/openjournals/joss-reviews/issues/4468}} } \`)">View bib entry</a>
 <br><br>2022. <b>T. H. Chang</b>, L. T. Watson, J. Larson, N. Neveu, W. I. Thacker, S. Deshpande, and T. C. H. Lux. Algorithm 1028: VTMOP: Solver for blackbox multiobjective optimization problems. <i>ACM Transactions on Mathematical Software</i> 48(3), Article 36, 34 pages. <a href="https://doi.org/10.1145/3529258">doi: 10.1145/3529258</a><br><a onclick="window.prompt('Bib entry:',\`@article{chang2022algorithm, author={Chang, Tyler H. and Watson, Layne T. and Larson, Jeffrey and Neveu, Nicole and Thacker, William I. and Deshpande, Shubhangi and Lux, Thomas C. H.}, title={Algorithm 1028: {VTMOP}: {S}olver for blackbox multiobjective optimization problems}, year={2022}, journal = {ACM Transactions on Mathematical Software}, volume = {48}, number = {3}, articleno = {36}, numpages = {34}, publisher = {Association of Computing Machinery}, doi={10.1145/3529258} } \`)">View bib entry</a>
 <br><br>2020. <b>T. H. Chang</b>, J. Larson, and L. T. Watson. Multiobjective optimization of the variability of the high-performance Linpack solver. <i>In Proc. 2020 Winter Simulation Conference (WSC 2020)</i>, pp. 3081--3092. <a href="https://doi.org/10.1109/WSC48552.2020.9383875">doi: 10.1109/WSC48552.2020.9383875</a><br><a onclick="window.prompt('Bib entry:',\`@inproceedings{chang2020multiobjective, author = {Chang, Tyler H. and Larson, Jeffrey and Watson, Layne T.}, title = {Multiobjective Optimization of the Variability of the High-Performance {L}inpack Solver}, year = {2020}, booktitle = {Proc. 2020 Winter Simulation Conference (WSC 2020)}, pages = {3081--3092}, location = {virtual event}, organization = {Association of Computing Machinery}, doi = {10.1109/WSC48552.2020.9383875} } \`)">View bib entry</a>
 <br><br>2020. <b>T. H. Chang</b>, L. T. Watson, T. C. H. Lux, A. R. Butt, K. W. Cameron, and Y. Hong. Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the Delaunay triangulation in medium to high dimensions. <i>ACM Transactions on Mathematical Software</i> 46(4), Article 38, 20 pages. <a href="https://doi.org/10.1145/3422818">doi: 10.1145/3422818</a><br><a onclick="window.prompt('Bib entry:',\`@article{chang2020algorithm, author = {Chang, Tyler H. and Watson, Layne T. and Lux, Thomas C. H. and Butt, Ali R. and Cameron, Kirk W. and Hong, Yili}, title = {Algorithm 1012: {DELAUNAYSPARSE}: {I}nterpolation via a sparse subset of the {D}elaunay triangulation in medium to high dimensions}, year = {2020}, journal = {ACM Transactions on Mathematical Software}, volume = {46}, number = {4}, articleno = {38}, numpages = {20}, publisher = {Association of Computing Machinery}, doi = {10.1145/3422818} } \`)">View bib entry</a>
@@ -370,7 +350,7 @@ scientific software packages.</li>
 <p>
     <button onclick="pubsNoYearShow()"
         id="pubsNoYearButton">
-        NoYear (1 items)</button>
+        NoYear (2 items)</button>
     </p>
     <p id="pubsNoYearList"></p>
     <script>
@@ -379,7 +359,8 @@ scientific software packages.</li>
     function pubsNoYearShow() {
         document.getElementById("pubsNoYearList").innerHTML = `
     <button onclick="pubsNoYearHide()">hide</button><br>
-    T. C. H. Lux, L. T. Watson, <b>T. H. Chang</b>, and W. I. Thacker. Algorithm XXXX: MQSI---Monotone quintic spline interpolation. <i>To appear in ACM Transactions on Mathematical Software</i>. <a href="https://doi.org/10.1145/3570157">doi: 10.1145/3570157</a><br><a onclick="window.prompt('Bib entry:',\`@misc{lux2022algorithm, author={Lux, Thomas C. H. and Watson, Layne T. and Chang, Tyler H. and Thacker, William I.}, title={Algorithm {XXXX}: {MQSI}---{M}onotone quintic spline interpolation}, howpublished = {In press}, journal = {To appear in ACM Transactions on Mathematical Software}, doi = {10.1145/3570157} } \`)">View bib entry</a>
+    T. C. H. Lux, L. T. Watson, <b>T. H. Chang</b>, and W. I. Thacker. Algorithm XXXX: MQSI---Monotone quintic spline interpolation. <i>To appear in ACM Transactions on Mathematical Software</i>. <a href="https://doi.org/10.1145/3570157">doi: 10.1145/3570157</a><br><a onclick="window.prompt('Bib entry:',\`@misc{lux2023algorithm, author={Lux, Thomas C. H. and Watson, Layne T. and Chang, Tyler H. and Thacker, William I.}, title={Algorithm {XXXX}: {MQSI}---{M}onotone quintic spline interpolation}, howpublished = {In press}, journal = {To appear in ACM Transactions on Mathematical Software}, doi = {10.1145/3570157} } \`)">View bib entry</a>
+<br><br><b>T. H. Chang</b> and S. M. Wild. ParMOO: a Python library for parallel multiobjective simulation optimization. <i>To apper in The Journal of Open Source Software</i>. JOSS Open Review: <a href="https://github.com/openjournals/joss-reviews/issues/4468">here</a>. <br><a onclick="window.prompt('Bib entry:',\`@misc{chang2023parmoo, author={Chang, Tyler H. and Wild, Stefan M.}, title={{ParMOO}: A {P}ython library for parallel multiobjective simulation optimization}, howpublished = {In press}, journal = {To apper in The Journal of Open Source Software}, note = {JOSS Open Review: \\url{https://github.com/openjournals/joss-reviews/issues/4468}} } \`)">View bib entry</a>
 
     `;
     }
@@ -1028,7 +1009,7 @@ Aug 2016 - May 2020.  <a href="https://people.cs.vt.edu/~ltw/shortvita.html">Lay
 <a href="https://www.linkedin.com/in/tyler-chang-2524b9182"><img src="img/linkedin-icon.png" width="22em" hspace="2em" vspace="6em"></a>
 <a href="https://orcid.org/0000-0001-9541-7041"><img src="img/orcid-icon.png" width="22em" hspace="2em" vspace="6em"></a>
 <a href="https://twitter.com/thchang94"><img src="img/twitter-icon.png" width="22em" hspace="2em" vspace="6em"></a><br><br>
-Last update: 2023-01-24
+Last update: 2023-02-01
 <br><br>
 <a href="https://github.com/thchang/thchang-style">Copy this style</a>
 <br><br><br><br>

@@ -39,26 +39,50 @@
         data.
     goals: "The goals of my research are to:"
     goals-list:
-        - design flexible and scalable algorithms for leveraging model-based
+        - design algorithms and frameworks for applying model-based
           optimization and numerical approximation techniques
-          in modern settings;
-        - create hybrid machine learning/numerical algorithms, techniques, and
-          frameworks to exploit structure in complex, overparameterized
-          problems;
+          in latent-space representations of complex domains;
         - improve our understanding of the behavior of classical numerical
           methods in complex, high-dimensional domains; and
         - make these hybrid techniques accessible to the general public
           through the production of high-quality scientific software.
     examples: "Some examples of my past and ongoing work include:"
     examples-list:
-        - multiobjective optimization of computationally expensive simulations
-          and experiments,
-        - multivariate interpolation of high-dimensional scientific and
-          engineering data,
-        - designing fast and scalable algorithms for computing subsets of
-          the Delaunay triangulation in high-dimensional spaces, and
-        - implementation of portable and maintainable open-source
-          scientific software packages.
+        - multiobjective optimization and active learning problems
+          involving time-consuming simulations and experiments,
+        - predictive modeling with limited amounts of high-dimensional
+          scientific and engineering data,
+        - design and analysis of algorithms for numerical modeling
+          in complex domains, and
+        - development of software packages for optimization and geometric
+          interpolation.
+
+- research-stmt-short:
+    what-why: >
+        I am interested in solving scientific problems by combining
+        techniques from model-based optimization, approximation theory, and
+        machine learning.
+        This work will facilitate reliable, interpretable, and
+        structure-exploiting machine learning for a variety of applications.
+        Specifically, my research goals are to
+    goals-list:
+        - design algorithms and frameworks for applying model-based
+          optimization and numerical approximation techniques
+          in latent-space representations of complex domains;
+        - improve our understanding of the behavior of classical numerical
+          methods in complex, high-dimensional domains; and
+        - make these hybrid techniques accessible to the general public
+          through the production of high-quality scientific software.
+    examples: "Some examples of my past and ongoing work include:"
+    examples-list:
+        - multiobjective optimization and active learning problems
+          involving time-consuming simulations and experiments,
+        - predictive modeling with limited amounts of high-dimensional
+          scientific and engineering data,
+        - design and analysis of algorithms for numerical modeling
+          in complex domains, and
+        - development of software packages for optimization and geometric
+          interpolation.
 
 - skills:
     Languages:
@@ -74,20 +98,13 @@
         - HTML/CSS
         - GNU Make
         - TeX/LaTeX/bibTeX
-        - Markdown
-        - reStructuredText
-        - YAML
-        - JSON
     Libraries:
         - numpy
         - pandas
         - scipy
         - matplotlib
         - keras
-        - pytorch
         - sklearn
-        - PIL
-        - OpenCV
         - MPI
         - OpenMP
         - CUDA
@@ -96,10 +113,7 @@
     Tools/Frameworks:
         - pytest
         - sphinx
-        - PyPI/pip
-        - conda-forge
         - slurm
-        - git
         - CI/CD
         - GitHub Actions
         - GitFlow
@@ -111,7 +125,9 @@
     department: MCS Division
     description:
         - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
-        - Deployed optimization solvers for particle accelerator design, chemical design (see projects), and computational physics
+        - Deployed optimization solvers for particle accelerator design, material discovery (see projects), and DFT modeling
+
+- extra: Advised summer students, applied for DOE funding, spoke at int'l conferences, and published scientific papers
 
 - teaching:
     start: Jan 2022
