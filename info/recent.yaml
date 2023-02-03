@@ -1,3 +1,7 @@
+- paper:
+    year: Feb 2023
+    description: 'Paper <a href="https://joss.theoj.org/papers/10.21105/joss.04468">ParMOO: A Python library for parallel multiobjective simulation optimization</a> accepted for publication in <i>JOSS</i>'
+
 - release:
     year: Feb 2023
     description: Released ParMOO ver. 0.2.0 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
