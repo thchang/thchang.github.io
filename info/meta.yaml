@@ -82,8 +82,8 @@
 
 - advisee:
     name: Manisha Garg
-    type: intern at Argonne via NSF MSGI program
-    institution: PhD student at UIUC
+    type: NSF MSGI at Argonne
+    institution: PhD at UIUC
     start: Jun 2022
     end: Aug 2022
     description:
@@ -91,8 +91,9 @@
 
 - advisee:
     name: Hyrum Dickinson
-    type: intern at Argonne via DOE SULI program
-    institution: undergrad at UIUC
+    type: DOE SULI at Argonne
+    website: https://www.linkedin.com/in/hyrum-dickinson-6b28301b7/
+    institution: UG at UIUC
     start: Jun 2022
     end: Aug 2022
     description:

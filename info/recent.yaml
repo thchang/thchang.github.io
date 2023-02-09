@@ -27,26 +27,3 @@
     year: Jul 2022
     description: "Gave talk <i>ParMOO: a parallel framework for multiobjective simulation optimization problems</i> at ICCOPT in Bethlehem, PA"
 
-- student:
-    year: Jun 2022
-    description: Welcomed NSF MSGI recipient Manisha Garg from UIUC
-
-- student:
-    year: May 2022
-    description: Welcomed DOE SULI recipient Hyrum Dickinson from UIUC
-
-- poster:
-    year: May 2022
-    description: "Presented poster <i>ParMOO: Python library for parallel multiobjective simulation optimization</i> at ACMNTW workshop in Evanston, IL"
-
-- talk:
-    year: May 2022
-    description: Gave guest lecture <i>An introduction to multiobjective simulation optimization with ParMOO</i> at UChicago, Pritzker School of Molecular Engineering
-
-- release:
-    year: May 2022
-    description: Released VTMOP on <a href="https://github.com/vtopt/vtmop">GitHub</a>
-
-- paper:
-    year: May 2022
-    description: 'Paper <a href="https://dl.acm.org/doi/10.1145/3529258">Algorithm 1028: VTMOP</a> accepted for publication in <i>ACM TOMS</i>'
