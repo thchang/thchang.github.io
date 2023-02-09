@@ -1,8 +1,11 @@
 - bio:
     now: >
-        I am currently a Postdoc @ Argonne.
+        I am currently a Postdoc @
+        <a href="https://www.anl.gov/mcs/lans">Argonne</a>.
     before: >
-        Before that, I was the Cunningham fellow @ Virginia Tech.
+        Before that,
+        I was the Cunningham fellow @
+        <a href="https://sanghani.cs.vt.edu/">Virginia Tech</a>.
     research-intro: >
         I develop software and algorithms at the intersection
         of optimization, approximation theory, and machine learning
@@ -12,11 +15,12 @@
         <b>blackbox optimization</b>, <b>machine learning</b>,
         <b>computational geometry</b>, <b>analysis of algorithms</b>,
         and <b>open-source scientific software</b>.
-    scientific-software: >
+    connections: >
         Read more about my <a href="#Research">research</a>, and
         check out some of my <a href="#Software">software</a> below or
-        on <a href="https://github.com/thchang">GitHub</a>
-        and don't hesitate to reach out!
+        on <a href="https://github.com/thchang">GitHub</a>.
+        Don't hesitate to reach out or try to connect at an upcoming
+        <a href="#News">event</a>!
 
 - interests:
     - numerical optimization
