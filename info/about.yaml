@@ -130,8 +130,8 @@
     institution: Argonne National Laboratory
     department: MCS Division
     description:
-        - Deployed optimization solvers for particle accelerator design, material discovery (see projects), and DFT modeling
         - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
+        - Deployed optimization solvers for particle accelerator design, material discovery (see projects), and DFT modeling
 
 - extra: Advised summer students, applied for DOE funding, spoke at int'l conferences, and published scientific papers
 
@@ -148,8 +148,8 @@
     title: Self-Driving Labs
     subtitle: automating material discovery via continuous-flow chemistry
     description:
-        - Used a Bayesian/active learning framework to steer an automated feed, CFR, and NMR in a user-free feedback loop
         - Discovered ideal mixtures/settings to produce the battery electrolyte 2,2,2-TFMC in a continuous-flow reactor (CFR)
+        - Used a Bayesian/active learning framework to steer an automated feed, CFR, and NMR in a user-free feedback loop
 
 - award:
     year: 2021
