@@ -71,7 +71,7 @@ info/meta.yaml, peopleTex: advisee
 # Teaching
 info/about.yaml, experienceLongTex: tutoring, teaching
 
-# Post-Dissertation Courses
+# Post-Dissertation Courses and Certifications
 info/learning.yaml, multilineTex:
 
 # Technical Skills

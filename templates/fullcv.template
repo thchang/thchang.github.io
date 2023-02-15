@@ -84,7 +84,7 @@ info/meta.yaml, peopleShortTex: mentee
 # Teaching
 info/about.yaml, experienceLongTex: tutoring, teaching
 
-# Post-Dissertation Courses
+# Post-Dissertation Courses and Certifications
 info/learning.yaml, multilineTex:
 
 # Misc. Travel Awards
