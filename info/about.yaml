@@ -21,6 +21,9 @@
     connections: >
         Don't hesitate to reach out or connect at an upcoming
         <a href="#News">event</a>!
+    students: >
+        If you are a US-based student see several
+        <a href="#Misc">opportunities to visit Argonne</a>.
 
 - interests:
     - numerical optimization
