@@ -1,25 +1,25 @@
 - proposalpending:
     year: FY 2023
-    title: Assessing the Quality of Scientific Data Sets for Machine Learning
-    agency: Argonne National Laboratory
-    foa: 2023 LDRD Innovate-Seed
-    type: full proposal
-    numpages: 3 pages + appendices
-    role: PI
-    budget: $25K
-    length: 7 months
-
-- proposalpending:
-    year: FY 2023
     title: A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design
     agency: Argonne National Laboratory
-    foa: 2023 LDRD Innovate-Seed
+    foa: 2023 LDRD Seed
     type: full proposal
     numpages: 3 pages + appendices
     role: co-PI
     collaborators:
         - PI: G. Chen
     budget: $50K
+    length: 7 months
+
+- proposalreject:
+    year: FY 2023
+    title: Assessing the Quality of Scientific Data Sets for Machine Learning
+    agency: Argonne National Laboratory
+    foa: 2023 LDRD Seed
+    type: full proposal
+    numpages: 3 pages + appendices
+    role: PI
+    budget: $25K
     length: 7 months
 
 - proposalreject:
