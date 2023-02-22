@@ -49,11 +49,11 @@ info/talks.bib, talkTex: seminar
 info/talks.bib, talkTex: tutorial, guestlecture
 
 # Funding
-## Pending Proposals
-info/funding.yaml, proposalTex: proposalpending
+## Current
+info/funding.yaml, proposalTex: current
 
-## Past Proposals (rejected)
-info/funding.yaml, proposalTex: proposalreject
+## Rejected Proposals
+info/funding.yaml, proposalTex: reject
 
 # Professional Services and Activities
 ## Journal Referee

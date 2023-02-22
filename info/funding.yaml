@@ -1,20 +1,19 @@
-- proposalpending:
-    year: FY 2023
+- current:
     title: A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design
-    agency: Argonne National Laboratory
+    agency: ANL LDRD
     foa: 2023 LDRD Seed
-    type: full proposal
-    numpages: 3 pages + appendices
     role: co-PI
     collaborators:
-        - PI: G. Chen
+        - PI: G. Chen (ANL)
+    type: ANL LDRD seed award
     budget: $50K
-    length: 7 months
+    start: Mar 2023
+    end: Sep 2023
 
-- proposalreject:
+- reject:
     year: FY 2023
     title: Assessing the Quality of Scientific Data Sets for Machine Learning
-    agency: Argonne National Laboratory
+    agency: ANL LDRD
     foa: 2023 LDRD Seed
     type: full proposal
     numpages: 3 pages + appendices
@@ -22,7 +21,7 @@
     budget: $25K
     length: 7 months
 
-- proposalreject:
+- reject:
     year: FY 2022
     title: Statistical and Mathematical Innovations for Next Generation Facilities
     agency: DOE ASCR
@@ -32,27 +31,27 @@
     numpages: 20 pages + appendices
     role: investigator
     collaborators:
-        - Director: R. Joseph
+        - Dir: R. Joseph (GA Tech)
         - ANL Lead: Z. Di
     budget: $12.7M
     length: 5 years
 
-- proposalreject:
+- reject:
     year: FY 2022
     title: Visual Analytics for Complex Network Workflows to Accelerate Science into Decision Making
     agency: DOE ASCR
-    foa: Data Visualization for Scientific Discovery, Decision-Making, and Communication
+    foa: Data Visualization for Scientific Discovery, Decision-Making, and Comm.
     number: DE-FOA-0002726
     type: full proposal
     numpages: 16 pages + appendices
     role: key personnel
     collaborators:
-        - PI: G. Chin
+        - PI: G. Chin (PNNL)
         - ANL Lead: T. Munson
     budget: $2.7M
     length: 3 years
 
-- proposalreject:
+- reject:
     year: FY 2022
     title: Accelerating Multi-Objective Neural Architecture Search
     agency: ANL CELS
@@ -61,11 +60,11 @@
     numpages: 1 paragraph + admin info.
     role: co-PI
     collaborators:
-        - With: S. Khairy
+        - With: S. Khairy (ANL)
     budget: $33.6K
     length: 8 weeks
 
-- proposalreject:
+- reject:
     year: FY 2020
     title: FAIR Delaunay Benchmarking of Scientific AI Workflows
     agency: DOE ASCR
@@ -75,7 +74,7 @@
     numpages: 13 pages + appendices
     role: key personnel
     collaborators:
-        - PI: A. Gillette
+        - PI: A. Gillette (LLNL)
         - ANL Lead: Z. Di
     budget: $2.1M
     length: 3 years
