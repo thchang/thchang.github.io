@@ -48,6 +48,9 @@ info/talks.bib, talkTex: tutorial, guestlecture
 ## Contributed Talks
 info/talks.bib, talkTex: contributedtalk
 
+# Funding
+info/funding.yaml, proposalTex: current
+
 # Professional Services and Activities
 ## Journal Referee
 info/service.yaml, bulletDateTex: journalref
@@ -63,10 +66,10 @@ info/service.yaml, bulletDateTex: member
 
 # Institutional Services
 ## Argonne
-info/service.yaml, experienceLongTex: argonne
+info/service.yaml, experienceShortTex: argonne
 
 ## Virginia Tech
-info/service.yaml, experienceLongTex: virginiatech
+info/service.yaml, experienceShortTex: virginiatech
 
 # Advising
 info/meta.yaml, peopleTex: advisee

@@ -6,6 +6,7 @@
     collaborators:
         - PI: G. Chen (ANL)
     type: ANL LDRD seed award
+    number: LDRD 2023-0246
     budget: $50K
     start: Mar 2023
     end: Sep 2023
@@ -80,10 +81,22 @@
     length: 3 years
 
 - funding:
-    start: FY 2020
+    start: FY 2023
     title: "FASTMath Institute"
     agency: Argonne
     foa: "DOE ASCR: SciDAC-5"
+    number: DE-AC02-06CH11357
+    role: postdoc
+    collaborators:
+        - Director: E. Ng (LBNL)
+        - Institution Lead: T. Munson (ANL)
+    type: DOE SciDAC Institute
+
+- fundingold:
+    start: FY 2020
+    title: "FASTMath Institute"
+    agency: Argonne
+    foa: "DOE ASCR: SciDAC-4"
     number: DE-AC02-06CH11357
     role: postdoc
     collaborators:
