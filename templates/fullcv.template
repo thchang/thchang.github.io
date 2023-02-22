@@ -39,14 +39,17 @@ info/pubs.bib, techreportTex: techreport, thesis
 
 # Talks
 
-## Conference Talks
-info/talks.bib, talkTex: conferencetalk
+## Invited Conference Talks
+info/talks.bib, talkTex: invitedtalk
 
 ## Seminars and Colloquia
 info/talks.bib, talkTex: seminar
 
 ## Tutorials and Guest Lectures
 info/talks.bib, talkTex: tutorial, guestlecture
+
+## Contributed Talks
+info/talks.bib, talkTex: contributedtalk
 
 # Funding
 ## Current
@@ -70,10 +73,10 @@ info/service.yaml, bulletDateTex: member
 
 # Institutional Services
 ## Argonne
-info/service.yaml, experienceLongTex: argonne
+info/service.yaml, experienceShortTex: argonne
 
 ## Virginia Tech
-info/service.yaml, experienceLongTex: virginiatech
+info/service.yaml, experienceShortTex: virginiatech
 
 # Advising
 info/meta.yaml, peopleTex: advisee

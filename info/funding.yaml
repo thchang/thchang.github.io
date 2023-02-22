@@ -32,7 +32,7 @@
     role: investigator
     collaborators:
         - Dir: R. Joseph (GA Tech)
-        - ANL Lead: Z. Di
+        - Institution Lead: Z. Di (ANL)
     budget: $12.7M
     length: 5 years
 
@@ -47,7 +47,7 @@
     role: key personnel
     collaborators:
         - PI: G. Chin (PNNL)
-        - ANL Lead: T. Munson
+        - Institution Lead: T. Munson (ANL)
     budget: $2.7M
     length: 3 years
 
@@ -75,7 +75,7 @@
     role: key personnel
     collaborators:
         - PI: A. Gillette (LLNL)
-        - ANL Lead: Z. Di
+        - Institution Lead: Z. Di (ANL)
     budget: $2.1M
     length: 3 years
 
@@ -88,7 +88,7 @@
     role: postdoc
     collaborators:
         - Director: E. Ng (LBNL)
-        - ANL Lead: T. Munson
+        - Institution Lead: T. Munson (ANL)
     type: DOE SciDAC Institute
 
 - fundingold:
@@ -101,7 +101,7 @@
     role: part-time postdoc
     collaborators:
         - PI: K. Pupek
-    type: DOE Prime Contract
+    type: ANL LDRD Prime Contract
 
 - fundingold:
     start: Jun 2019

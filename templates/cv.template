@@ -36,14 +36,17 @@ info/pubs.bib, techreportTex: techreport, thesis
 
 # Talks
 
-## Conference Talks
-info/talks.bib, talkTex: conferencetalk
+## Invited Conference Talks
+info/talks.bib, talkTex: invitedtalk
 
 ## Seminars and Colloquia
 info/talks.bib, talkTex: seminar
 
 ## Tutorials and Guest Lectures
 info/talks.bib, talkTex: tutorial, guestlecture
+
+## Contributed Talks
+info/talks.bib, talkTex: contributedtalk
 
 # Professional Services and Activities
 ## Journal Referee
