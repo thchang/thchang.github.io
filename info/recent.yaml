@@ -1,3 +1,8 @@
+
+- talk:
+    year: Mar 2023
+    description: "Gave talk <i>ParMOO: A Python library for parallel multiobjective simulation optimization</i> at SIAM CSE in Amsterdam"
+
 - paper:
     year: Feb 2023
     description: 'Paper <a href="https://joss.theoj.org/papers/10.21105/joss.04468">ParMOO: A Python library for parallel multiobjective simulation optimization</a> accepted for publication in <i>JOSS</i>'
