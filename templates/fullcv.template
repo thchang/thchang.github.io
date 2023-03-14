@@ -55,6 +55,9 @@ info/talks.bib, talkTex: contributedtalk
 ## Current
 info/funding.yaml, proposalTex: current
 
+## Pending
+info/funding.yaml, proposalTex: pending
+
 ## Rejected Proposals
 info/funding.yaml, proposalTex: reject
 

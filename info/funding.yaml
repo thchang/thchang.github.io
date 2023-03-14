@@ -1,4 +1,21 @@
+- pending:
+    year: FY 2024
+    title: Codelet-based Energy-aware Architectural Simulation for Future Chiplet-Enabled Supercomputing Systems
+    agency: DOE ASCR
+    foa: EXPRESS - 2023 Exploratory Research for Extreme-Scale Science
+    number:  DE-FOA-0002950
+    type: pre-application
+    numpages: 2 pages + appendices
+    role: key personnel
+    collaborators:
+        - PI: J. Monsalve Diaz (ANL)
+    budget: $900K
+    length: 2 years
+
+
 - current:
+    start: Mar 2023
+    end: Sep 2023
     title: A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design
     agency: ANL LDRD
     foa: 2023 LDRD Seed
@@ -8,8 +25,6 @@
     type: ANL LDRD seed award
     number: LDRD 2023-0246
     budget: $50K
-    start: Mar 2023
-    end: Sep 2023
 
 - reject:
     year: FY 2023
@@ -23,7 +38,7 @@
     length: 7 months
 
 - reject:
-    year: FY 2022
+    year: FY 2023
     title: Statistical and Mathematical Innovations for Next Generation Facilities
     agency: DOE ASCR
     foa: 2022 Mathematical Multifaceted Integrated Capability Centers (MMICCS)
@@ -38,7 +53,7 @@
     length: 5 years
 
 - reject:
-    year: FY 2022
+    year: FY 2023
     title: Visual Analytics for Complex Network Workflows to Accelerate Science into Decision Making
     agency: DOE ASCR
     foa: Data Visualization for Scientific Discovery, Decision-Making, and Comm.
@@ -53,7 +68,7 @@
     length: 3 years
 
 - reject:
-    year: FY 2022
+    year: FY 2023
     title: Accelerating Multi-Objective Neural Architecture Search
     agency: ANL CELS
     foa: 2022 LDRD Advanced Computing Expedition
@@ -66,7 +81,7 @@
     length: 8 weeks
 
 - reject:
-    year: FY 2020
+    year: FY 2021
     title: FAIR Delaunay Benchmarking of Scientific AI Workflows
     agency: DOE ASCR
     foa: FAIR Frameworks for Data and AI Models
@@ -79,79 +94,3 @@
         - Institution Lead: Z. Di (ANL)
     budget: $2.1M
     length: 3 years
-
-- funding:
-    start: FY 2023
-    title: "FASTMath Institute"
-    agency: Argonne
-    foa: "DOE ASCR: SciDAC-5"
-    number: DE-AC02-06CH11357
-    role: postdoc
-    collaborators:
-        - Director: E. Ng (LBNL)
-        - Institution Lead: T. Munson (ANL)
-    type: DOE SciDAC Institute
-
-- fundingold:
-    start: FY 2020
-    title: "FASTMath Institute"
-    agency: Argonne
-    foa: "DOE ASCR: SciDAC-4"
-    number: DE-AC02-06CH11357
-    role: postdoc
-    collaborators:
-        - Director: E. Ng (LBNL)
-        - Institution Lead: T. Munson (ANL)
-    type: DOE SciDAC Institute
-
-- fundingold:
-    start: Aug 2021
-    end: Oct 2021
-    title: "Autonomous Discovery"
-    agency: Argonne
-    foa: "DOE/Argonne: LDRD Prime"
-    number: DE-AC02-06CH11357
-    role: part-time postdoc
-    collaborators:
-        - PI: K. Pupek
-    type: ANL LDRD Prime Contract
-
-- fundingold:
-    start: Jun 2019
-    end: Dec 2019
-    title: "An Adaptive Weighting Scheme for Multiobjective Optimization"
-    agency: Argonne and Virginia Tech
-    foa: "DOE SC: Graduate Student Research Program"
-    number: DE-SC001466
-    role: Student Awardee
-    collaborators:
-        - Advisors: J. Larson and L. Watson
-    type: Living Stipend
-
-- fundingold:
-    start: FY 2018
-    end: FY 2019
-    title: "Continuing: VarSys: Managing variability of high-performance computing systems"
-    agency: Virginia Tech
-    foa: "NSF CNS: CSR: Large - continuing grant"
-    number: CNS-1838271
-    role: part-time RA
-    collaborators:
-        - PIs: K. Cameron
-        - co-PIs: L. Watson, A. Butt, D. Yao, and Y. Hong
-    type: NSF Award
-    budget: $1.2M
-
-- fundingold:
-    start: FY 2016
-    end: FY 2017
-    title: "VarSys: Managing variability of high-performance computing systems"
-    agency: Virginia Tech
-    foa: "NSF CNS: CSR: Large"
-    number: CNS-1565314
-    role: part-time RA
-    collaborators:
-        - PI: K. Cameron
-        - co-PIs: L. Watson, A. Butt, D. Yao, and Y. Hong
-    type: NSF Award
-    budget: $1.2M
