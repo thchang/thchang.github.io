@@ -144,7 +144,7 @@
     institution: College of DuPage
     department: Dept. of Computer and Info. Science
     description:
-        - 'CIS 2531: Introduction to Python Programming'
+        - 'Spring 2022. CIS 2531: Introduction to Python Programming (online)'
 
 - project:
     start: Oct 2021
@@ -196,7 +196,7 @@
     institution: Virginia Tech
     department: Dept. of Computer Science
     description:
-        - 'CS 3114: Data Structures and Algorithms (in Java)'
+        - 'Spring 2020. CS 3114: Data Structures and Algorithms (half in-person, half online)'
 
 - award:
     year: 2019
@@ -295,7 +295,7 @@
     institution: Virginia Wesleyan University
     department: Learning Center
     description:
-        - 'Tutored undergraduate courses in calculus, computer science, and statistics'
+        - 'Spring 2013 - Fall 2014. All undergraduate courses in calculus, computer science, and statistics'
 
 - intern:
     start: ["Dec 2014", "May 2014"]

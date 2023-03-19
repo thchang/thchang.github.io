@@ -37,7 +37,7 @@ info/pubs.bib, proceedingsTex: inproceedings
 ## Technical Reports and Dissertations
 info/pubs.bib, techreportTex: techreport, thesis
 
-# Talks
+# Talks and Presentations
 
 ## Invited Conference Talks
 info/talks.bib, talkTex: invitedtalk
@@ -50,6 +50,9 @@ info/talks.bib, talkTex: tutorial, guestlecture
 
 ## Contributed Talks
 info/talks.bib, talkTex: contributedtalk
+
+## Posters and Lightning Talks
+info/posters.bib, talkTex:
 
 # Funding
 ## Current
