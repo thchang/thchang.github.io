@@ -58,10 +58,7 @@ info/posters.bib, talkTex:
 ## Current
 info/funding.yaml, proposalTex: current
 
-## Pending
-info/funding.yaml, proposalTex: pending
-
-## Rejected Proposals
+## Past Proposals (rejected)
 info/funding.yaml, proposalTex: reject
 
 # Professional Services and Activities

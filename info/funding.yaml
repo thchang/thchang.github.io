@@ -1,17 +1,3 @@
-- pending:
-    year: FY 2024
-    title: Codelet-based Energy-aware Architectural Simulation for Future Chiplet-Enabled Supercomputing Systems
-    agency: DOE ASCR
-    foa: EXPRESS - 2023 Exploratory Research for Extreme-Scale Science
-    number:  DE-FOA-0002950
-    type: pre-application
-    numpages: 2 pages + appendices
-    role: key personnel
-    collaborators:
-        - PI: J. Monsalve Diaz (ANL)
-    budget: $900K
-    length: 2 years
-
 
 - current:
     start: Mar 2023
@@ -25,6 +11,20 @@
     type: ANL LDRD seed award
     number: LDRD 2023-0246
     budget: $50K
+
+- preapp:
+    year: FY 2024
+    title: Codelet-based Energy-aware Architectural Simulation for Future Chiplet-Enabled Supercomputing Systems
+    agency: DOE ASCR
+    foa: EXPRESS - 2023 Exploratory Research for Extreme-Scale Science
+    number:  DE-FOA-0002950
+    type: pre-application
+    numpages: 2 pages + appendices
+    role: key personnel
+    collaborators:
+        - PI: J. Monsalve Diaz (ANL)
+    budget: $900K
+    length: 2 years
 
 - reject:
     year: FY 2023
