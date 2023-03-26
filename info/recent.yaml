@@ -20,15 +20,3 @@
     year: Sep 2022
     description: "Gave talk <i>Geometric considerations when surrogate modeling</i> at SIAM MDS in San Diego"
 
-- student:
-    year: Aug 2022
-    description: Congrats to Manisha Garg for completing and presenting project <i>Model agnostic sampling techniques for generating design-of-experiments</i>
-
-- student:
-    year: Aug 2022
-    description: Congrats to Hyrum Dickinson for completing and presenting project <i>Visualization tools for the ParMOO library</i>
-
-- talk:
-    year: Jul 2022
-    description: "Gave talk <i>ParMOO: a parallel framework for multiobjective simulation optimization problems</i> at ICCOPT in Bethlehem, PA"
-
