@@ -1,0 +1,37 @@
+PDFLATEX
+
+info/meta.yaml, titleTex: me
+
+# Interests
+info/about.yaml, singlelineTex: interests
+
+# Education
+info/about.yaml, degreeLongTex: degree
+
+# Recent Research Experience
+info/about.yaml, experienceLongTex: experience, appointment
+
+# Selected Publications (from 25 total)
+info/shortlist.bib, miscPubTex:
+
+# Current Funding
+info/funding.yaml, proposalTex: current
+
+# Teaching
+info/about.yaml, experienceLongTex: teaching
+
+# Summer Students Advised
+info/meta.yaml, peopleShortTex: advisee
+
+# Professional Services and Activities
+## Journal Referee
+info/service.yaml, bulletDateTex: journalref
+
+## Conference Reviewer
+info/service.yaml, bulletNoDateTex: confref
+
+## Minisymposium Organizer
+info/service.yaml, bulletDateTex: minisymporg
+
+## Professional Membership
+info/service.yaml, bulletDateTex: member
