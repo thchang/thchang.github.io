@@ -11,9 +11,6 @@ info/about.yaml, degreeLongTex: degree
 # Research Experience
 info/about.yaml, experienceLongTex: experience, intern, appointment
 
-# Notable Projects
-info/about.yaml, experienceLongTex: project
-
 # Awards
 info/about.yaml, experienceShortTex: award
 

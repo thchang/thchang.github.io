@@ -11,8 +11,14 @@ info/about.yaml, degreeLongTex: degree
 # Recent Research Experience
 info/about.yaml, experienceLongTex: experience, appointment
 
+# Awards
+info/about.yaml, experienceShortTex: award
+
 # Selected Publications (from 25 total)
 info/shortlist.bib, miscPubTex:
+
+# Publicly Available Software
+info/software.yaml, softwareTex:
 
 # Current Funding
 info/funding.yaml, proposalTex: current

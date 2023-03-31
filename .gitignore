@@ -2,6 +2,10 @@ cv.aux
 cv.log
 cv.out
 cv.tex
+shortcv.aux
+shortcv.log
+shortcv.out
+shortcv.tex
 fullcv.aux
 fullcv.log
 fullcv.out
