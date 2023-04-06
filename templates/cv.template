@@ -31,6 +31,15 @@ info/pubs.bib, proceedingsTex: inproceedings
 ## Technical Reports and Dissertations
 info/pubs.bib, techreportTex: techreport, thesis
 
+# Funding
+info/funding.yaml, proposalTex: current
+
+# Advising
+info/meta.yaml, peopleTex: advisee
+
+# Teaching
+info/about.yaml, experienceLongTex: tutoring, teaching
+
 # Talks and Presentations
 
 ## Invited Conference Talks
@@ -47,9 +56,6 @@ info/talks.bib, talkTex: contributedtalk
 
 ## Posters and Lightning Talks
 info/posters.bib, talkTex:
-
-# Funding
-info/funding.yaml, proposalTex: current
 
 # Professional Services and Activities
 ## Journal Referee
@@ -70,12 +76,6 @@ info/service.yaml, experienceShortTex: argonne
 
 ## Virginia Tech
 info/service.yaml, experienceShortTex: virginiatech
-
-# Advising
-info/meta.yaml, peopleTex: advisee
-
-# Teaching
-info/about.yaml, experienceLongTex: tutoring, teaching
 
 # Post-Dissertation Courses and Certifications
 info/learning.yaml, multilineTex:
