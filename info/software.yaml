@@ -3,7 +3,7 @@
     subtitle: Python library for parallel multiobjective simulation optimization
     year: 2023
     author: T. H. Chang (lead), S. M. Wild, and H. Dickinson
-    version: 0.2.0
+    version: 0.2.1
     language: Python 3
     git: https://github.com/parmoo/parmoo
     description: >
