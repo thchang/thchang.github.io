@@ -22,6 +22,9 @@ info/software.yaml, softwareTex:
 ## Publications In-Press
 info/pubs.bib, articleTex: inpress
 
+## Publications Under Review
+info/pubs.bib, miscPubTex: submitted
+
 ## Peer-Reviewed Journal Articles
 info/pubs.bib, articleTex: article
 
