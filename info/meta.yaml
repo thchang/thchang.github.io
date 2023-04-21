@@ -89,6 +89,10 @@
     description:
         - "Project: Model agnostic sampling techniques for generating design-of-experiments"
         - Project resulted in software package (pre-release) and conference article (in preparation)
+    alias:
+        - "M. Garg"
+    type:
+        - "summer student in my supervision"
 
 - advisee:
     name: Hyrum Dickinson
@@ -100,6 +104,10 @@
     description:
         - "Project: Visualization tools for the ParMOO library"
         - Project resulted in a new feature in ParMOO v0.2.0 and credit in our user documentation
+    alias:
+        - "H. Dickinson"
+    type:
+        - "summer student in my supervision"
 
 - mentee:
     name: Srinivas Eswar
