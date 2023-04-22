@@ -32,7 +32,11 @@ info/pubs.bib, collapsablePubWeb: article, inproceedings, techreport, thesis, in
 info/software.yaml, softwareWeb:
 
 % Students
-# Summer Student Collaborators
+# Information for Students
+## Opportunities for Students
+info/linktree.yaml, linktreeWeb: students
+
+## Former Summer Student Collaborators
 info/meta.yaml, peopleShortWeb: advisee
 
 % Teaching
@@ -45,8 +49,6 @@ info/linktree.yaml, linktreeWeb: notes
 
 % Misc
 # Misc Information
-## Opportunities for Students
-info/linktree.yaml, linktreeWeb: students
 
 ## My Fav Resources
 info/linktree.yaml, linktreeWeb: sites, docs

@@ -1,4 +1,16 @@
 
+- release:
+    year: Apr 2023
+    description: The ParMOO Solver Farm is now publicly available at <a href="https://github.com/parmoo/parmoo-solver-farm">GitHub</a>
+
+- release:
+    year: Apr 2023
+    description: Released ParMOO ver. 0.2.1 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
+
+- paper:
+    year: Mar 2023
+    description: 'Our paper <a href="https://openreview.net/forum?id=8KJS7RPjMqG">A framework for fully autonomous design of materials via multiobjective optimization and active learning: challenges and next steps</a> has been accepted at <i>ICLR 2023 Workshop on ML4Materials</i>'
+
 - talk:
     year: Mar 2023
     description: "Gave talk <i>ParMOO: A Python library for parallel multiobjective simulation optimization</i> at SIAM CSE in Amsterdam"
