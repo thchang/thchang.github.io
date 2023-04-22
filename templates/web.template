@@ -31,16 +31,9 @@ info/pubs.bib, collapsablePubWeb: article, inproceedings, techreport, thesis, in
 # Publicly Available Software
 info/software.yaml, softwareWeb:
 
-% Collaborators
-# Collaborators
-## Students Advised
+% Students
+# Summer Student Collaborators
 info/meta.yaml, peopleShortWeb: advisee
-
-## Advisors
-info/meta.yaml, peopleShortWeb: advisor
-
-## Other Close Collaborators
-info/meta.yaml, peopleShortWeb: collaborator
 
 % Teaching
 # Teaching
