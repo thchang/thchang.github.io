@@ -18,7 +18,6 @@ info/about.yaml, experienceShortTex: award
 info/software.yaml, softwareTex:
 
 # Publications
-
 ## Publications In-Press
 info/pubs.bib, articleTex: inpress
 
@@ -33,6 +32,22 @@ info/pubs.bib, proceedingsTex: inproceedings
 
 ## Technical Reports and Dissertations
 info/pubs.bib, techreportTex: techreport, thesis
+
+# Talks and Presentations
+## Invited Conference Talks
+info/talks.bib, talkTex: invitedtalk
+
+## Seminars and Colloquia
+info/talks.bib, talkTex: seminar
+
+## Tutorials and Guest Lectures
+info/talks.bib, talkTex: tutorial, guestlecture
+
+## Contributed Talks
+info/talks.bib, talkTex: contributedtalk
+
+## Posters and Lightning Talks
+info/posters.bib, talkTex:
 
 # Funding
 ## Current
@@ -49,23 +64,6 @@ info/meta.yaml, peopleShortTex: mentee
 
 # Teaching
 info/about.yaml, experienceLongTex: tutoring, teaching
-
-# Talks and Presentations
-
-## Invited Conference Talks
-info/talks.bib, talkTex: invitedtalk
-
-## Seminars and Colloquia
-info/talks.bib, talkTex: seminar
-
-## Tutorials and Guest Lectures
-info/talks.bib, talkTex: tutorial, guestlecture
-
-## Contributed Talks
-info/talks.bib, talkTex: contributedtalk
-
-## Posters and Lightning Talks
-info/posters.bib, talkTex:
 
 # Professional Services and Activities
 ## Journal Referee

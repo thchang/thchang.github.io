@@ -134,7 +134,7 @@
     department: MCS Division
     description:
         - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
-        - Deployed optimization solvers for particle accelerator design, material discovery (see projects), and DFT modeling
+        - Deployed optimization solvers for particle accelerator design, material discovery, and DFT modeling
 
 - extra: Advised summer students, applied for DOE funding, spoke at int'l conferences, and published scientific papers
 
@@ -168,8 +168,8 @@
     subtitle: Computer Science
     institution: Virginia Polytechnic Institute & State University (Virginia Tech)
     description:
-        - 'Advisor: Prof. Layne Watson'
-        - 'Thesis: Math. Softw. for Multiobjective Optimization Problems; Outstanding Dissertation Award nominee'
+        - 'Advisor: Layne Watson'
+        - 'Dissertation: Mathematical Software for Multiobjective Optimization Problems'
 
 - experience:
     start: Aug 2016
@@ -179,7 +179,7 @@
     department: Dept. of Computer Science
     description:
         - Designed parallel algorithms and software for predicive modeling, blackbox optimization, and computational geometry
-        - Applied solvers to model and tune HPC systems (see projects) to control performance variability
+        - Applied solvers to model and tune HPC systems to control performance variability
 
 - project:
     start: Sep 2016
