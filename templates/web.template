@@ -24,8 +24,8 @@ info/about.yaml, paragraphWeb: research-stmt-short
 ## Representative Publications
 info/shortlist.bib, collapsableShortWeb:
 
-## All Papers and Reports
-info/pubs.bib, collapsablePubWeb: article, inproceedings, techreport, thesis, inpress
+## All Papers
+info/pubs.bib, collapsablePubWeb: article, inproceedings, thesis, inpress
 
 % Software
 # Publicly Available Software

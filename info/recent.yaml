@@ -1,6 +1,10 @@
 
 - release:
     year: Apr 2023
+    description: Released ParMOO ver. 0.2.2 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
+
+- release:
+    year: Apr 2023
     description: The ParMOO Solver Farm is now publicly available at <a href="https://github.com/parmoo/parmoo-solver-farm">GitHub</a>
 
 - release:
