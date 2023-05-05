@@ -18,8 +18,8 @@ info/about.yaml, experienceShortTex: award
 info/software.yaml, softwareTex:
 
 # Publications
-## Publications In-Press
-info/pubs.bib, articleTex: inpress
+% ## Publications In-Press
+% info/pubs.bib, articleTex: inpress
 
 ## Publications Under Review
 info/pubs.bib, miscPubTex: submitted

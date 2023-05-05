@@ -8,19 +8,19 @@ info/about.yaml, singlelineTex: interests
 # Education
 info/about.yaml, degreeLongTex: degree
 
-# Recent Research Experience
-info/about.yaml, experienceLongTex: experience, appointment
+# Research Experience
+info/about.yaml, experienceLongTex: experience, appointment, intern
 
 # Awards
 info/about.yaml, experienceShortTex: award
 
-# Selected Publications (from 25 total)
-info/shortlist.bib, miscPubTex:
-
 # Publicly Available Software
 info/software.yaml, softwareTex:
 
-# Current Funding
+# Peer-Reviewed Publications
+info/pubs.bib, anypubTex: article, inproceedings
+
+# Funding Awarded
 info/funding.yaml, proposalTex: current
 
 # Teaching
@@ -28,6 +28,9 @@ info/about.yaml, experienceLongTex: teaching
 
 # Summer Students Advised
 info/meta.yaml, peopleShortTex: advisee
+
+# Invited Talks and Colloquia
+info/talks.bib, talkTex: invitedtalk, seminar, tutorial, guestlecture
 
 # Professional Services and Activities
 ## Journal Referee
@@ -41,3 +44,6 @@ info/service.yaml, bulletDateTex: minisymporg
 
 ## Professional Membership
 info/service.yaml, bulletDateTex: member
+
+# Technical Skills
+info/about.yaml, skillsTex: skills
