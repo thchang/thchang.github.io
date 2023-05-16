@@ -52,14 +52,17 @@ info/talks.bib, talkTex: contributedtalk
 ## Posters and Lightning Talks
 info/posters.bib, talkTex:
 
-# Funding
-## Current
+# Proposals for Funding
+## Awarded (Current)
 info/funding.yaml, proposalTex: current
+
+## Awarded (Completed)
+info/funding.yaml, proposalTex: completed
 
 ## Pending
 info/funding.yaml, proposalTex: pending
 
-## Rejected Proposals
+## Rejected
 info/funding.yaml, proposalTex: reject, reject-preapp
 
 # Advising

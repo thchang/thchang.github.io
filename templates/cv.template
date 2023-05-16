@@ -50,7 +50,11 @@ info/talks.bib, talkTex: contributedtalk
 info/posters.bib, talkTex:
 
 # Funding
+## Current
 info/funding.yaml, proposalTex: current
+
+## Completed
+info/funding.yaml, proposalTex: completed
 
 # Advising
 info/meta.yaml, peopleTex: advisee

@@ -8,7 +8,8 @@
     role: co-PI
     collaborators:
         - PI: G. Chen (ANL)
-    type: ANL LDRD seed award
+    type: institutional award
+    numpages: 3 pages + appendices
     number: LDRD 2023-0246
     budget: $50K
 
@@ -18,7 +19,7 @@
     agency: DOE-SciDAC/FES
     foa: SciDAC - FES Partnerships
     number: DE-FOA-0002924
-    type: full proposal
+    type: external grant proposal
     numpages: 20 pages + appendices
     role: key personnel
     collaborators:
@@ -33,7 +34,7 @@
     agency: DOE ASCR
     foa: EXPRESS - 2023 Exploratory Research for Extreme-Scale Science
     number:  DE-FOA-0002950
-    type: Round 2 pre-application
+    type: external round 2 pre-app
     numpages: 3 pages + appendices
     role: key personnel
     collaborators:
@@ -46,7 +47,7 @@
     title: Assessing the Quality of Scientific Data Sets for Machine Learning
     agency: ANL LDRD
     foa: 2023 LDRD Seed
-    type: full proposal
+    type: institutional proposal
     numpages: 3 pages + appendices
     role: PI
     budget: $25K
@@ -58,7 +59,7 @@
     agency: DOE ASCR
     foa: 2022 Mathematical Multifaceted Integrated Capability Centers (MMICCS)
     number: DE-FOA-0002704
-    type: full proposal
+    type: multi-institute center proposal
     numpages: 20 pages + appendices
     role: investigator
     collaborators:
@@ -73,7 +74,7 @@
     agency: DOE ASCR
     foa: Data Visualization for Scientific Discovery, Decision-Making, and Comm.
     number: DE-FOA-0002726
-    type: full proposal
+    type: external funding proposal
     numpages: 16 pages + appendices
     role: key personnel
     collaborators:
@@ -87,7 +88,7 @@
     title: Accelerating Multi-Objective Neural Architecture Search
     agency: ANL CELS
     foa: 2022 LDRD Advanced Computing Expedition
-    type: short proposal
+    type: institutional proposal
     numpages: 1 paragraph + admin info.
     role: co-PI
     collaborators:
@@ -101,7 +102,7 @@
     agency: DOE ASCR
     foa: FAIR Frameworks for Data and AI Models
     number: LAB 20-2306
-    type: full proposal
+    type: external funding proposal
     numpages: 13 pages + appendices
     role: key personnel
     collaborators:
@@ -109,3 +110,17 @@
         - Institution Lead: Z. Di (ANL)
     budget: $2.1M
     length: 3 years
+
+- completed:
+    start: Jun 2019
+    end: Dec 2019
+    title: An Adaptive Weighting Scheme for Multiobjective Optimization
+    agency: DOE SCGSR/ASCR
+    foa: SCGSR Program 2018 Solicitation 2
+    role: Awardee
+    collaborators:
+        - Advisors: J. Larson (ANL) and L. Watson (VT)
+    type: DOE award for PhD students
+    numpages: 3 pages + appendices
+    number: DE-SC0014664
+    budget: $20K (stipend + travel)
