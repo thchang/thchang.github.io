@@ -34,6 +34,9 @@ info/pubs.bib, proceedingsTex: inproceedings
 info/pubs.bib, techreportTex: techreport, thesis
 
 # Talks and Presentations
+## Upcoming Invitations
+info/talks.bib, talkTex: invitation
+
 ## Invited Conference Talks
 info/talks.bib, talkTex: invitedtalk
 
@@ -53,7 +56,10 @@ info/posters.bib, talkTex:
 ## Current
 info/funding.yaml, proposalTex: current
 
-## Past Proposals (rejected)
+## Pending
+info/funding.yaml, proposalTex: pending
+
+## Rejected Proposals
 info/funding.yaml, proposalTex: reject
 
 # Advising

@@ -81,6 +81,17 @@
         - Ongoing collaborations in software maintenance, performance optimization, and co-oping all Halo campaigns on legendary difficulty
 
 - advisee:
+    name: Manisha Garg
+    type: NSF MSGI at Argonne
+    institution: Urbana-Champaign
+    start: Jun 2022
+    end: Aug 2022
+    description:
+        - "Project: Model agnostic sampling techniques for generating design-of-experiments"
+    alias:
+        - "M. Garg"
+
+- advisee:
     name: Hyrum Dickinson
     type: DOE SULI at Argonne
     website: https://www.linkedin.com/in/hyrum-dickinson-6b28301b7/
@@ -91,17 +102,6 @@
         - "Project: Visualization tools for the ParMOO library"
     alias:
         - "H. Dickinson"
-
-- advisee:
-    name: Manisha Garg
-    type: NSF MSGI at Argonne
-    institution: Urbana-Champaign
-    start: Jun 2022
-    end: Aug 2022
-    description:
-        - "Project: Model agnostic sampling techniques for generating design-of-experiments"
-    alias:
-        - "M. Garg"
 
 - mentee:
     name: Srinivas Eswar

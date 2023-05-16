@@ -12,14 +12,29 @@
     number: LDRD 2023-0246
     budget: $50K
 
-- preapp:
+- pending:
+    year: FY 2024
+    title: "Fusion-PAD: Fusion Plant Analysis and Design"
+    agency: DOE-SciDAC/FES
+    foa: SciDAC - FES Partnerships
+    number: DE-FOA-0002924
+    type: full proposal
+    numpages: 20 pages + appendices
+    role: key personnel
+    collaborators:
+        - PI: TBD
+        - Institutional Lead: J. Larson (ANL)
+    budget: $3M
+    length: 4 years
+
+- reject-preapp:
     year: FY 2024
     title: Codelet-based Energy-aware Architectural Simulation for Future Chiplet-Enabled Supercomputing Systems
     agency: DOE ASCR
     foa: EXPRESS - 2023 Exploratory Research for Extreme-Scale Science
     number:  DE-FOA-0002950
-    type: pre-application
-    numpages: 2 pages + appendices
+    type: Round 2 pre-application
+    numpages: 3 pages + appendices
     role: key personnel
     collaborators:
         - PI: J. Monsalve Diaz (ANL)

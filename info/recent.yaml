@@ -1,4 +1,8 @@
 
+- poster:
+    year: May 2023
+    description: "Presented poster <i>A framework for fully autonomous design of materials via multiobjective optimization and active learning: challenges and next steps</i> at ICLR ML4Materials Workshop in Rwanda (virtual)"
+
 - release:
     year: Apr 2023
     description: Released ParMOO ver. 0.2.2 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
@@ -6,10 +10,6 @@
 - release:
     year: Apr 2023
     description: The ParMOO Solver Farm is now publicly available at <a href="https://github.com/parmoo/parmoo-solver-farm">GitHub</a>
-
-- release:
-    year: Apr 2023
-    description: Released ParMOO ver. 0.2.1 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
 
 - paper:
     year: Mar 2023
@@ -22,17 +22,4 @@
 - paper:
     year: Feb 2023
     description: 'Paper <a href="https://joss.theoj.org/papers/10.21105/joss.04468">ParMOO: A Python library for parallel multiobjective simulation optimization</a> accepted for publication in <i>JOSS</i>'
-
-- release:
-    year: Feb 2023
-    description: Released ParMOO ver. 0.2.0 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
-
-- talk:
-    year: Oct 2022
-    description: >
-        Gave tutorial <i>An introduction to multiobjective simulation optimization with ParMOO</i> in Jousef Murad's Science Academy, <a href="https://www.youtube.com/watch?v=gQha8URLEHM">recorded on YouTube</a>
-
-- talk:
-    year: Sep 2022
-    description: "Gave talk <i>Geometric considerations when surrogate modeling</i> at SIAM MDS in San Diego"
 

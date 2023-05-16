@@ -31,8 +31,9 @@
     logo: img/parmoo-icon.png
     links:
         - Docs: https://parmoo.readthedocs.io/en/latest
-        - Tutorial: https://www.youtube.com/watch?v=gQha8URLEHM
         - JOSS paper: https://joss.theoj.org/papers/10.21105/joss.04468
+        - Video Tutorial: https://www.youtube.com/watch?v=gQha8URLEHM
+        - Sample solvers: https://github.com/parmoo/parmoo-solver-farm
 
 - software:
     title: VTMOP

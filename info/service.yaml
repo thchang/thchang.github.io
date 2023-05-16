@@ -4,12 +4,12 @@
     revs: 1 paper + 1 rev
 
 - journalref:
-    title: The Visual Computer Journal
-    year: 2021
+    title: Quantum Information Processing
+    year: 2021--Present
     revs: 1 paper
 
 - journalref:
-    title: Quantum Information Processing
+    title: The Visual Computer Journal
     year: 2021
     revs: 1 paper
 
@@ -22,6 +22,11 @@
     title: Journal of Machine Learning Research
     year: 2019
     revs: 1 paper
+
+- confref:
+    title: Int. Congress on Industrial and Applied Mathematics (ICIAM) 2023
+    year: 2023
+    revs: 1 abstract
 
 - confref:
     title: Int. Conf. for HPC, Networking, Storage, and Analysis (Supercomputing) 2021

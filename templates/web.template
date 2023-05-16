@@ -14,7 +14,7 @@ info/news.yaml, newsWeb:
 ## Recent Events
 info/recent.yaml, newsWeb:
 
-## All Past Talks
+## All Talks
 info/talks.bib, collapsableLongWeb:
 
 % Research

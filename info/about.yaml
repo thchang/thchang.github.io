@@ -27,9 +27,9 @@
 
 - interests:
     - blackbox optimization
-    - machine learning
+    - scientific machine learning
+    - approximation theory
     - computational geometry
-    - analysis of algorithms
     - scientific software
 
 - research-stmt:
@@ -134,7 +134,7 @@
     department: MCS Division
     description:
         - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
-        - Deployed optimization solvers for particle accelerator design, material discovery, and DFT modeling
+        - Deployed solvers for particle accelerator design, autonomous material discovery, and neural-network architecture search
 
 - extra: Advised summer students, applied for DOE funding, spoke at int'l conferences, and published scientific papers
 
@@ -145,6 +145,7 @@
     department: Dept. of Computer and Info. Science
     description:
         - 'Spring 2022. CIS 2531: Introduction to Python Programming (online)'
+        - 'Summer 2023. CIS 2531: Introduction to Python Programming (in-person)'
 
 - project:
     start: Oct 2021

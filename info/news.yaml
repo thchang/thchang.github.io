@@ -1,7 +1,3 @@
-- poster:
-    year: May 2023
-    description: "Presenting poster <i>A framework for fully autonomous design of materials via multiobjective optimization and active learning: challenges and next steps</i> at ICLR ML4Materials Workshop in Rwanda"
-
 - talk:
     year: May 2023
     description: "Giving talk <i>Exploiting problem structure with ParMOO -- A Python library for parallel multiobjective simulation optimization</i> at SIAM OP in Seattle"
