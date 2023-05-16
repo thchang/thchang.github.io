@@ -60,7 +60,7 @@ info/funding.yaml, proposalTex: current
 info/funding.yaml, proposalTex: pending
 
 ## Rejected Proposals
-info/funding.yaml, proposalTex: reject
+info/funding.yaml, proposalTex: reject, reject-preapp
 
 # Advising
 info/meta.yaml, peopleTex: advisee
