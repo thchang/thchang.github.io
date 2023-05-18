@@ -11,21 +11,21 @@
     type: institutional award
     numpages: 3 pages + appendices
     number: LDRD 2023-0246
-    budget: $50K
+    budget: $50K/y
 
 - pending:
     year: FY 2024
     title: "Fusion-PAD: Fusion Plant Analysis and Design"
-    agency: DOE-SciDAC/FES
+    agency: DOE-FES/ASCR
     foa: SciDAC - FES Partnerships
     number: DE-FOA-0002924
     type: external grant proposal
     numpages: 20 pages + appendices
     role: key personnel
     collaborators:
-        - PI: TBD
+        - PI: C. McDevitt (Florida)
         - Institutional Lead: J. Larson (ANL)
-    budget: $3M
+    budgetx: $3M/y
     length: 4 years
 
 - reject-preapp:
@@ -34,12 +34,12 @@
     agency: DOE ASCR
     foa: EXPRESS - 2023 Exploratory Research for Extreme-Scale Science
     number:  DE-FOA-0002950
-    type: external round 2 pre-app
+    type: external grant R2 pre-app
     numpages: 3 pages + appendices
     role: key personnel
     collaborators:
         - PI: J. Monsalve Diaz (ANL)
-    budget: $900K
+    budget: $900K/y
     length: 2 years
 
 - reject:
@@ -50,7 +50,7 @@
     type: institutional proposal
     numpages: 3 pages + appendices
     role: PI
-    budget: $25K
+    budget: $25K/y
     length: 7 months
 
 - reject:
@@ -65,7 +65,7 @@
     collaborators:
         - Dir: R. Joseph (GA Tech)
         - Institution Lead: Z. Di (ANL)
-    budget: $12.7M
+    budget: $12.7M/y
     length: 5 years
 
 - reject:
@@ -74,13 +74,13 @@
     agency: DOE ASCR
     foa: Data Visualization for Scientific Discovery, Decision-Making, and Comm.
     number: DE-FOA-0002726
-    type: external funding proposal
+    type: external grant proposal
     numpages: 16 pages + appendices
     role: key personnel
     collaborators:
         - PI: G. Chin (PNNL)
         - Institution Lead: T. Munson (ANL)
-    budget: $2.7M
+    budget: $2.7M/y
     length: 3 years
 
 - reject:
@@ -93,7 +93,7 @@
     role: co-PI
     collaborators:
         - With: S. Khairy (ANL)
-    budget: $33.6K
+    budget: $33.6K/y
     length: 8 weeks
 
 - reject:
@@ -102,13 +102,13 @@
     agency: DOE ASCR
     foa: FAIR Frameworks for Data and AI Models
     number: LAB 20-2306
-    type: external funding proposal
+    type: external grant proposal
     numpages: 13 pages + appendices
     role: key personnel
     collaborators:
         - PI: A. Gillette (LLNL)
         - Institution Lead: Z. Di (ANL)
-    budget: $2.1M
+    budget: $2.1M/y
     length: 3 years
 
 - completed:
@@ -123,4 +123,4 @@
     type: DOE award for PhD students
     numpages: 3 pages + appendices
     number: DE-SC0014664
-    budget: $20K (stipend + travel)
+    budget: $3K/mo stipend
