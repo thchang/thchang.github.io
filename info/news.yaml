@@ -1,8 +1,4 @@
 - talk:
-    year: May 2023
-    description: "Giving talk <i>Exploiting problem structure with ParMOO -- A Python library for parallel multiobjective simulation optimization</i> at SIAM OP in Seattle"
-
-- talk:
     year: Aug 2023
     description: "Giving talk <i>Data sampling for surrogate modeling and optimization</i> at ICIAM in Tokyo"
 

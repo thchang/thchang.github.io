@@ -1,4 +1,8 @@
 
+- talk:
+    year: Jun 2023
+    description: "Gave talk <i>Exploiting structures in multiobjective simulation optimization problems</i> at SIAM OP in Seattle"
+
 - poster:
     year: May 2023
     description: "Presented poster <i>A framework for fully autonomous design of materials via multiobjective optimization and active learning: challenges and next steps</i> at ICLR ML4Materials Workshop in Rwanda (virtual)"
