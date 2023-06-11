@@ -144,8 +144,8 @@
     institution: College of DuPage
     department: Dept. of Computer and Info. Science
     description:
-        - 'Spring 2022. CIS 2531: Introduction to Python Programming (online)'
         - 'Summer 2023. CIS 2531: Introduction to Python Programming (in-person)'
+        - 'Spring 2022. CIS 2531: Introduction to Python Programming (online)'
 
 - project:
     start: Oct 2021
