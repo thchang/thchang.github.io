@@ -2,3 +2,7 @@
     year: Aug 2023
     description: "Giving talk <i>Data sampling for surrogate modeling and optimization</i> at ICIAM in Tokyo"
 
+- talk:
+    year: Jul 2023
+    description: "Giving LANS Seminar <i>Toward interpretable machine learning via Delaunay triangulations</i> at Argonne"
+

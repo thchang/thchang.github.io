@@ -17,8 +17,8 @@ info/about.yaml, experienceShortTex: award
 # Publicly Available Software
 info/software.yaml, softwareTex:
 
-# Peer-Reviewed Publications
-info/pubs.bib, anypubTex: article, inproceedings
+# Selected Publications (from 29 indexed on Scholar)
+info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
 # Funding Awarded
 info/funding.yaml, proposalTex: current
@@ -29,8 +29,8 @@ info/about.yaml, experienceLongTex: teaching
 # Summer Students Advised
 info/meta.yaml, peopleShortTex: advisee
 
-# Invited Talks and Colloquia
-info/talks.bib, talkTex: invitedtalk, seminar, tutorial, guestlecture
+# Invited Talks and Guest Lectures
+info/talks.bib, talkTex: invitedtalk, tutorial, guestlecture, invitation
 
 # Professional Services and Activities
 ## Journal Referee
