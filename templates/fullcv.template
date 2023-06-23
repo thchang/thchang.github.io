@@ -1,6 +1,6 @@
-PDFLATEX
+LUALATEX
 
-info/meta.yaml, titleTex: me
+info/meta.yaml, titleLualatex: me
 
 # Interests
 info/about.yaml, singlelineTex: interests
@@ -52,17 +52,17 @@ info/talks.bib, talkTex: contributedtalk
 ## Posters and Lightning Talks
 info/posters.bib, talkTex:
 
-# Proposals and Funding
-## Awarded (Current)
+# Grants and Proposals
+## Current Grants
 info/funding.yaml, proposalTex: current
 
-## Awarded (Completed)
+## Completed Grants
 info/funding.yaml, proposalTex: completed
 
-## Pending
+## Pending Proposals
 info/funding.yaml, proposalTex: pending
 
-## Rejected
+## Not Awarded
 info/funding.yaml, proposalTex: reject, reject-preapp
 
 # Advising

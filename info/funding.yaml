@@ -1,17 +1,18 @@
 
-- current:
-    start: Mar 2023
-    end: Sep 2023
-    title: A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design
+- pending:
+    year: FY 2024
+    title: "Three-dimensional antiferromagnetic memory"
     agency: ANL LDRD
-    foa: 2023 LDRD Seed
-    role: co-PI
-    collaborators:
-        - PI: G. Chen (ANL)
-    type: institutional award
+    foa: 2024 LDRD Prime
+    numberx: LDRD 2024-0192
+    type: institutional proposal
     numpages: 3 pages + appendices
-    number: LDRD 2023-0246
-    budget: $50K/y
+    role: Co-PI
+    collaborators:
+        - PI: Y. Li (ANL)
+    budget: XXX/y
+    budgetx: $200K/y
+    length: 2 years
 
 - pending:
     year: FY 2024
@@ -21,10 +22,11 @@
     number: DE-FOA-0002924
     type: external grant proposal
     numpages: 20 pages + appendices
-    role: key personnel
+    role: Key personnel
     collaborators:
         - PI: C. McDevitt (Florida)
         - Institutional Lead: J. Larson (ANL)
+    budget: XXX/y
     budgetx: $3M/y
     length: 4 years
 
@@ -36,11 +38,26 @@
     number:  DE-FOA-0002950
     type: external grant R2 pre-app
     numpages: 3 pages + appendices
-    role: key personnel
+    role: Key personnel
     collaborators:
         - PI: J. Monsalve Diaz (ANL)
     budget: $900K/y
     length: 2 years
+
+- current:
+    start: Mar 2023
+    end: Sep 2023
+    title: A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design
+    agency: ANL LDRD
+    foa: 2023 LDRD Seed
+    role: Co-PI
+    collaborators:
+        - PI: G. Chen (ANL)
+    type: institutional award
+    numpages: 3 pages + appendices
+    number: LDRD 2023-0246
+    budget: $50K
+    share: $25K
 
 - reject:
     year: FY 2023
@@ -50,7 +67,7 @@
     type: institutional proposal
     numpages: 3 pages + appendices
     role: PI
-    budget: $25K/y
+    budget: $25K
     length: 7 months
 
 - reject:
@@ -61,7 +78,7 @@
     number: DE-FOA-0002704
     type: multi-institute center proposal
     numpages: 20 pages + appendices
-    role: investigator
+    role: Investigator
     collaborators:
         - Dir: R. Joseph (GA Tech)
         - Institution Lead: Z. Di (ANL)
@@ -76,7 +93,7 @@
     number: DE-FOA-0002726
     type: external grant proposal
     numpages: 16 pages + appendices
-    role: key personnel
+    role: Key personnel
     collaborators:
         - PI: G. Chin (PNNL)
         - Institution Lead: T. Munson (ANL)
@@ -90,10 +107,11 @@
     foa: 2022 LDRD Advanced Computing Expedition
     type: institutional proposal
     numpages: 1 paragraph + admin info.
-    role: co-PI
+    role: Co-PI
     collaborators:
         - With: S. Khairy (ANL)
-    budget: $33.6K/y
+    budget: $33.6K
+    share: $16.8K
     length: 8 weeks
 
 - reject:
@@ -104,7 +122,7 @@
     number: LAB 20-2306
     type: external grant proposal
     numpages: 13 pages + appendices
-    role: key personnel
+    role: Key personnel
     collaborators:
         - PI: A. Gillette (LLNL)
         - Institution Lead: Z. Di (ANL)
@@ -117,7 +135,7 @@
     title: An Adaptive Weighting Scheme for Multiobjective Optimization
     agency: DOE SCGSR/ASCR
     foa: SCGSR Program 2018 Solicitation 2
-    role: Awardee
+    role: Primary awardee
     collaborators:
         - Advisors: J. Larson (ANL) and L. Watson (VT)
     type: DOE award for PhD students

@@ -1,6 +1,6 @@
-PDFLATEX
+LUALATEX
 
-info/meta.yaml, titleTex: me
+info/meta.yaml, titleLualatex: me
 
 # Interests
 info/about.yaml, singlelineTex: interests
@@ -20,7 +20,7 @@ info/software.yaml, softwareTex:
 # Selected Publications (from 29 indexed on Scholar)
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
-# Funding Awarded
+# Grants
 info/funding.yaml, proposalTex: current
 
 # Teaching

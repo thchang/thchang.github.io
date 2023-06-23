@@ -22,5 +22,5 @@ $(BUILDDIR)/shortcv.pdf: info/* templates/shortcv.template
 	python3 $(INSTALL)/parser.py templates/shortcv.template $(BUILDDIR)
 
 clean:
-	rm -f $(BUILDDIR)/*.log $(BUILDDIR)/*.out $(BUILDDIR)/*.aux $(BUILDDIR)/timeline.svg
+	rm -f $(BUILDDIR)/*.log $(BUILDDIR)/*.out $(BUILDDIR)/*.aux $(BUILDDIR)/timeline.svg $(BUILDDIR)/*.flg
 	rm -f $(BUILDDIR)/web.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf

@@ -15,3 +15,4 @@ resume.log
 resume.out
 resume.tex
 targets.temp
+*.fls

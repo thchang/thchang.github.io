@@ -1,6 +1,6 @@
-PDFLATEX
+LUALATEX
 
-info/meta.yaml, titleTex: me
+info/meta.yaml, titleLualatex: me
 
 # Interests
 info/about.yaml, singlelineTex: interests
@@ -49,7 +49,7 @@ info/talks.bib, talkTex: contributedtalk
 ## Posters and Lightning Talks
 info/posters.bib, talkTex:
 
-# Funding
+# Grants
 ## Current
 info/funding.yaml, proposalTex: current
 
