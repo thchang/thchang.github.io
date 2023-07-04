@@ -14,12 +14,18 @@ info/news.yaml, newsWeb:
 ## Recent Events
 info/recent.yaml, newsWeb:
 
+## All Talks
+info/talks.bib, collapsableLongWeb:
+
 % Research
 # Research and Publications
 info/about.yaml, paragraphWeb: research-stmt-short
 
 ## Representative Publications
 info/shortlist.bib, collapsableShortWeb:
+
+## All Papers
+info/pubs.bib, collapsablePubWeb: article, inproceedings, thesis, inpress
 
 % Software
 # Publicly Available Software
