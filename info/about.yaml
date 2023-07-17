@@ -137,8 +137,10 @@
     institution: Argonne National Laboratory
     department: MCS Division
     description:
+        - 'Supervisor: Stefan Wild'
         - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
         - Deployed solvers for particle accelerator design, autonomous material discovery, and neural-network architecture search
+        - Applied for grants, supervised interns, authored scientific papers, and represented Argonne at internat'l conferences
 
 - extra: Advised summer students, applied for DOE funding, spoke at int'l conferences, and published scientific papers
 
@@ -185,6 +187,7 @@
     description:
         - Designed parallel algorithms and software for predicive modeling, blackbox optimization, and computational geometry
         - Applied solvers to model and tune HPC systems to control performance variability
+        - Published papers in academic journals and conferences
 
 - project:
     start: Sep 2016

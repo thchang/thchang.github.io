@@ -2,7 +2,7 @@ LUALATEX
 
 info/meta.yaml, titleLualatex: me
 
-# Interests
+# Research Interests
 info/about.yaml, singlelineTex: interests
 
 # Education
@@ -59,7 +59,7 @@ info/funding.yaml, proposalTex: completed
 # Advising
 info/meta.yaml, peopleTex: advisee
 
-# Teaching
+# Teaching Experience
 info/about.yaml, experienceLongTex: tutoring, teaching
 
 # Professional Services and Activities

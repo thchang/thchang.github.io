@@ -2,7 +2,7 @@ LUALATEX
 
 info/meta.yaml, titleLualatex: me
 
-# Interests
+# Research Interests
 info/about.yaml, singlelineTex: interests
 
 # Education
@@ -71,7 +71,7 @@ info/meta.yaml, peopleTex: advisee
 # Mentoring
 info/meta.yaml, peopleShortTex: mentee
 
-# Teaching
+# Teaching Experience
 info/about.yaml, experienceLongTex: tutoring, teaching
 
 # Professional Services and Activities
