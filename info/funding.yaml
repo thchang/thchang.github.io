@@ -14,7 +14,7 @@
     budgetx: $200K/y
     length: 2 years
 
-- pending:
+- reject:
     year: FY 2024
     title: "Fusion-PAD: Fusion Plant Analysis and Design"
     agency: DOE-FES/ASCR
@@ -26,8 +26,7 @@
     collaborators:
         - PI: C. McDevitt (Florida)
         - Institutional Lead: J. Larson (ANL)
-    budget: XXX/y
-    budgetx: $3M/y
+    budget: $3M/y
     length: 4 years
 
 - reject-preapp:
