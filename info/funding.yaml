@@ -1,5 +1,5 @@
 
-- pending:
+- reject:
     year: FY 2024
     title: "Three-dimensional antiferromagnetic memory"
     agency: ANL LDRD
@@ -10,8 +10,7 @@
     role: Co-PI
     collaborators:
         - PI: Y. Li (ANL)
-    budget: XXX/y
-    budgetx: $200K/y
+    budget: $200K/y
     length: 2 years
 
 - reject:

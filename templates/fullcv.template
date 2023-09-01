@@ -59,8 +59,8 @@ info/funding.yaml, proposalTex: current
 ## Completed Grants
 info/funding.yaml, proposalTex: completed
 
-## Pending Proposals
-info/funding.yaml, proposalTex: pending
+%## Pending Proposals
+%info/funding.yaml, proposalTex: pending
 
 ## Not Awarded
 info/funding.yaml, proposalTex: reject, reject-preapp
