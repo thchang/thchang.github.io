@@ -12,7 +12,7 @@ info/about.yaml, degreeLongTex: degree
 info/about.yaml, experienceLongTex: experience, appointment, intern
 
 # Awards
-info/about.yaml, experienceShortTex: award
+info/about.yaml, multilineTex: award
 
 # Publicly Available Software
 info/software.yaml, softwareTex:
