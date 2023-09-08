@@ -32,7 +32,7 @@ info/meta.yaml, peopleShortTex: advisee
 # Invited Talks and Guest Lectures
 info/talks.bib, talkTex: invitedtalk, tutorial, guestlecture, invitation
 
-# Professional Services and Activities
+# Professional Service and Activities
 ## Journal Referee
 info/service.yaml, bulletDateTex: journalref
 

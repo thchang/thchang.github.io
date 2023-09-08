@@ -74,7 +74,7 @@ info/meta.yaml, peopleShortTex: mentee
 # Teaching Experience
 info/about.yaml, experienceLongTex: tutoring, teaching
 
-# Professional Services and Activities
+# Professional Service and Activities
 ## Journal Referee
 info/service.yaml, bulletDateTex: journalref
 
@@ -87,7 +87,7 @@ info/service.yaml, bulletDateTex: minisymporg
 ## Professional Membership
 info/service.yaml, bulletDateTex: member
 
-# Institutional Services
+# Institutional Service
 ## Argonne
 info/service.yaml, multilineTex: argonne
 

@@ -218,7 +218,7 @@
 - appointment:
     start: Jun 2019
     end: Dec 2019
-    title: SCGSR awardee
+    title: US DOE SCGSR awardee
     institution: Argonne National Laboratory
     department: MCS Division
     description:
@@ -226,7 +226,7 @@
 
 - award:
     year: 2018
-    title: SCGSR Award
+    title: US DOE SCGSR Award
     institution: DOE Office of Science
     department: Graduate Student Research (SCGSR) Program
     description:
