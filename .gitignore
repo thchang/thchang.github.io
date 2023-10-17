@@ -14,5 +14,9 @@ resume.aux
 resume.log
 resume.out
 resume.tex
+pubslist.aux
+pubslist.log
+pubslist.out
+pubslist.tex
 targets.temp
 *.fls

@@ -26,4 +26,4 @@ $(BUILDDIR)/shortcv.pdf: info/* templates/shortcv.template
 
 clean:
 	rm -f $(BUILDDIR)/*.log $(BUILDDIR)/*.out $(BUILDDIR)/*.aux $(BUILDDIR)/timeline.svg $(BUILDDIR)/*.flg
-	rm -f $(BUILDDIR)/web.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf
+	rm -f $(BUILDDIR)/web.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf $(BUILDDIR)/pubslist.pdf
