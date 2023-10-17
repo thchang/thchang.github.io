@@ -2,7 +2,7 @@ INSTALL = ../thchang-style
 BUILDDIR = .
 IMGDIR = img
 
-all: $(BUILDDIR)/index.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf $(BUILDDIR)/shortcv.pdf
+all: $(BUILDDIR)/index.html $(BUILDDIR)/cv.pdf $(BUILDDIR)/fullcv.pdf $(BUILDDIR)/resume.pdf $(BUILDDIR)/shortcv.pdf $(BUILDDIR)/pubslist.pdf
 
 $(BUILDDIR)/index.html: info/* templates/web.template
 	python3 $(INSTALL)/parser.py templates/web.template $(BUILDDIR)
@@ -11,6 +11,9 @@ $(BUILDDIR)/index.html: info/* templates/web.template
 
 $(BUILDDIR)/cv.pdf: info/* templates/cv.template
 	python3 $(INSTALL)/parser.py templates/cv.template $(BUILDDIR)
+
+$(BUILDDIR)/pubslist.pdf: info/* templates/pubslist.template
+	python3 $(INSTALL)/parser.py templates/pubslist.template $(BUILDDIR)
 
 $(BUILDDIR)/fullcv.pdf: info/* templates/fullcv.template
 	python3 $(INSTALL)/parser.py templates/fullcv.template $(BUILDDIR)

@@ -6,10 +6,13 @@ info/meta.yaml, titleLualatex: me
 info/about.yaml, singlelineTex: interests
 
 # Education
-info/about.yaml, degreeLongTex: degree
+info/about.yaml, degreeShortTex: degree
 
 # Research Experience
-info/about.yaml, experienceLongTex: experience, intern, appointment
+info/about.yaml, experienceShortTex: experience, intern, appointment
+
+# Teaching Experience
+info/about.yaml, experienceShortTex: tutoring, teaching
 
 # Awards
 info/about.yaml, multilineTex: award
@@ -24,7 +27,7 @@ info/pubs.bib, articleTex: inpress
 ## Peer-Reviewed Journal Articles
 info/pubs.bib, articleTex: article
 
-## Peer-Reviewed Conference Papers
+## Peer-Reviewed Conference and Workshop Papers
 info/pubs.bib, proceedingsTex: inproceedings
 
 ## Technical Reports and Dissertations
@@ -40,12 +43,6 @@ info/talks.bib, talkTex: seminar
 ## Tutorials and Guest Lectures
 info/talks.bib, talkTex: tutorial, guestlecture
 
-## Contributed Talks
-info/talks.bib, talkTex: contributedtalk
-
-## Posters and Lightning Talks
-info/posters.bib, talkTex:
-
 # Grants
 ## Current
 info/funding.yaml, proposalTex: current
@@ -55,9 +52,6 @@ info/funding.yaml, proposalTex: completed
 
 # Advising
 info/meta.yaml, peopleTex: advisee
-
-# Teaching Experience
-info/about.yaml, experienceLongTex: tutoring, teaching
 
 # Professional Service and Activities
 ## Journal Referee
