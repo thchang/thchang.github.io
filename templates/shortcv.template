@@ -17,7 +17,7 @@ info/about.yaml, multilineTex: award
 # Publicly Available Software
 info/software.yaml, softwareTex:
 
-# Selected Publications (from 29 indexed on Scholar)
+# Selected Publications (from 31 indexed on Scholar)
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
 # Grants
