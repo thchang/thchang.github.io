@@ -6,10 +6,13 @@ info/meta.yaml, titleLualatex: me
 info/about.yaml, singlelineTex: interests
 
 # Education
-info/about.yaml, degreeLongTex: degree
+info/about.yaml, degreeShortTex: degree
 
 # Research Experience
-info/about.yaml, experienceLongTex: experience, intern, appointment
+info/about.yaml, experienceShortTex: experience, intern, appointment
+
+# Teaching Experience
+info/about.yaml, experienceLongTex: tutoring, teaching
 
 # Awards
 info/about.yaml, multilineTex: award
@@ -71,9 +74,6 @@ info/meta.yaml, peopleTex: advisee
 # Mentoring
 info/meta.yaml, peopleShortTex: mentee
 
-# Teaching Experience
-info/about.yaml, experienceLongTex: tutoring, teaching
-
 # Professional Service and Activities
 ## Journal Referee
 info/service.yaml, bulletDateTex: journalref
@@ -91,6 +91,9 @@ info/service.yaml, bulletDateTex: member
 ## Argonne
 info/service.yaml, multilineTex: argonne
 
+## College of DuPage
+info/service.yaml, multilineTex: cod
+
 ## Virginia Tech
 info/service.yaml, multilineTex: virginiatech
 
@@ -99,6 +102,3 @@ info/learning.yaml, multilineTex:
 
 # Misc. Travel Awards
 info/minor.yaml, multilineTex: travelaward
-
-# Technical Skills
-info/about.yaml, skillsTex: skills

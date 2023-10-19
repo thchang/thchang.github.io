@@ -65,16 +65,3 @@ info/service.yaml, bulletDateTex: minisymporg
 
 ## Professional Membership
 info/service.yaml, bulletDateTex: member
-
-# Institutional Service
-## Argonne
-info/service.yaml, multilineTex: argonne
-
-## Virginia Tech
-info/service.yaml, multilineTex: virginiatech
-
-# Post-Dissertation Courses and Certifications
-info/learning.yaml, multilineTex:
-
-# Technical Skills
-info/about.yaml, skillsTex: skills
