@@ -140,7 +140,6 @@
     institution: Argonne National Laboratory
     department: MCS Division
     description:
-        - 'Supervisor: Stefan Wild'
         - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
         - Deployed solvers for particle accelerator design, autonomous material discovery, and neural-network architecture search
         - Applied for grants, supervised interns, authored scientific papers, and represented Argonne at international conferences
@@ -153,6 +152,7 @@
     institution: College of DuPage
     department: Dept. of Computer and Info. Science
     description:
+        - 'Spring 2024. CIS 2531: Introduction to Python Programming (hybrid)'
         - 'Summer 2023. CIS 2531: Introduction to Python Programming (in-person)'
         - 'Spring 2022. CIS 2531: Introduction to Python Programming (online)'
 

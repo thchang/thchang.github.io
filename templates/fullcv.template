@@ -6,10 +6,10 @@ info/meta.yaml, titleLualatex: me
 info/about.yaml, singlelineTex: interests
 
 # Education
-info/about.yaml, degreeShortTex: degree
+info/about.yaml, degreeLongTex: degree
 
 # Research Experience
-info/about.yaml, experienceShortTex: experience, intern, appointment
+info/about.yaml, experienceLongTex: experience, intern, appointment
 
 # Teaching Experience
 info/about.yaml, experienceLongTex: tutoring, teaching
