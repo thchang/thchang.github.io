@@ -104,5 +104,5 @@ info/learning.yaml, multilineTex:
 info/minor.yaml, multilineTex: travelaward
 
 # References
-info/meta.yaml, peopleTex: advisor, reference, reference1
+info/meta.yaml, peopleTex: advisor, reference, reference1, reference2
 

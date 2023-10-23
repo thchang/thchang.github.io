@@ -84,7 +84,8 @@
     ttype: Former project PI
     website: https://wordpress.cs.vt.edu/cameron
     description:
-        - "Former project PI. Email: cameron@cs.vt.edu"
+        - "Former project PI."
+        - "Email: cameron@cs.vt.edu"
 
 - collaborator:
     name: Thomas Lux

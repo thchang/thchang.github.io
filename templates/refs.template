@@ -1,0 +1,11 @@
+LUALATEX
+
+info/meta.yaml, titleLualatex: me
+
+# References
+## Primary references
+info/meta.yaml, peopleTex: advisor, reference
+
+## Additional references
+info/meta.yaml, peopleTex: reference1, reference2
+
