@@ -188,7 +188,7 @@
     institution: Virginia Tech
     department: Dept. of Computer Science
     description:
-        - Designed parallel algorithms and software for predicive modeling, blackbox optimization, and computational geometry
+        - Designed parallel algorithms and software for predictive modeling, blackbox optimization, and computational geometry
         - Applied solvers to model and tune HPC systems to control performance variability
         - Published papers in academic journals and conferences
 

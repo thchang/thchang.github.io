@@ -53,7 +53,7 @@
 
 - reference1:
     name: Jeffrey Larson
-    institution: Senior Computational Mathematician, Argonne National Lab
+    institution: Computational Mathematician, Argonne National Lab
     ttype: Current supervisor and internal collaborator
     website: https://jmlarson1.github.io/
     description:
@@ -84,7 +84,7 @@
     ttype: Former project PI
     website: https://wordpress.cs.vt.edu/cameron
     description:
-        - "Former project PI."
+        - "Former project PI"
         - "Email: cameron@cs.vt.edu"
 
 - collaborator:
