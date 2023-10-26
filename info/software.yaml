@@ -39,7 +39,7 @@
     title: VTMOP
     subtitle: Solver for blackbox multiobjective optimization problems
     year: 2022
-    author: T. H. Chang (sole)
+    author: T. H. Chang (lead) and L. T. Watson
     language: Fortran 2008
     git: https://github.com/vtopt/VTMOP
     description: >
@@ -70,7 +70,7 @@
     title: DelaunaySparse
     subtitle: Interpolation via a sparse subset of the Delaunay triangulation
     year: 2020
-    author: T. H. Chang (lead) and T. C. H. Lux
+    author: T. H. Chang (lead), T. C. H. Lux, and L. T. Watson
     language: Fortran 2003
     git: https://github.com/vtopt/DelaunaySparse
     description: >

@@ -1,4 +1,18 @@
 
+- pending:
+    year: FY 2024
+    title: Confidential
+    agency: DOE
+    foa: "HPC4EnergyInnovation Program: Summer 2024 Collaborations for U.S. Manufacturers"
+    type: external grant proposal
+    numpages: 7 pages + appendices
+    role: co-PI
+    collaborators:
+        - Industry collaborator: GE Research
+        - co-PIs: L. Ward (ANL) and S. Chaudhuri (UIC/ANL)
+    budget: $500k/y ($400K/y for ANL)
+    length: 1 years + possible extension to 2 years
+
 - reject:
     year: FY 2024
     title: "Three-dimensional antiferromagnetic memory"
@@ -25,7 +39,7 @@
     collaborators:
         - PI: C. McDevitt (Florida)
         - Institutional Lead: J. Larson (ANL)
-    budget: $3M/y
+    bbudget: $3M/y
     length: 4 years
 
 - reject-preapp:
@@ -42,7 +56,7 @@
     budget: $900K/y
     length: 2 years
 
-- current:
+- completed:
     start: Mar 2023
     end: Sep 2023
     title: A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design

@@ -21,11 +21,17 @@ info/about.yaml, multilineTex: award
 info/software.yaml, softwareTex:
 
 # Publications
+%## 5 Selected Publications
+%info/shortlist.bib, miscPubTex: 
+
 ## Publications In-Press
 info/pubs.bib, articleTex: inpress
 
 ## Publications Under Review
 info/pubs.bib, miscPubTex: submitted
+
+## Publications In Preparation (Submission Imminent)
+info/pubs.bib, miscPubTex: inpreparation
 
 ## Peer-Reviewed Journal Articles
 info/pubs.bib, articleTex: article
@@ -56,14 +62,14 @@ info/talks.bib, talkTex: contributedtalk
 info/posters.bib, talkTex:
 
 # Grants and Proposals
-## Current Grants
-info/funding.yaml, proposalTex: current
+%## Current Grants
+%info/funding.yaml, proposalTex: current
+
+## Pending Proposals
+info/funding.yaml, proposalTex: pending
 
 ## Completed Grants
 info/funding.yaml, proposalTex: completed
-
-%## Pending Proposals
-%info/funding.yaml, proposalTex: pending
 
 ## Not Awarded
 info/funding.yaml, proposalTex: reject, reject-preapp

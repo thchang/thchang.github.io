@@ -44,8 +44,8 @@ info/talks.bib, talkTex: seminar
 info/talks.bib, talkTex: tutorial, guestlecture
 
 # Grants
-## Current
-info/funding.yaml, proposalTex: current
+%## Current
+%info/funding.yaml, proposalTex: current
 
 ## Completed
 info/funding.yaml, proposalTex: completed

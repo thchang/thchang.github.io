@@ -20,8 +20,8 @@ info/software.yaml, softwareTex:
 # Selected Publications (from 31 indexed on Scholar)
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
-# Grants
-info/funding.yaml, proposalTex: current
+# Grants (Completed)
+info/funding.yaml, proposalTex: completed
 
 # Teaching
 info/about.yaml, experienceLongTex: teaching
