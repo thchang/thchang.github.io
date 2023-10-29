@@ -4,8 +4,8 @@ info/meta.yaml, titleLualatex: me
 
 # References
 ## Primary references
-info/meta.yaml, peopleTex: advisor, reference
+info/meta.yaml, peopleTex: advisor, reference1, reference2
 
 ## Additional references
-info/meta.yaml, peopleTex: reference1, reference2
+info/meta.yaml, peopleTex: reference3, reference4
 

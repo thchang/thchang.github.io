@@ -60,7 +60,7 @@
         - "Supervisor and internal collaborator"
         - "Email: jmlarson@anl.gov"
 
-- reference:
+- reference2:
     name: Andrew Gillette
     institution: Computational Scientist, Lawrence Livermore National Lab
     ttype: External collaborator
@@ -69,7 +69,7 @@
         - "External collaborator"
         - "Email: gillette7@llnl.gov"
 
-- reference:
+- reference3:
     name: Santanu Chaudhuri
     institution: Professor of Civil, Material, and Environmental Engineering, University of Illinois Chicago
     ttype: External collaborator
@@ -78,7 +78,7 @@
         - "External collaborator"
         - "Email: santc@uic.edu"
 
-- reference2:
+- reference4:
     name: Kirk Cameron
     institution: Professor of Computer Science, Virginia Tech
     ttype: Former project PI
