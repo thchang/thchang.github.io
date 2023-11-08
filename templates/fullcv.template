@@ -11,11 +11,21 @@ info/about.yaml, degreeLongTex: degree
 # Research Experience
 info/about.yaml, experienceLongTex: experience, intern, appointment
 
-# Teaching Experience
-info/about.yaml, experienceLongTex: tutoring, teaching
-
 # Awards
 info/about.yaml, multilineTex: award
+
+# Grants and Proposals
+%## Current Grants
+%info/funding.yaml, proposalTex: current
+
+%## Pending Proposals
+%info/funding.yaml, proposalTex: pending
+
+## Completed Grants
+info/funding.yaml, proposalTex: completed
+
+## Not Awarded
+info/funding.yaml, proposalTex: reject, reject-preapp
 
 # Publicly Available Software
 info/software.yaml, softwareTex:
@@ -61,18 +71,8 @@ info/talks.bib, talkTex: contributedtalk
 ## Posters and Lightning Talks
 info/posters.bib, talkTex:
 
-# Grants and Proposals
-%## Current Grants
-%info/funding.yaml, proposalTex: current
-
-## Pending Proposals
-info/funding.yaml, proposalTex: pending
-
-## Completed Grants
-info/funding.yaml, proposalTex: completed
-
-## Not Awarded
-info/funding.yaml, proposalTex: reject, reject-preapp
+# Teaching Experience
+info/about.yaml, experienceLongTex: tutoring, teaching
 
 # Advising
 info/meta.yaml, peopleTex: advisee
