@@ -18,8 +18,8 @@ info/about.yaml, multilineTex: award
 %## Current Grants
 %info/funding.yaml, proposalTex: current
 
-%## Pending Proposals
-%info/funding.yaml, proposalTex: pending
+## Pending Proposals
+info/funding.yaml, proposalTex: pending
 
 ## Completed Grants
 info/funding.yaml, proposalTex: completed
@@ -40,8 +40,8 @@ info/pubs.bib, articleTex: inpress
 ## Publications Under Review
 info/pubs.bib, miscPubTex: submitted
 
-## Publications In Preparation (Submission Imminent)
-info/pubs.bib, miscPubTex: inpreparation
+%## Publications In Preparation (Submission Imminent)
+%info/pubs.bib, miscPubTex: inpreparation
 
 ## Peer-Reviewed Journal Articles
 info/pubs.bib, articleTex: article
