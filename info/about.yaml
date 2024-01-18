@@ -101,38 +101,47 @@
         or view my <a href="cv.pdf">CV</a> for a full list.
 
 - skills:
-    Languages:
+    Skills:
+        - machine learning
+        - data analysis
+        - high-performance computing
+        - numerical software
+    Languages (expert):
         - Python
         - Fortran
-        - C/C++
+    Languages (proficient):
+        - C
+        - C++
         - Java
         - Matlab
-    OS:
-        - MacOS
-        - Unix/Linux
-    Markup:
-        - HTML/CSS
-        - GNU Make
-        - TeX/LaTeX/bibTeX
-    Libraries:
+    Libraries (expert):
         - numpy
         - pandas
         - scipy
+        - scikit-learn
         - matplotlib
-        - keras
-        - sklearn
-        - MPI
         - OpenMP
-        - CUDA
         - BLAS
         - LAPACK
+    Libraries (proficient):
+        - keras
+        - pytorch
+        - jax
+        - plotly/dash
+        - MPI
+        - CUDA
     Tools/Frameworks:
         - pytest
         - sphinx
         - slurm
+        - qsub
         - CI/CD
         - GitHub Actions
         - GitFlow
+    Markup:
+        - HTML/CSS
+        - GNU Make
+        - TeX/LaTeX/bibTeX
 
 - experience:
     start: Jun 2020
