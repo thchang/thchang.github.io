@@ -2,48 +2,33 @@ LUALATEX
 
 info/meta.yaml, titleLualatex: me
 
-# Interests
-info/about.yaml, singlelineTex: interests
-
 # Education
 info/about.yaml, degreeLongTex: degree
 
-# Research Experience
+# Experience
 info/about.yaml, experienceLongTex: experience, appointment, intern
-
-# Awards
-info/about.yaml, multilineTex: award
 
 # Publicly Available Software
 info/software.yaml, softwareTex:
 
-# Selected Publications (from 31 indexed on Scholar)
+# Awards
+info/about.yaml, multilineTex: award
+
+# Selected Publications (from 32 indexed on Scholar)
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
-# Grants (Completed)
+# Funding Awarded
 info/funding.yaml, proposalTex: completed
 
-# Teaching
-info/about.yaml, experienceLongTex: teaching
-
-# Summer Students Advised
+# Leadership
+## Interns Advised
 info/meta.yaml, peopleShortTex: advisee
 
-# Invited Talks and Guest Lectures
-info/talks.bib, talkTex: invitedtalk, tutorial, guestlecture, invitation
+## Teaching
+info/about.yaml, experienceShortTex: teaching
 
-# Professional Service and Activities
-## Journal Referee
-info/service.yaml, bulletDateTex: journalref
-
-## Conference Reviewer
-info/service.yaml, bulletNoDateTex: confref
+## Journal / Conference Referee
+info/service.yaml, compilationTex: journalref, confref
 
 ## Minisymposium Organizer
-info/service.yaml, bulletDateTex: minisymporg
-
-## Professional Membership
-info/service.yaml, bulletDateTex: member
-
-# Technical Skills
-info/about.yaml, skillsTex: skills
+info/service.yaml, compilationTex: minisymporg
