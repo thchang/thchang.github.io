@@ -19,12 +19,12 @@ info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
 # Funding and Awards
 ## Research Funding
-info/funding.yaml, proposalTex: completed
+info/funding.yaml, proposalShortTex: completed
 
 ## Research Fellowships
 info/about.yaml, numberedListTex: fellowship
 
-## Awards
+## Awards and Accomplishments
 info/about.yaml, numberedListTex: award
 
 # Leadership
