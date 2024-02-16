@@ -63,13 +63,13 @@
     title: A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design
     agency: ANL LDRD
     foa: 2023 LDRD Seed
-    role: Co-PI
+    role: Co-PI (optimization thrust lead)
     collaborators:
         - PI: G. Chen (ANL)
-    type: institutional award
+    type: institutional seed funding
     numpages: 3 pages + appendices
     number: LDRD 2023-0246
-    budget: $50K
+    budget: $50K/y for 1 year
     share: $25K
 
 - reject:
@@ -154,4 +154,4 @@
     type: DOE award for PhD students
     numpages: 3 pages + appendices
     number: DE-SC0014664
-    budget: $3K/mo stipend
+    budget: $3K/mo for 6 months

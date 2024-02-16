@@ -2,23 +2,30 @@ LUALATEX
 
 info/meta.yaml, titleLualatex: me
 
-# Education
-info/about.yaml, degreeLongTex: degree
-
 # Experience
 info/about.yaml, experienceLongTex: experience, appointment, intern
+
+# Education
+info/about.yaml, degreeShortTex: degree
+
+# Technical Skills
+info/about.yaml, skillsTex: skills
 
 # Publicly Available Software
 info/software.yaml, softwareTex:
 
-# Awards
-info/about.yaml, multilineTex: award
-
 # Selected Publications (from 32 indexed on Scholar)
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
-# Funding Awarded
+# Funding and Awards
+## Research Funding
 info/funding.yaml, proposalTex: completed
+
+## Research Fellowships
+info/about.yaml, numberedListTex: fellowship
+
+## Awards
+info/about.yaml, numberedListTex: award
 
 # Leadership
 ## Interns Advised

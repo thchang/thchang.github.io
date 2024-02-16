@@ -14,9 +14,6 @@ info/about.yaml, experienceShortTex: experience, intern, appointment
 # Teaching Experience
 info/about.yaml, experienceShortTex: tutoring, teaching
 
-# Awards
-info/about.yaml, multilineTex: award
-
 # Publicly Available Software
 info/software.yaml, softwareTex:
 
@@ -43,25 +40,28 @@ info/talks.bib, talkTex: seminar
 ## Tutorials and Guest Lectures
 info/talks.bib, talkTex: tutorial, guestlecture
 
-# Grants
-%## Current
-%info/funding.yaml, proposalTex: current
-
-## Completed
+# Funding and Awards
+## Research Funding
 info/funding.yaml, proposalTex: completed
 
+## Research Fellowships
+info/about.yaml, numberedListTex: fellowship
+
+## Awards
+info/about.yaml, numberedListTex: award
+
 # Advising
-info/meta.yaml, peopleTex: advisee
+info/meta.yaml, peopleShortTex: advisee
 
 # Professional Service and Activities
 ## Journal Referee
-info/service.yaml, bulletDateTex: journalref
+info/service.yaml, compilationTex: journalref
 
 ## Conference Reviewer
-info/service.yaml, bulletNoDateTex: confref
+info/service.yaml, compilationTex: confref
 
 ## Minisymposium Organizer
-info/service.yaml, bulletDateTex: minisymporg
+info/service.yaml, compilationTex: minisymporg
 
 ## Professional Membership
-info/service.yaml, bulletDateTex: member
+info/service.yaml, compilationTex: member

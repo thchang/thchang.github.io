@@ -4,20 +4,16 @@
         <a href="https://www.anl.gov/mcs/lans">Argonne</a>.
     before: >
         Before that,
-        I was the Cunningham fellow @
+        I completed my PhD in Computer Science @
         <a href="https://sanghani.cs.vt.edu/">Virginia Tech</a>.
     bio: >
-        For a short biography (for speaking events),
+        For a short speaker biography,
         click <a href="shortbio.html">here</a>.
     research-intro: >
-        I develop software and algorithms at the intersection
-        of optimization, approximation theory, and machine learning
-        for scientific applications such as
-        material design, computational physics, and HPC tuning.
-        My active areas of work are
-        <b>blackbox optimization</b>, <b>machine learning</b>,
-        <b>computational geometry</b>, <b>analysis of algorithms</b>,
-        and <b>open-source scientific software</b>.
+        I am passionate about open source software!
+        I develop numerical software and algorithms at the interface
+        of numerical optimization, approximation theory,
+        and machine learning.
         Read more about my <a href="#Research">research</a>, and
         check out some of my <a href="#Software">software</a> below or
         on <a href="https://github.com/thchang">GitHub</a>.
@@ -33,7 +29,7 @@
     - scientific machine learning
     - approximation theory
     - computational geometry
-    - scientific software
+    - open source software
 
 - research-stmt:
     what: >
@@ -101,11 +97,15 @@
         or view my <a href="cv.pdf">CV</a> for a full list.
 
 - skills:
-    Skills:
+    Mathematical Skills:
         - numerical optimization
-        - machine learning
+        - scientific machine learning
+        - approximation theory
+        - computational geometry
+    Computing Skills:
         - high-performance computing
-        - software engineering
+        - open source software design
+        - data structures & algorithms
     Languages (expert):
         - Python
         - Fortran
@@ -115,33 +115,29 @@
         - Java
         - Matlab
     Libraries (expert):
-        - numpy
-        - pandas
-        - scipy
-        - scikit-learn
-        - matplotlib
-        - OpenMP
         - BLAS
-        - LAPACK
-    Libraries (proficient):
-        - keras
-        - pytorch
         - jax
-        - plotly/dash
-        - MPI
+        - LAPACK
+        - numpy
+        - OpenMP
+        - scipy
+    Libraries (proficient):
         - CUDA
-    Tools/Frameworks:
-        - pytest
-        - sphinx
-        - slurm
-        - qsub
+        - keras
+        - matplotlib
+        - MPI
+        - pandas
+        - plotly/dash
+        - pytorch
+        - scikit-learn
+    Tools/Workflow:
         - CI/CD
-        - GitHub Actions
         - GitFlow
-    Markup:
-        - HTML/CSS
-        - GNU Make
-        - TeX/LaTeX/bibTeX
+        - GitHub Actions
+        - pytest
+        - qsub
+        - slurm
+        - sphinx
 
 - experience:
     start: Jun 2020
@@ -150,13 +146,15 @@
     department: MCS Division
     description:
         - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
-        - Deployed solvers for scientific applications running on HPC systems and in wet-lab environments
+        - Explored trade-offs between accuracy and latency in neural network architecture search on 1000+ node HPCs
+        - Reduced time and cost of material design by factor of over 100x via active learning in a wet-lab environment
 
 - teaching:
     start: Jan 2022
     title: Adjunct Professor
     institution: College of DuPage
     department: Dept. of Computer and Info. Science
+    subtitle: Intro to Python
     description:
         - 'Spring 2024. CIS 2531: Introduction to Python Programming (hybrid)'
         - 'Summer 2023. CIS 2531: Introduction to Python Programming (in-person)'
@@ -171,7 +169,7 @@
         - Used a Bayesian/active learning framework to steer an automated feed, CFR, and NMR in a user-free feedback loop
 
 - award:
-    year: 2021
+    year: Jan 2021
     title: Nominee for Outstanding Dissertation Award
     institution: Virginia Tech
     department: Graduate School
@@ -193,6 +191,7 @@
     institution: Virginia Tech
     department: Dept. of Computer Science
     description:
+        - Researching novel methods for error-bounded scientific machine learning and statistical regression
         - Designed parallel algorithms and software for machine learning, blackbox optimization, and computational geometry
         - Achieved 3x reduction in performance variability in leadership-class HPC at Argonne via above techniques
 
@@ -211,14 +210,27 @@
     title: Instructor of Record
     institution: Virginia Tech
     department: Dept. of Computer Science
+    subtitle: Data structures and algorithms
     description:
         - 'Spring 2020. CS 3114: Data Structures and Algorithms (half in-person, half online)'
 
-- award:
-    year: 2019
+- fellowship:
+    start: Aug 2016
+    end: May 2020
+    title: Cunningham Doctoral Fellowship
+    institution: Virginia Tech
+    department: Graduate School
+    amount: guaranteed research funding
+    description:
+        - Institution-wide award guaranteeing 4 years of research funding to incoming doctoral students
+
+- fellowship:
+    start: Aug 2019
+    end: May 2020
     title: Davenport Leadership Fellowship
     institution: Virginia Tech
     department: College of Engineering
+    amount: $4k supplemental award
     description:
         - Supplemental award given by the College of Engineering on a per-year basis
 
@@ -231,7 +243,7 @@
     description:
         - Conducting research in multiobjective optimization software via DOE SCGSR program (see awards)
 
-- award:
+- awardx:
     year: 2018
     title: US DOE SCGSR Award
     institution: DOE Office of Science
@@ -239,35 +251,33 @@
     description:
         - One of 70 proposals funded by the Graduate Student Research (SCGSR) program during 2018, 2nd call
 
-- award:
-    year: 2018
+- fellowship:
+    start: Aug 2018
+    end: May 2019
     title: Pratt Fellowship
     institution: Virginia Tech
     department: College of Engineering
+    amount: $4k supplemental award
     description:
         - Supplemental award given by the College of Engineering on a per-year basis
 
-- award:
-    year: 2017
+- fellowship:
+    start: Aug 2017
+    end: May 2018
     title: Pratt Fellowship
     institution: Virginia Tech
     department: College of Engineering
+    amount: $4k supplemental award
     description:
         - Supplemental award given by the College of Engineering on a per-year basis
 
-- award:
-    year: 2016
-    title: Cunningham Doctoral Fellowship
-    institution: Virginia Tech
-    department: Graduate School
-    description:
-        - Institution-wide award guaranteeing 4 years of research funding to incoming doctoral students
-
-- award:
-    year: 2016
+- fellowship:
+    start: Aug 2016
+    end: May 2017
     title: Davenport Leadership Fellowship
     institution: Virginia Tech
     department: College of Engineering
+    amount: $4k supplemental award
     description:
         - Supplemental award given by the College of Engineering on a per-year basis
 
@@ -281,7 +291,7 @@
         - Aided in parallelizing NASA's FUN3D CFD kernel on NVIDIA GPUs using CUDA and MPI
 
 - award:
-    year: 2016
+    year: Apr 2016
     title: Outstanding Student in Computer Science & Mathematics
     institution: Virginia Wesleyan University
     description:
@@ -292,22 +302,23 @@
     title: B.S.
     subtitle: Computer Science & Mathematics (double-major)
     institution: Virginia Wesleyan University
+    honors: summa cum laude
     description:
         - "Summa cum laude; 8x Dean's list; 4x all-ODAC (conference) for varsity tennis"
 
 - award:
-    year: 2015
-    title: ACM International Collegiate Programming Competition (ICPC) site champion
-    institution: Newport News, VA, USA
+    year: Feb 2016
+    title: ACM International Collegiate Programming Competition (ICPC), winning team for CNU site
+    institution: VA, USA
     description:
-        - Member of winning team of 3 students for our site
+        - Member of 3 student team (VWC will code) placing 21/185 for mid-atlantic USA region
 
 - award:
-    year: 2014
-    title: ACM International Collegiate Programming Competition (ICPC) site champion
-    institution: Newport News, VA, USA
+    year: Feb 2015
+    title: ACM International Collegiate Programming Competition (ICPC), winning team for CNU site
+    institution: VA, USA
     description:
-        - Member of winning team of 3 students for our site
+        - Member of 3 student team (TCT) placing 32/188 for mid-atlantic USA region
 
 - intern:
     start: ["Dec 2015", "May 2015"]
@@ -323,9 +334,10 @@
     end: Dec 2015
     title: Subject Tutor
     institution: Virginia Wesleyan University
-    department: Learning Center
+    departmentx: Learning Center
+    subtitle: Calculus, computer science, and statistics
     description:
-        - 'Spring 2013 - Fall 2014. All undergraduate courses in calculus, computer science, and statistics'
+        - 'Spring 2013 - Fall 2015. All undergraduate courses in calculus, computer science, and statistics'
 
 - intern:
     start: ["Dec 2014", "May 2014"]

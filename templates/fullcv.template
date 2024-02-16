@@ -11,8 +11,8 @@ info/about.yaml, degreeLongTex: degree
 # Research Experience
 info/about.yaml, experienceLongTex: experience, intern, appointment
 
-# Awards
-info/about.yaml, multilineTex: award
+# Publicly Available Software
+info/software.yaml, softwareTex:
 
 # Grants and Proposals
 %## Current Grants
@@ -26,9 +26,6 @@ info/funding.yaml, proposalTex: completed
 
 ## Not Awarded
 info/funding.yaml, proposalTex: reject, reject-preapp
-
-# Publicly Available Software
-info/software.yaml, softwareTex:
 
 # Publications
 %## 5 Selected Publications
@@ -71,6 +68,16 @@ info/talks.bib, talkTex: contributedtalk
 ## Posters and Lightning Talks
 info/posters.bib, talkTex:
 
+# Awards and Fellowships
+## Research Fellowships
+info/about.yaml, multilineTex: fellowship
+
+## Awards
+info/about.yaml, multilineTex: award
+
+## Misc. Travel Awards
+info/minor.yaml, multilineTex: travelaward
+
 # Teaching Experience
 info/about.yaml, experienceLongTex: tutoring, teaching
 
@@ -82,16 +89,16 @@ info/meta.yaml, peopleShortTex: mentee
 
 # Professional Service and Activities
 ## Journal Referee
-info/service.yaml, bulletDateTex: journalref
+info/service.yaml, compilationTex: journalref
 
 ## Conference Reviewer
-info/service.yaml, bulletNoDateTex: confref
+info/service.yaml, compilationTex: confref
 
 ## Minisymposium Organizer
-info/service.yaml, bulletDateTex: minisymporg
+info/service.yaml, compilationTex: minisymporg
 
 ## Professional Membership
-info/service.yaml, bulletDateTex: member
+info/service.yaml, compilationTex: member
 
 # Institutional Service
 ## Argonne
@@ -105,9 +112,6 @@ info/service.yaml, multilineTex: virginiatech
 
 # Post-Dissertation Courses and Certifications
 info/learning.yaml, multilineTex:
-
-# Misc. Travel Awards
-info/minor.yaml, multilineTex: travelaward
 
 # References
 info/meta.yaml, peopleTex: advisor, reference, reference1, reference2, reference3, reference4
