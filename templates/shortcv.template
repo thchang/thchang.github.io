@@ -19,7 +19,7 @@ info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
 # Funding and Awards
 ## Research Funding
-info/funding.yaml, proposalShortTex: completed
+info/funding.yaml, proposalShortTex: current, completed
 
 ## Research Fellowships
 info/about.yaml, numberedListTex: fellowship
@@ -27,7 +27,7 @@ info/about.yaml, numberedListTex: fellowship
 ## Awards and Accomplishments
 info/about.yaml, numberedListTex: award
 
-# Leadership
+# Leadership and Service
 ## Interns Advised
 info/meta.yaml, peopleShortTex: advisee
 

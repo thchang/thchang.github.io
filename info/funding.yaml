@@ -1,18 +1,17 @@
 
-- pending:
-    year: FY 2024
-    title: Confidential
-    ttitle: High performance computing for development of critical thermodynamic inputs for next generation thermal barrier coatings
+- current:
+    start: Mar 2024
+    title: High performance computing for development of critical thermodynamic inputs for next generation thermal barrier coatings
     agency: DOE
     foa: "HPC4EnergyInnovation Program: Summer 2024 Collaborations for U.S. Manufacturers"
     type: external grant proposal
     numpages: 7 pages + appendices
-    role: Key contributor
+    role: Key contributor (multiobjective search thrust lead)
     collaborators:
         - Industry collaborator: GE Vernova
         - Institutional Lead: S. Chaudhuri (UIC/ANL)
-    budget: $500k/y ($400K/y for ANL)
-    length: 1 years + possible extension to 2 years
+    budget: $400K/y
+    length: 1 year
 
 - reject:
     year: FY 2024

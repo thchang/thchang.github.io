@@ -41,7 +41,10 @@ info/talks.bib, talkTex: seminar
 info/talks.bib, talkTex: tutorial, guestlecture
 
 # Funding and Awards
-## Research Funding
+## Current Funding
+info/funding.yaml, proposalTex: current
+
+## Past Funding
 info/funding.yaml, proposalTex: completed
 
 ## Research Fellowships
