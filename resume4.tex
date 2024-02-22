@@ -1,0 +1,274 @@
+\documentclass[alternative,compact,blue]{/Users/tyler/Git/thchang-style/styles/lualatex/yaac-another-awesome-cv}
+\usepackage{csquotes}
+\usepackage{etaremune}
+
+% Set URL style
+\renewcommand{\UrlFont}{\small\rm}
+\sloppy
+
+% Define bullitem macro for adding bullet-points
+\def\bullitem{\parskip 1pt \par\hangindent=15pt \hangafter=1
+\noindent\hbox to 20pt{\hfil$\bullet$\hfil}\ignorespaces}
+
+% Define tab macros
+\newcommand\tabboxsmall[1]{\noindent\hbox to 0.07\textwidth{#1\hfill}\hskip 2em}
+\newcommand\tabboxmed[1]{\noindent\hbox to 0.18\textwidth{#1\hfill}\hskip 2em}
+\newcommand\tabboxlarge[1]{\noindent\hbox to 0.47\textwidth{#1\hfill}\hskip 2em}
+
+
+\begin{document}
+
+\name{{\bf Tyler H. Chang}}{ -- CV}
+\tagline{Building Open Source Software for Machine Learning and Optimization at
+Argonne National Laboratory}
+\socialinfo{
+	\email{thchang@vt.edu}
+    \smartphone{+1 (443) 417-7546}
+	\address{5674 Walnut Ave, Unit 1C, Downers Grove, IL 60516}\\
+	\website{https://thchang.github.io}{https://thchang.github.io}
+	\github{https://github.com/thchang}
+}
+
+\makecvheader
+
+\makecvfooter
+	\today
+	{T.~H.~Chang - CV}
+	{\thepage}
+
+\goodbreak
+
+\sectionTitle{Summary and Goals}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+I am {\bf passionate about building}
+robust and scalable software systems
+to solve complex real-world problems by leveraging state-of-the-art
+machine learning and optimization methods.
+I have nearly 8 years of experience building software systems
+for diverse scientific applications.
+In that time,
+I have {\bf led 4 open source projects} and {\bf contributed to 3 others}.
+
+Since my passion is for building more-so than publishing,
+I am looking for an opportunity to build and scale similar systems in an
+industrial setting.
+
+\nopagebreak \bigskip
+
+\sectionTitle{Recent Work Experience}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+\tabboxmed{Jun 2020 - Present.} {\bf Postdoctoral appointee: Argonne National Laboratory}, Math and Computer Science Division
+\bullitem Built production-grade open source software for leveraging machine learning in multiobjective optimization workflows
+\bullitem Explored trade-offs between accuracy and latency in neural network architecture search on 1000+ node HPCs
+\bullitem Reduced time and cost of material manufacturing by factor of over 100x via active learning in a wet-lab environment
+
+\medskip
+
+\tabboxmed{Aug 2016 - May 2020.} {\bf Research fellow: Virginia Tech}, Dept. of Computer Science
+\bullitem Researched and implemented novel methods for scientific machine learning and numerical optimization
+\bullitem Designed parallel algorithms and software for error-bounded machine learning and multiobjective optimization
+\bullitem Achieved 3x reduction in performance variability in leadership-class HPC at Argonne via above techniques
+
+\medskip
+
+\tabboxmed{Feb 2016 - Aug 2016.} {\bf Research assistant: Old Dominion University}, Dept. of Computer Science
+\bullitem Aided in parallelizing NASA's FUN3D CFD kernel on NVIDIA GPUs using CUDA and MPI
+
+\goodbreak
+
+\bigskip
+
+\sectionTitle{Education}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+Ph.D., May 2020, Computer Science, Virginia Polytechnic Institute \& State University (Virginia Tech)
+
+\smallskip
+
+B.S., May 2016, Computer Science \& Mathematics (double-major), Virginia Wesleyan University, {\sl summa cum laude}
+
+\goodbreak
+
+\bigskip
+
+\sectionTitle{Technical Skills}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+\hangafter=1 \hangindent=0.22\textwidth 
+\tabboxmed{\bf Mathematical Skills:}numerical optimization, scientific machine learning, approximation theory, computational geometry
+
+\hangafter=1 \hangindent=0.22\textwidth 
+\tabboxmed{\bf Computing Skills:}high-performance computing, open source software design, data structures \& algorithms
+
+\hangafter=1 \hangindent=0.22\textwidth 
+\tabboxmed{\bf Languages (expert):}Python, Fortran
+
+\hangafter=1 \hangindent=0.22\textwidth 
+\tabboxmed{\bf Libraries (expert):}BLAS, jax, LAPACK, numpy, OpenMP, scipy
+
+\hangafter=1 \hangindent=0.22\textwidth 
+\tabboxmed{\bf Languages (proficient):}C, C++, Java, Matlab
+
+\hangafter=1 \hangindent=0.22\textwidth 
+\tabboxmed{\bf Libraries (proficient):}CUDA, keras, matplotlib, MPI, pandas, plotly/dash, pytorch, scikit-learn
+
+\hangafter=1 \hangindent=0.22\textwidth 
+\tabboxmed{\bf Tools/Workflow:}CI/CD, GitFlow, GitHub Actions, pytest, qsub, slurm, sphinx
+
+\goodbreak
+
+\bigskip
+
+\sectionTitle{Publicly Available Software (as Creator or Co-Creator)}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+\begin{etaremune}
+\item 2022 - Present. {ParMOO}: Python library for parallel multiobjective simulation optimization. Release: 0.3.1\\
+Devs: {\bf T. H. Chang} (lead), S. M. Wild, and H. Dickinson \hskip 2em In {\tt Python 3}\\
+{\tt git:} \url{https://github.com/parmoo/parmoo} $\quad$ {\bf 68 stars} $\quad$
+Used by: Argonne, Meta, Imperial College London, and more
+\item 2017 - Present. {DelaunaySparse}: Interpolation via a sparse subset of the Delaunay triangulation.\\
+Devs: {\bf T. H. Chang} (lead), T. C. H. Lux, and L. T. Watson \hskip 2em In {\tt Fortran 2003} with {\tt C}, {\tt Python}, and CL interfaces\\
+{\tt git:} \url{https://github.com/vtopt/DelaunaySparse} $\quad$ {\bf 17 stars} $\quad$
+Used by:  Argonne, LLNL, DC Children's Hospital, and more\\
+{\bf currently in discussion for inclusion in scipy ``interpolate'' module}
+\item 2020 - 2022. {VTMOP}: Solver for blackbox multiobjective optimization problems. \\
+Devs: {\bf T. H. Chang} (lead) and L. T. Watson \hskip 2em In {\tt Fortran 2008} with {\tt Python} interface\\
+{\tt git:} \url{https://github.com/vtopt/VTMOP}
+\item 2019 - 2020. {QAML}: Quantum annealing math library.\\
+Devs: T. C. H. Lux (lead), {\bf T. H. Chang}, and S. S. Tipirneni \hskip 2em In {\tt Python 3}\\
+{\tt git:} \url{https://github.com/tchlux/qaml}
+\end{etaremune}
+
+\goodbreak
+
+\bigskip
+
+\sectionTitle{Selected Publications (from 32 indexed on Scholar)}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+\begin{etaremune}
+\item 2023. {\bf T. H. Chang}, J. R. Elias, S. M. Wild, S. Chaudhuri, and J. A. Libera. A framework for fully autonomous design of materials via multiobjective optimization and active learning: challenges and next steps. {\sl In 11th Intl. Conf. on Learning Representation (ICLR 2023), Workshop on Machine Learning for Materials (ML4Materials)}. {\tt url:} \url{https://openreview.net/forum?id=8KJS7RPjMqG}
+\item 2023. {\bf T. H. Chang} and S. M. Wild. ParMOO: a Python library for parallel multiobjective simulation optimization. {\sl Journal of Open Source Software} 8(82), Article 4468, 5 pages. {\tt doi:} \href{https://doi.org/10.21105/joss.04468}{10.21105/joss.04468}
+\item 2022. {\bf T. H. Chang}, L. T. Watson, J. Larson, N. Neveu, W. I. Thacker, S. Deshpande, and T. C. H. Lux. Algorithm 1028: VTMOP: Solver for blackbox multiobjective optimization problems. {\sl ACM Transactions on Mathematical Software} 48(3), Article 36, 34 pages. {\tt doi:} \href{https://doi.org/10.1145/3529258}{10.1145/3529258}
+\item 2020. {\bf T. H. Chang}, L. T. Watson, T. C. H. Lux, A. R. Butt, K. W. Cameron, and Y. Hong. Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the Delaunay triangulation in medium to high dimensions. {\sl ACM Transactions on Mathematical Software} 46(4), Article 38, 20 pages. {\tt doi:} \href{https://doi.org/10.1145/3422818}{10.1145/3422818}
+\end{etaremune}
+
+\goodbreak
+
+\bigskip
+
+\sectionTitle{Notable Contributions to Publicly Available Software}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+\begin{etaremune}
+\item 2023 - Present. DeepHyper: Scalable asynchronous neural architecture \& hyperparameter search for deep learning\\
+{\bf My Contributions}: DeepHyper team member adding multiobjective search features and benchmark problems\\
+{\tt git:} \url{https://github.com/deephyper/deephyper} $\quad$ {\tt Python 3} $\quad$ {\bf 254 stars}
+\item 2019 - Present. libEnsemble: Python toolkit for coordinating asynchronous dynamic ensmbles of calculations\\
+{\bf My Contributions}: Adding new ``generator'' techniques and providing example use-cases\\
+{\tt git:} \url{https://github.com/Libensemble/libensemble} $\quad$ {\tt Python 3} $\quad$ {\bf 59 stars}
+\item 2016. Fun3D: Fully unstructured Navier-Stokes (by NASA Langley)\\
+{\bf My Contributions}: Optimizing block-sparse linear system solver for parallelization on NVIDIA GPUs\\
+{\tt web:} \url{https://fun3d.larc.nasa.gov} $\quad$ {\tt Fortran 90}
+\end{etaremune}
+
+\goodbreak
+
+\bigskip
+
+\sectionTitle{Funding and Awards}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+\textbf{\large Research Funding Raised}
+
+\nopagebreak \medskip \nopagebreak
+
+\begin{etaremune}
+\item Mar 2024 - Present. {\bf Key contributor (multiobjective search thrust lead)}, \$400K/y for 1 year. {\sl High performance computing for development of critical thermodynamic inputs for next generation thermal barrier coatings}, external grant (HPC for Manufacturing, DE-AC02-05CH11231)
+\item Mar 2023 - Sep 2023. {\bf Co-PI (design optimization thrust lead)}, \$50K/y for 1 year. {\sl A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design}, institutional seed funding (LDRD 2023-0246)
+\item Jun 2019 - Dec 2019. {\bf Primary awardee}, \$3K/mo for 6 months. {\sl An Adaptive Weighting Scheme for Multiobjective Optimization}, DOE award for PhD students (DE-SC0014664)
+\end{etaremune}
+
+\goodbreak
+
+\medskip
+
+\textbf{\large Awards and Accomplishments}
+
+\nopagebreak \medskip \nopagebreak
+
+\begin{etaremune}
+\item Jan 2021. Nominee for Outstanding Dissertation Award, Virginia Tech, Graduate School
+\item Apr 2016. Outstanding Student in Computer Science \& Mathematics, Virginia Wesleyan University
+\item Feb 2016. ACM International Collegiate Programming Competition (ICPC), winning team for CNU site, VA, USA
+\item Feb 2015. ACM International Collegiate Programming Competition (ICPC), winning team for CNU site, VA, USA
+\end{etaremune}
+
+\goodbreak \bigskip
+
+\sectionTitle{Leadership and Service}{\faBookmark}
+
+\nopagebreak \bigskip \nopagebreak
+
+\textbf{\large Interns Advised}
+
+\nopagebreak \medskip \nopagebreak
+
+\tabboxmed{ Jun 2022 - Aug 2022.} Manisha Garg (UIUC), NSF MSGI (PhD student intern) at Argonne
+
+\smallskip
+
+\tabboxmed{ Jun 2022 - Aug 2022.} Hyrum Dickinson (UIUC), DOE SULI (undergraduate intern) at Argonne
+
+\goodbreak
+
+\medskip
+
+\textbf{\large Teaching}
+
+\nopagebreak \medskip \nopagebreak
+
+\tabboxmed{Jan 2022 - Present.}{\bf Adjunct Professor: College of DuPage}, Dept. of Computer and Info. Science (Intro to Python)
+
+\smallskip
+
+\tabboxmed{Jan 2020 - May 2020.}{\bf Instructor of Record: Virginia Tech}, Dept. of Computer Science (Data structures and algorithms)
+
+\goodbreak
+
+\medskip
+
+\textbf{\large Journal / Conference Referee}
+
+\nopagebreak
+
+\medskip
+
+\nopagebreak
+
+INFORMS Journal on Computing (2023--Present); ACM Trans.\ Mathematical Software (2021--Present); ICIAM (2023); Supercomputing (2021); Visual Computer Journal (2021); Quantum Information Processing (2021); JMLR (2019); IEEE SoutheastCon (2018--2020)
+
+\goodbreak
+
+\medskip
+
+\textbf{\large Minisymposium Organizer}
+
+\nopagebreak \medskip \nopagebreak
+
+Multiobjective Optimization Software track in SIAM Conference on Optimization (2021); Geometric Methods for Machine Learning track in SIAM Conference on Computational Science and Engineering (2021)
+
+\goodbreak
+
+\end{document}
