@@ -4,14 +4,13 @@
     title: High performance computing for development of critical thermodynamic inputs for next generation thermal barrier coatings
     agency: DOE
     foa: "HPC4EnergyInnovation Program: Summer 2024 Collaborations for U.S. Manufacturers"
-    type: external grant proposal
+    type: external grant
     numpages: 7 pages + appendices
-    role: Key contributor (multiobjective search thrust lead)
+    role: Key contributor
     collaborators:
         - Industry collaborator: GE Vernova
         - Institutional Lead: S. Chaudhuri (UIC/ANL)
-    budget: $400K/y
-    length: 1 year
+    budget: $400K/y for 1 year
 
 - reject:
     year: FY 2024
@@ -62,7 +61,7 @@
     title: A Scalable Multi-Physics Optimization Framework for Particle Accelerator Design
     agency: ANL LDRD
     foa: 2023 LDRD Seed
-    role: Co-PI (optimization thrust lead)
+    role: Co-PI
     collaborators:
         - PI: G. Chen (ANL)
     type: institutional seed funding
