@@ -1,4 +1,8 @@
-- talk:
-    year: Dec 2023
-    description: 'Giving talk <i>An integrated multi-physics optimization framework for particle accelerator design</i> at WSC 23 in San Antonio, TX'
+- release:
+    year: Apr 2024
+    description: ParMOO ver. 0.4.0 is coming soon at <a href="https://github.com/parmoo/parmoo">GitHub</a> and it's going to be great! We have refactored custom embedding tools, improved our optimization algorithms, and are now using jax to propagate gradients and compile critical code sections!
+
+- paper:
+    year: Mar 2024
+    description: Keep an eye out for our upcoming preprint on interpretable machine learning via interpolation (with A. Gillette and R. Maulik)
 

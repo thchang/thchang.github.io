@@ -1,6 +1,6 @@
-- paper:
-    year: Sep 2023
-    description: 'Our paper <i>An integrated multi-physics optimization framework for particle accelerator design</i> has been accepted for <i>2023 Winter Simulation Conference</i> -- work with G. Chen from Argonne'
+- talk:
+    year: Dec 2023
+    description: 'Presented paper <i>An integrated multi-physics optimization framework for particle accelerator design</i> at WSC 23 in San Antonio, TX'
 
 - talk:
     year: Aug 2023
