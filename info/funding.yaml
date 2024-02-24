@@ -23,7 +23,7 @@
     role: Co-PI
     collaborators:
         - PI: Y. Li (ANL)
-    budget: $200K/y
+    budgetx: $200K/y
     length: 2 years
 
 - reject:
@@ -38,7 +38,7 @@
     collaborators:
         - PI: C. McDevitt (Florida)
         - Institutional Lead: J. Larson (ANL)
-    bbudget: $3M/y
+    bbudgetx: $3M/y
     length: 4 years
 
 - reject-preapp:
@@ -52,7 +52,7 @@
     role: Key personnel
     collaborators:
         - PI: J. Monsalve Diaz (ANL)
-    budget: $900K/y
+    budgetx: $900K/y
     length: 2 years
 
 - completed:
@@ -78,7 +78,7 @@
     type: institutional proposal
     numpages: 3 pages + appendices
     role: PI
-    budget: $25K
+    budgetx: $25K
     length: 7 months
 
 - reject:
@@ -93,7 +93,7 @@
     collaborators:
         - Dir: R. Joseph (GA Tech)
         - Institution Lead: Z. Di (ANL)
-    budget: $12.7M/y
+    budgetx: $12.7M/y
     length: 5 years
 
 - reject:
@@ -108,7 +108,7 @@
     collaborators:
         - PI: G. Chin (PNNL)
         - Institution Lead: T. Munson (ANL)
-    budget: $2.7M/y
+    budgetx: $2.7M/y
     length: 3 years
 
 - reject:
@@ -121,7 +121,7 @@
     role: Co-PI
     collaborators:
         - With: S. Khairy (ANL)
-    budget: $33.6K
+    budgetx: $33.6K
     share: $16.8K
     length: 8 weeks
 
@@ -137,7 +137,7 @@
     collaborators:
         - PI: A. Gillette (LLNL)
         - Institution Lead: Z. Di (ANL)
-    budget: $2.1M/y
+    budgetx: $2.1M/y
     length: 3 years
 
 - completed:

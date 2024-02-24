@@ -79,10 +79,10 @@ info/about.yaml, multilineTex: award
 info/minor.yaml, multilineTex: travelaward
 
 # Teaching Experience
-info/about.yaml, experienceLongTex: tutoring, teaching
+info/about.yaml, experienceShortTex: tutoring, teaching
 
 # Advising
-info/meta.yaml, peopleTex: advisee
+info/meta.yaml, peopleShortTex: advisee
 
 # Mentoring
 info/meta.yaml, peopleShortTex: mentee

@@ -29,29 +29,19 @@
     revs: 1 paper
 
 - confref:
-    title: Int. Congress on Industrial and Applied Mathematics (ICIAM) 2023
+    title: ICIAM
     year: 2023
     revs: 1 abstract
 
 - confref:
-    title: Int. Conf. for HPC, Networking, Storage, and Analysis (Supercomputing) 2021
+    title: Supercomputing
     year: 2021
     revs: 3 papers
 
 - confref:
-    title: IEEE SoutheastCon 2020
-    year: 2020
-    revs: 4 papers
-
-- confref:
-    title: IEEE SoutheastCon 2019
-    year: 2019
-    revs: 4 papers
-
-- confref:
-    title: IEEE SoutheastCon 2018
-    year: 2018
-    revs: 4 papers
+    title: IEEE SoutheastCon
+    year: 2018--2020
+    revs: 12 papers
 
 - minisymporg:
     title: Multiobjective Optimization Software track in SIAM Conference on Optimization
