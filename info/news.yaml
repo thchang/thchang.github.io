@@ -9,3 +9,15 @@
 - paper:
     year: Mar 2024
     description: 'Our Remark on Algorithm 1012 has been accepted for publication in ACM TOMS (with L. Watson, S. Leyffer, T. Lux, and H. Almohri)'
+
+- talk:
+    year: Dec 2023
+    description: 'Presented paper <i>An integrated multi-physics optimization framework for particle accelerator design</i> at WSC 23 in San Antonio, TX'
+
+- talk:
+    year: Aug 2023
+    description: "Gave talk <i>Data sampling for surrogate modeling and optimization</i> at ICIAM 23 in Tokyo"
+
+- talk:
+    year: Jul 2023
+    description: "Gave LANS Seminar <i>Toward interpretable machine learning via Delaunay interpolation</i> at Argonne"

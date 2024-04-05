@@ -8,11 +8,7 @@ info/about.yaml, paragraphWeb: bio
 
 % News
 # News
-## Upcoming Events
 info/news.yaml, newsWeb:
-
-## Recent Events
-info/recent.yaml, newsWeb:
 
 % Research
 # Research and Publications
