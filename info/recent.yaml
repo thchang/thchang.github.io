@@ -10,15 +10,3 @@
     year: Jul 2023
     description: "Gave LANS Seminar <i>Toward interpretable machine learning via Delaunay interpolation</i> at Argonne"
 
-- release:
-    year: Jul 2023
-    description: Released ParMOO ver. 0.3.0 on <a href="https://github.com/parmoo/parmoo">GitHub</a>
-
-- paper:
-    year: Jun 2023
-    description: 'Our paper <a href="https://arxiv.org/abs/2305.12043">SF-SFD: Stochastic optimization of Fourier coefficients to generate space-filling designs</a> has been accepted for <i>2023 Winter Simulation Conference</i> -- work with Manisha Garg from UIUC and Krishnan Raghavan from Argonne'
-
-- talk:
-    year: Jun 2023
-    description: "Gave talk <i>Exploiting structures in multiobjective simulation optimization problems</i> at SIAM OP in Seattle"
-

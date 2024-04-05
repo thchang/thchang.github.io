@@ -1,8 +1,11 @@
 - release:
+    year: May 2024
+    description: ParMOO ver. 0.4.0 is coming soon at <a href="https://github.com/parmoo/parmoo">GitHub</a>! We have refactored custom embedding tools, improved our optimization algorithms, and are now using jax to propagate gradients and compile critical code sections!
+
+- paper:
     year: Apr 2024
-    description: ParMOO ver. 0.4.0 is coming soon at <a href="https://github.com/parmoo/parmoo">GitHub</a> and it's going to be great! We have refactored custom embedding tools, improved our optimization algorithms, and are now using jax to propagate gradients and compile critical code sections!
+    description: 'A preprint has been posted for our paper <a href="https://arxiv.org/abs/2404.03586">Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning</a> and the corresponding code is available on <a href="https://github.com/LLNL/interpML">the LLNL GitHub page</a> (with A. Gillette and R. Maulik)'
 
 - paper:
     year: Mar 2024
-    description: Keep an eye out for our upcoming preprint on interpretable machine learning via interpolation (with A. Gillette and R. Maulik)
-
+    description: 'Our Remark on Algorithm 1012 has been accepted for publication in ACM TOMS (with L. Watson, S. Leyffer, T. Lux, and H. Almohri)'
