@@ -1,4 +1,4 @@
-- software:
+- featured-software:
     title: ParMOO
     subtitle: Python library for parallel multiobjective simulation optimization
     year: 2023
@@ -66,7 +66,7 @@
         - Software paper: https://doi.org/10.1145/3529258
         - libEnsemble paper: https://doi.org/10.22360/springsim.2020.hpc.001
 
-- software:
+- featured-software:
     title: DelaunaySparse
     subtitle: Interpolation via a sparse subset of the Delaunay triangulation
     year: 2020

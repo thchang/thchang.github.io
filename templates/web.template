@@ -10,24 +10,9 @@ info/about.yaml, paragraphWeb: bio
 # News
 info/news.yaml, newsWeb:
 
-% Research
-# Research and Publications
-info/about.yaml, paragraphWeb: research-stmt-short
-
-## Representative Publications
-info/shortlist.bib, collapsableShortWeb:
-
 % Software
-# Publicly Available Software
-info/software.yaml, softwareWeb:
-
-% Students
-# Information for Students
-## Opportunities for Students
-info/linktree.yaml, linktreeWeb: students
-
-## Former Summer Student Collaborators
-info/meta.yaml, peopleShortWeb: advisee
+# Featured Software
+info/software.yaml, softwareWeb: featured-software
 
 % Teaching
 # Teaching

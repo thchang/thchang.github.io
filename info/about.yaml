@@ -6,23 +6,21 @@
         Before that,
         I completed my PhD in Computer Science @
         <a href="https://sanghani.cs.vt.edu/">Virginia Tech</a>.
-    bio: >
-        For a short speaker biography,
-        click <a href="shortbio.html">here</a>.
     research-intro: >
         I am passionate about open source software!
         I develop numerical software and algorithms at the interface
         of numerical optimization, approximation theory,
         and machine learning.
-        Read more about my <a href="#Research">research</a>, and
+        View my publications on
+        <a href="https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en">Google Scholar</a>, and
         check out some of my <a href="#Software">software</a> below or
         on <a href="https://github.com/thchang">GitHub</a>.
     connections: >
         Don't hesitate to reach out or connect at an upcoming
         <a href="#News">event</a>!
-    students: >
-        If you are a US-based student see several
-        <a href="#Students">opportunities to visit Argonne</a>.
+    speaker-bio: >
+        For a short speaker biography,
+        click <a href="shortbio.html">here</a>.
 
 - interests:
     - blackbox optimization
@@ -159,7 +157,6 @@
     department: Dept. of Computer and Info. Science
     subtitle: Intro to Python
     description:
-        - 'Spring 2024. CIS 2531: Introduction to Python Programming (hybrid)'
         - 'Summer 2023. CIS 2531: Introduction to Python Programming (in-person)'
         - 'Spring 2022. CIS 2531: Introduction to Python Programming (online)'
 
