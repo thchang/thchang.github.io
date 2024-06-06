@@ -1,5 +1,5 @@
 - web:
-    SHORTTITLE: Tyler Chang - Argonne National Laboratory
+    SHORTTITLE: thchang
     BGIMAGE: img/delvor.png
     BGCOLOR: rgba(250, 250, 255, 0.9)
     FGCOLOR: rgba(255, 255, 255, 1.0)
@@ -9,13 +9,12 @@
 
 - me:
     name: Tyler H. Chang
+    institution: Sr. Software Engineer
+    department: Independent Researcher
     alias:
         - T. H. Chang
-    institution: Argonne National Laboratory
-    department: Mathematics and Computer Science Division
-    address: 9700 S. Cass Ave, Bldg. 240, Lemont, IL 60439
+    address: Mountain View, CA, USA
     image: img/profile_2022_web.jpg
-    email: tchang@anl.gov
     website: https://thchang.github.io
     links:
         GitHub: https://github.com/thchang
@@ -31,7 +30,7 @@
         Orcid: img/orcid-icon.png
         Twitter: img/twitter-icon.png
     tabs:
-        CV: ./cv.pdf
+        CV: ./shortcv.pdf
 
 - advisor:
     name: Stefan Wild

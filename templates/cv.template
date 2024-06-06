@@ -9,7 +9,7 @@ info/about.yaml, singlelineTex: interests
 info/about.yaml, degreeShortTex: degree
 
 # Research Experience
-info/about.yaml, experienceShortTex: experience, intern, appointment
+info/about.yaml, experienceShortTex: experience, appointment
 
 # Teaching Experience
 info/about.yaml, experienceShortTex: tutoring, teaching
@@ -44,8 +44,8 @@ info/talks.bib, talkTex: seminar
 info/talks.bib, talkTex: tutorial, guestlecture
 
 # Funding and Awards
-## Current Funding
-info/funding.yaml, proposalTex: current
+%## Current Funding
+%info/funding.yaml, proposalTex: current
 
 ## Past Funding
 info/funding.yaml, proposalTex: completed

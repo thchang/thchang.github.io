@@ -15,8 +15,8 @@ info/about.yaml, experienceLongTex: experience, intern, appointment
 info/software.yaml, softwareTex:
 
 # Grants and Proposals
-## Current Grants
-info/funding.yaml, proposalTex: current
+%## Current Grants
+%info/funding.yaml, proposalTex: current
 
 %## Pending Proposals
 %info/funding.yaml, proposalTex: pending

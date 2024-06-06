@@ -3,13 +3,13 @@ LUALATEX
 info/meta.yaml, titleLualatex: me
 
 # Experience
-info/about.yaml, experienceLongTex: experience, appointment, intern
+info/about.yaml, experienceShortTex: experience, appointment
 
 # Education
 info/about.yaml, degreeShortTex: degree
 
-# Technical Skills
-info/about.yaml, skillsTex: skills
+%# Technical Skills
+%info/about.yaml, skillsTex: skills
 
 # Publicly Available Software
 info/software.yaml, softwareTex:
@@ -18,13 +18,13 @@ info/software.yaml, softwareTex:
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
 # Funding and Awards
-## Research Funding
-info/funding.yaml, proposalShortTex: current, completed
+## Research Funding Raised
+info/funding.yaml, proposalShortTex: completed
 
-## Research Fellowships
+## Research Fellowships Awarded
 info/about.yaml, numberedListTex: fellowship
 
-## Awards and Accomplishments
+## Misc. Awards and Accomplishments
 info/about.yaml, numberedListTex: award
 
 # Leadership and Service
