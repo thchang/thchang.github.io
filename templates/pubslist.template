@@ -3,8 +3,8 @@ LUALATEX
 info/meta.yaml, titleLualatex: me
 
 # List of Publications
-## Publications In-Press
-info/pubs.bib, articleTex: inpress
+%## Publications In-Press
+%info/pubs.bib, articleTex: inpress
 
 ## Publications Under Review
 info/pubs.bib, miscPubTex: submitted
