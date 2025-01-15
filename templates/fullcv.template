@@ -31,8 +31,8 @@ info/funding.yaml, proposalTex: reject, reject-preapp
 %## 5 Selected Publications
 %info/shortlist.bib, miscPubTex: 
 
-%## Publications In-Press
-%info/pubs.bib, articleTex: inpress
+## Publications In-Press
+info/pubs.bib, articleTex: inpress
 
 ## Publications Under Review
 info/pubs.bib, miscPubTex: submitted
