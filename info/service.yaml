@@ -1,7 +1,12 @@
 - journalref:
+    title: Journal of Supercomputing
+    year: 2024--Present
+    revs: 1 paper
+
+- journalref:
     title: INFORMS Journal on Computing
     year: 2023--Present
-    revs: 1 paper
+    revs: 1 paper + 1 rev
 
 - journalref:
     title: ACM Transactions on Mathematical Software
