@@ -1,0 +1,44 @@
+LUALATEX
+
+info/meta.yaml, titleLualatex: me
+
+# Interests
+info/about.yaml, singlelineTex: interests
+
+# Experience
+info/about.yaml, experienceLongTex: experience
+
+# Technical Skills
+info/about.yaml, skillsTex: skills
+
+# Education
+info/about.yaml, degreeShortTex: degree
+
+# Publicly Available Software
+info/software.yaml, softwareTex:
+
+# Selected Publications (from 28 peer-reviewed works)
+info/shortlist.bib, anypubTex: inpress, article, inproceedings
+
+# Funding and Awards
+## Research Funding Raised
+info/funding.yaml, proposalShortTex: completed
+
+## Research Fellowships Awarded
+info/about.yaml, numberedListTex: fellowship
+
+## Misc. Awards and Accomplishments
+info/about.yaml, numberedListTex: award
+
+# Leadership and Service
+## Interns Advised
+info/meta.yaml, peopleShortTex: advisee
+
+## Teaching
+info/about.yaml, experienceShortTex: teaching
+
+## Journal / Conference Referee
+info/service.yaml, compilationTex: journalref, confref
+
+## Minisymposium Organizer
+info/service.yaml, compilationTex: minisymporg
