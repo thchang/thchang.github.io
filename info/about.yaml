@@ -28,7 +28,7 @@
 - interests:
     - numerical optimization
     - scientific machine learning
-    - data structures and algorithms
+    - high-performance and parallel computing
     - open source software
 
 - research-stmt:
@@ -97,58 +97,63 @@
         or view my <a href="cv.pdf">CV</a> for a full list.
 
 - skills:
-    Mathematical Skills:
+    Programming languages:
+        - Python (10+ yoe)
+        - Fortran (9 yoe)
+        - C++ (2 yoe)
+        - C (2 yoe)
+        - Java (for teaching)
+        - Matlab (for 1-off scripts)
+    Mathematical focus:
         - numerical optimization
         - scientific machine learning
         - approximation theory
         - computational geometry
-    Computing Skills:
+    Computing focus:
         - high-performance computing
         - open source software design
         - data structures & algorithms
-    Languages (expert):
-        - Python
-        - Fortran
-    Languages (proficient):
-        - C
-        - C++
-        - Java
-        - Matlab
-    Libraries (expert):
+    Computing libraries:
         - BLAS
-        - jax
         - LAPACK
-        - numpy
         - OpenMP
+        - numpy
         - scipy
-    Libraries (proficient):
-        - CUDA
-        - CvxPy
-        - keras
+        - jax
+        - CvxPy (limited exp)
+        - CUDA (limited exp)
+        - MPI (limited exp)
+    Other libraries:
         - matplotlib
-        - MPI
         - pandas
         - plotly/dash
-        - pytorch
         - scikit-learn
+        - pytorch (limited exp)
+        - keras (limited exp)
     Tools/Workflow:
-        - CI/CD
-        - GitFlow
-        - GitHub Actions
-        - kernprof
-        - perf
-        - pytest
+        - PBS
         - qsub
         - slurm
+        - kernprof
+        - perf
+        - git
+        - GitFlow
+        - GitHub Actions
+        - pytest
         - sphinx
+        - GNU make
+        - bazel
 
 - experience:
     start: Jun 2024
-    title: Sr. Software Engineer
+    title: Senior Software Engineer
     institution: Siemens Digital Industry Software
     department: EDA / HAV Division
     description:
-        - Researching and developing novel EDA / CAD software and algorithms
+        - Researching and developing high-performance software and algorithms
+          for a novel EDA / CAD product
+        - As one of the first engineers on the project, I contributed to all
+          aspects of the design, implementation, and benchmarking
 
 - experience:
     start: Jun 2020
@@ -157,12 +162,15 @@
     institution: Argonne National Laboratory
     department: MCS Division
     description:
-        - Designed and implemented a Python framework for building and deploying multiobjective optimization solvers
-        - Explored trade-offs between accuracy and latency in neural network architecture search on 1000+ node HPCs
-        - Reduced time and cost of material design by factor of over 100x via active learning in a wet-lab environment
+        - Provided computational expertise to a variety of scientific research projects
+          including neural architecture search, material discovery, and particle
+          accelerator design
+        - Designed and implemented an open-source framework for building and
+          deploying parallel multiobjective simulation optimization solvers (ParMOO)
 
 - teaching:
     start: Jan 2022
+    end: Feb 2024
     title: Adjunct Professor
     institution: College of DuPage
     department: Dept. of Computer and Info. Science
@@ -202,9 +210,9 @@
     institution: Virginia Tech
     department: Dept. of Computer Science
     description:
-        - Researching novel methods for error-bounded scientific machine learning and statistical regression
+        - Researching novel methods for error-bounded scientific machine learning and numerical optimization
         - Designed parallel algorithms and software for machine learning, blackbox optimization, and computational geometry
-        - Achieved 3x reduction in performance variability in leadership-class HPC at Argonne via above techniques
+        - Collaborated with scientists working in HPC performance tuning and environmental modeling
 
 - project:
     start: Sep 2016
