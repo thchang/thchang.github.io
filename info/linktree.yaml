@@ -9,14 +9,15 @@
     Karpathy's AI Lectures: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
     An epsilon of room (measure theory): https://terrytao.wordpress.com/wp-content/uploads/2010/02/epsilon.pdf
     An old edition of the best matrix computation book: https://pages.stat.wisc.edu/~bwu62/771/golub1996.pdf
-    JOSS Home (w/ list of recently published JOSS SW): https://joss.theoj.org/
-    JOSS Checklist for Scientific Software: https://joss.readthedocs.io/en/latest/review_checklist.html
-    Better Scientific Software Website: https://bssw.io/
-    Guide to Available Math Software: https://gams.nist.gov/
+    My favorite book on approximation theory: https://www.ams.org/books/gsm/101/
     BLAS user guide: https://www.netlib.org/blas/
     LAPACK user guide: https://netlib.org/lapack/lug/
     cuBLAS user guide: https://docs.nvidia.com/cuda/cublas/
     ScaLAPACK user guide: https://www.netlib.org/scalapack/slug/
+    Guide to Available Math Software: https://gams.nist.gov/
+    JOSS Home (w/ list of recently published JOSS SW): https://joss.theoj.org/
+    JOSS Checklist for Scientific Software: https://joss.readthedocs.io/en/latest/review_checklist.html
+    Better Scientific Software Website: https://bssw.io/
     numerical software from my PhD advisor's Lab: https://github.com/vtopt
 
 - python:
