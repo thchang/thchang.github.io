@@ -22,6 +22,8 @@
 
 - python:
     the Python C API: https://docs.python.org/3/c-api/index.html
+    PEP8 Python style guide: https://peps.python.org/pep-0008/
+    Google's Python style guide: https://google.github.io/styleguide/pyguide.html
     numpy user guide: https://numpy.org/doc/stable/user/index.html#user
     scipy user guide: https://docs.scipy.org/doc/scipy/tutorial/
     jax user guide: https://docs.jax.dev/en/latest/user_guides.html
@@ -36,6 +38,13 @@
     Fortran numerical package index: https://fortran-lang.org/en/packages/numerical/
     Fortran compiler support: https://fortranwiki.org/fortran/show/Compiler+Support+for+Modern+Fortran
     automatically wrap modern Fortran in Python: https://github.com/tchlux/fmodpy
+
+- C++:
+    C++ 20 ISO docs: https://isocpp.org/files/papers/N4860.pdf
+    cheatsheet of modern C++ features: https://github.com/AnthonyCalandra/modern-cpp-features
+    C++ reference (including C++ std lib): https://en.cppreference.com/w/cpp
+    Modern C++ core guidelines: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+    Google's C++ style guide: https://google.github.io/styleguide/cppguide.html
 
 - tools:
     conda cheatsheet: https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
