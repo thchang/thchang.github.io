@@ -31,11 +31,11 @@ info/funding.yaml, proposalTex: reject, reject-preapp
 %## 5 Selected Publications
 %info/shortlist.bib, miscPubTex: 
 
-## Publications In-Press
-info/pubs.bib, articleTex: inpress
+%## Publications In-Press
+%info/pubs.bib, articleTex: inpress
 
-## Publications Under Review
-info/pubs.bib, miscPubTex: submitted
+%## Publications Under Review
+%info/pubs.bib, miscPubTex: submitted
 
 %## Publications In Preparation (Submission Imminent)
 %info/pubs.bib, miscPubTex: inpreparation
@@ -50,8 +50,8 @@ info/pubs.bib, proceedingsTex: inproceedings
 info/pubs.bib, techreportTex: techreport, thesis
 
 # Talks and Presentations
-## Upcoming Invitations
-info/talks.bib, talkTex: invitation
+%## Upcoming Invitations
+%info/talks.bib, talkTex: invitation
 
 ## Invited Conference Talks
 info/talks.bib, talkTex: invitedtalk

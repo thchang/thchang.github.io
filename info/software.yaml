@@ -35,6 +35,36 @@
         - Video Tutorial: https://www.youtube.com/watch?v=gQha8URLEHM
         - Sample solvers: https://github.com/parmoo/parmoo-solver-farm
 
+- featured-software:
+    title: DelaunaySparse
+    subtitle: Interpolation via a sparse subset of the Delaunay triangulation
+    year: 2020 (latest release 2024)
+    author: T. H. Chang (lead), T. C. H. Lux, and L. T. Watson
+    language: Fortran 2003
+    git: https://github.com/vtopt/DelaunaySparse
+    description: >
+        The Delaunay triangulation is a well-studied simplicial mesh,
+        widely considered optimal for interpolation applications.
+        Delaunay triangulations have recently garnered some interest in
+        the machine learning community, for their interpretability in the
+        context of regression and classification problems.
+        Unfortunately, the "curse of dimensionality" manifests in the
+        size of the Delaunay triangulation, making it uncomputable for
+        high-dimensional big data problems.
+
+        DELAUNAYSPARSE is an open-source Fortran package that computes
+        sparse subsets of the complete Delaunay triangulation, as needed
+        to perform interpolation.
+        The resulting codebase is fast, robust, and portable; and features
+        both serial and parallel implementations.
+        Interfaces are available for usage as a Fortran library,
+        C/C++ library, Python module, or from the command line.
+    logo: img/vtopt-icon.png
+    links:
+        - Docs/website: https://vtopt.github.io/DelaunaySparse
+        - Algorithm paper: https://doi.org/10.1145/3190645.3190680
+        - Software paper: https://doi.org/10.1145/3422818
+
 - software:
     title: VTMOP
     subtitle: Solver for blackbox multiobjective optimization problems
@@ -65,36 +95,6 @@
         - Algorithm paper: https://doi.org/10.1080/10556788.2015.1048861
         - Software paper: https://doi.org/10.1145/3529258
         - libEnsemble paper: https://doi.org/10.22360/springsim.2020.hpc.001
-
-- featured-software:
-    title: DelaunaySparse
-    subtitle: Interpolation via a sparse subset of the Delaunay triangulation
-    year: 2020 (latest release 2024)
-    author: T. H. Chang (lead), T. C. H. Lux, and L. T. Watson
-    language: Fortran 2003
-    git: https://github.com/vtopt/DelaunaySparse
-    description: >
-        The Delaunay triangulation is a well-studied simplicial mesh,
-        widely considered optimal for interpolation applications.
-        Delaunay triangulations have recently garnered some interest in
-        the machine learning community, for their interpretability in the
-        context of regression and classification problems.
-        Unfortunately, the "curse of dimensionality" manifests in the
-        size of the Delaunay triangulation, making it uncomputable for
-        high-dimensional big data problems.
-
-        DELAUNAYSPARSE is an open-source Fortran package that computes
-        sparse subsets of the complete Delaunay triangulation, as needed
-        to perform interpolation.
-        The resulting codebase is fast, robust, and portable; and features
-        both serial and parallel implementations.
-        Interfaces are available for usage as a Fortran library,
-        C/C++ library, Python module, or from the command line.
-    logo: img/vtopt-icon.png
-    links:
-        - Docs/website: https://vtopt.github.io/DelaunaySparse
-        - Algorithm paper: https://doi.org/10.1145/3190645.3190680
-        - Software paper: https://doi.org/10.1145/3422818
 
 - software:
     title: QAML

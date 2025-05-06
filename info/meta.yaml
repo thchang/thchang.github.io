@@ -30,7 +30,7 @@
         Orcid: img/orcid-icon.png
         Twitter: img/twitter-icon.png
     tabs:
-        CV: ./shortcv.pdf
+        CV: ./cv.pdf
 
 - advisor:
     name: Stefan Wild

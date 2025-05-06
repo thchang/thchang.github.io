@@ -1,21 +1,21 @@
 - bio:
     now: >
-        I am currently a Sr. Software Engineer working in EDA.
-        I still do
+        I am currently building high-performance EDA products.
+        I still perform
         <a href="https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en">
-        research in numerical optimization and scientific machine learning</a>
+        research in numerical optimization, scientific machine learning, and HPC</a>
         and maintain <a href="https://github.com/thchang">open source software</a>
         independently.
     before: >
-        Before that,
-        I was a Postdoc @
-        <a href="https://www.anl.gov/mcs/lans">Argonne</a>, and
-        I completed my PhD in Computer Science @
-        <a href="https://sanghani.cs.vt.edu/">Virginia Tech</a>
+        Previously, I was a Postdoc @
+        <a href="https://www.anl.gov/mcs/lans">Argonne</a>,
         where I developed algorithms and open source numerical software
         and performed applied research at
         the interface of numerical optimization, approximation theory,
         and scientific machine learning.
+        Before that, I completed my PhD in Computer Science (specialization in
+        scientific computing) @
+        <a href="https://sanghani.cs.vt.edu/">Virginia Tech</a>.
     work: >
         View my publications on
         <a href="https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en">Google Scholar</a>, and
