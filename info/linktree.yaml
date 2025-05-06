@@ -1,9 +1,9 @@
 - notes:
-    My personal reference list: https://github.com/thchang/thchang-refs
     My Course Notes from Grad School: https://github.com/thchang/class-notes
     Teaching Materials from My Intro to Python Class: https://github.com/thchang/IntroToPython
 
-- resources:
+- math-refs:
+    My personal reading list: https://github.com/thchang/thchang-refs
     LANS Seminars: https://www.anl.gov/mcs/lans-seminars
     Better Scientific Software Website: https://bssw.io/
     JOSS Checklist for Scientific Software: https://joss.readthedocs.io/en/latest/review_checklist.html

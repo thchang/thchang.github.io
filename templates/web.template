@@ -22,7 +22,7 @@ info/linktree.yaml, linktreeWeb: notes
 # Misc Information
 
 ## Resources and Cheatsheets for Math Nerds
-info/linktree.yaml, linktreeWeb: resources, tools
+info/linktree.yaml, linktreeWeb: math-refs, tools
 
 ## My favorite Python stuff
 info/linktree.yaml, linktreeWeb: python
