@@ -1,4 +1,9 @@
 - journalref:
+    title: Optimization Methods and Software
+    years: 2025--Present
+    revs: 1 paper
+
+- journalref:
     title: Journal of Supercomputing
     year: 2024--Present
     revs: 1 paper
@@ -63,10 +68,6 @@
 - member:
     title: SIAM
     year: 2016--Present
-
-- member:
-    title: MOS
-    year: 2022--Present
 
 - cod:
     start: Jan 2024

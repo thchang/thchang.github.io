@@ -5,14 +5,11 @@ info/meta.yaml, titleLualatex: me
 # Interests
 info/about.yaml, singlelineTex: interests
 
+# Experience
+info/about.yaml, experienceShortTex: experience
+
 # Education
 info/about.yaml, degreeShortTex: degree
-
-# Research Experience
-info/about.yaml, experienceShortTex: experience, appointment
-
-# Teaching Experience
-info/about.yaml, experienceShortTex: tutoring, teaching
 
 # Publicly Available Software
 info/software.yaml, softwareTex:
@@ -30,8 +27,8 @@ info/pubs.bib, articleTex: article
 ## Peer-Reviewed Conference and Workshop Papers
 info/pubs.bib, proceedingsTex: inproceedings
 
-## Technical Reports and Dissertations
-info/pubs.bib, techreportTex: techreport, thesis
+%## Technical Reports and Dissertations
+%info/pubs.bib, techreportTex: techreport, thesis
 
 # Talks and Presentations
 ## Invited Conference Talks
@@ -47,19 +44,22 @@ info/talks.bib, talkTex: tutorial, guestlecture
 %## Current Funding
 %info/funding.yaml, proposalTex: current
 
-## Past Funding
+## Research Funding Raised
 info/funding.yaml, proposalTex: completed
 
 ## Research Fellowships
 info/about.yaml, numberedListTex: fellowship
 
-## Awards and Accomplishments
+## Other Awards
 info/about.yaml, numberedListTex: award
 
-# Advising
+# Leadership and Other Professional Activities
+## Teaching Experience
+info/about.yaml, experienceShortTex: tutoring, teaching
+
+## Interns Advised
 info/meta.yaml, peopleShortTex: advisee
 
-# Professional Service and Activities
 ## Journal Referee
 info/service.yaml, compilationTex: journalref
 

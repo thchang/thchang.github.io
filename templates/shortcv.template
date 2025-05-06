@@ -2,8 +2,11 @@ LUALATEX
 
 info/meta.yaml, titleLualatex: me
 
+# Interests
+info/about.yaml, singlelineTex: interests
+
 # Experience
-info/about.yaml, experienceShortTex: experience, appointment
+info/about.yaml, experienceShortTex: experience
 
 # Education
 info/about.yaml, degreeShortTex: degree
@@ -14,7 +17,7 @@ info/about.yaml, degreeShortTex: degree
 # Publicly Available Software
 info/software.yaml, softwareTex:
 
-# Selected Publications (from 32 indexed on Scholar)
+# Publications (from 32 indexed on Scholar)
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
 # Funding and Awards
