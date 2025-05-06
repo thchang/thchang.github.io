@@ -5,27 +5,35 @@
 - math-refs:
     My personal reading list: https://github.com/thchang/thchang-refs
     LANS Seminars: https://www.anl.gov/mcs/lans-seminars
-    Better Scientific Software Website: https://bssw.io/
-    JOSS Checklist for Scientific Software: https://joss.readthedocs.io/en/latest/review_checklist.html
+    Boyd's Optimization Lectures: https://www.youtube.com/playlist?list=PL3940DD956CDF0622
+    Karpathy's AI Lectures: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+    An epsilon of room (measure theory): https://terrytao.wordpress.com/wp-content/uploads/2010/02/epsilon.pdf
+    An old edition of the best matrix computation book: https://pages.stat.wisc.edu/~bwu62/771/golub1996.pdf
     JOSS Home (w/ list of recently published JOSS SW): https://joss.theoj.org/
+    JOSS Checklist for Scientific Software: https://joss.readthedocs.io/en/latest/review_checklist.html
+    Better Scientific Software Website: https://bssw.io/
+    Guide to Available Math Software: https://gams.nist.gov/
+    BLAS user guide: https://www.netlib.org/blas/
+    LAPACK user guide: https://netlib.org/lapack/lug/
+    cuBLAS user guide: https://docs.nvidia.com/cuda/cublas/
+    ScaLAPACK user guide: https://www.netlib.org/scalapack/slug/
+    numerical software from my PhD advisor's Lab: https://github.com/vtopt
 
 - python:
-    jax user guide: https://docs.jax.dev/en/latest/user_guides.html
+    the Python C API: https://docs.python.org/3/c-api/index.html
     numpy user guide: https://numpy.org/doc/stable/user/index.html#user
+    scipy user guide: https://docs.scipy.org/doc/scipy/tutorial/
+    jax user guide: https://docs.jax.dev/en/latest/user_guides.html
     pandas docs: https://pandas.pydata.org/docs/
     cvxpy docs: https://www.cvxpy.org/
-    scipy user guide: https://docs.scipy.org/doc/scipy/tutorial/
-    the Python C API: https://docs.python.org/3/c-api/index.html
 
 - fortran:
     Fortran 2008 ISO docs: https://j3-fortran.org/doc/year/10/10-007.pdf
-    LAPACK user guide: https://netlib.org/lapack/lug/
     OpenMP 4.5 stds doc: https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf
     MPI 4.0 stds doc: https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf
     CUDA Fortran programmer's guide: https://docs.nvidia.com/hpc-sdk/compilers/cuda-fortran-prog-guide/
     Fortran numerical package index: https://fortran-lang.org/en/packages/numerical/
     Fortran compiler support: https://fortranwiki.org/fortran/show/Compiler+Support+for+Modern+Fortran
-    Guide to Available Math Software: https://gams.nist.gov/
     automatically wrap modern Fortran in Python: https://github.com/tchlux/fmodpy
 
 - tools:
