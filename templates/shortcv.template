@@ -17,7 +17,7 @@ info/about.yaml, degreeShortTex: degree
 # Publicly Available Software
 info/software.yaml, softwareTex:
 
-# Publications (from 32 indexed on Scholar)
+# Publications (from 28 peer-reviewed works)
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
 
 # Funding and Awards

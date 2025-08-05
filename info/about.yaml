@@ -1,13 +1,12 @@
 - bio:
     now: >
-        I am currently building high-performance EDA products.
-        I still perform
+        I am currently building high-performance EDA software products.
+        I also still perform
         <a href="https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en">
         research in numerical optimization, scientific machine learning, and HPC</a>
-        and maintain <a href="https://github.com/thchang">open source software</a>
-        independently.
+        and maintain <a href="https://github.com/thchang">open source software</a>.
     before: >
-        Previously, I was a Postdoc @
+        Previously, I was a researcher @
         <a href="https://www.anl.gov/mcs/lans">Argonne</a>,
         where I developed algorithms and open source numerical software
         and performed applied research at
@@ -30,6 +29,16 @@
     - scientific machine learning
     - high-performance and parallel computing
     - open source software
+
+- interests-stmt:
+    - I am a Senior Researcher and Engineer with 9 years of experience (5
+      post-PhD) in numerical optimization, scientific machine learning (AI for
+      science), and high-performance computing research.  I have published 28
+      peer-reviewed articles, led 3 open-source numerical software projects
+      (and made significant contributions to others), and raised over $500k in
+      research funding.\\\\
+      Ask me about using first-order methods for AI and designing open-source
+      software that people want to use!
 
 - research-stmt:
     what: >
@@ -120,16 +129,16 @@
         - numpy
         - scipy
         - jax
-        - CvxPy (limited exp)
-        - CUDA (limited exp)
-        - MPI (limited exp)
+        - CvxPy
+        - CUDA
+        - MPI
     Other libraries:
         - matplotlib
         - pandas
         - plotly/dash
         - scikit-learn
-        - pytorch (limited exp)
-        - keras (limited exp)
+        - pytorch
+        - keras
     Tools/Workflow:
         - PBS
         - qsub
@@ -146,14 +155,15 @@
 
 - experience:
     start: Jun 2024
-    title: Senior Software Engineer
+    title: Senior Research Engineer
     institution: Siemens Digital Industry Software
     department: EDA / HAV Division
     description:
-        - Researching and developing high-performance software and algorithms
-          for a novel EDA / CAD product
-        - As one of the first engineers on the project, I contributed to all
-          aspects of the design, implementation, and benchmarking
+        - I research & develop high-performance numerical optimization
+          software and algorithms for EDA / CAD applications
+        - As the senior engineer on an internal start-up project, I contribute
+          to product planning, software design, implementation, and
+          benchmarking
 
 - experience:
     start: Jun 2020
@@ -166,7 +176,8 @@
           including neural architecture search, material discovery, and particle
           accelerator design
         - Designed and implemented an open-source framework for building and
-          deploying parallel multiobjective simulation optimization solvers (ParMOO)
+          deploying parallel multiobjective simulation optimization solvers
+          (ParMOO, see below)
 
 - teaching:
     start: Jan 2022

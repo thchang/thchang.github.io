@@ -2,10 +2,10 @@ LUALATEX
 
 info/meta.yaml, titleLualatex: me
 
-# Interests
-info/about.yaml, singlelineTex: interests
+# Summary
+info/about.yaml, singlelineTex: interests-stmt
 
-# Experience
+# Recent Experience
 info/about.yaml, experienceLongTex: experience
 
 # Technical Skills
@@ -14,8 +14,8 @@ info/about.yaml, skillsTex: skills
 # Education
 info/about.yaml, degreeShortTex: degree
 
-# Publicly Available Software
-info/software.yaml, softwareTex:
+# Selected Open Source Software
+info/software.yaml, softwareTex: featured-software
 
 # Selected Publications (from 28 peer-reviewed works)
 info/shortlist.bib, anypubTex: inpress, article, inproceedings
