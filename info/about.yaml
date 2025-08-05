@@ -37,8 +37,8 @@
       peer-reviewed articles, led 3 open-source numerical software projects
       (and made significant contributions to others), and raised over $500k in
       research funding.\\\\
-      Ask me about using first-order methods for AI and designing open-source
-      software that people want to use!
+      Ask me about using first-order methods for optimization and AI and
+      designing open-source software that people want to use!
 
 - research-stmt:
     what: >
@@ -172,9 +172,9 @@
     institution: Argonne National Laboratory
     department: MCS Division
     description:
-        - Provided computational expertise to a variety of scientific research projects
-          including neural architecture search, material discovery, and particle
-          accelerator design
+        - Provided computational expertise to a variety of scientific research
+          projects including neural architecture search, material discovery,
+          and particle accelerator design
         - Designed and implemented an open-source framework for building and
           deploying parallel multiobjective simulation optimization solvers
           (ParMOO, see below)
