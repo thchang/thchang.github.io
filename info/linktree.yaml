@@ -35,7 +35,7 @@
     OpenMP 4.5 stds doc: https://www.openmp.org/wp-content/uploads/openmp-4.5.pdf
     MPI 4.0 stds doc: https://www.mpi-forum.org/docs/mpi-4.0/mpi40-report.pdf
     CUDA Fortran programmer's guide: https://docs.nvidia.com/hpc-sdk/compilers/cuda-fortran-prog-guide/
-    Fortran numerical package index: https://fortran-lang.org/en/packages/numerical/
+    Fortran numerical package index: https://fortran-lang.org/packages/numerical/
     Fortran compiler support: https://fortranwiki.org/fortran/show/Compiler+Support+for+Modern+Fortran
     automatically wrap modern Fortran in Python: https://github.com/tchlux/fmodpy
 
