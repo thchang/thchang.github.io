@@ -1,23 +1,23 @@
+- talk:
+    year: Upcoming
+    description: "I'll be at the Dagstuhl Seminar on UQ for Multiobjective Simulation Optimization in Jan 2026."
+
 - release:
-    year: May 2024
-    description: ParMOO ver. 0.4.0 is coming soon at <a href="https://github.com/parmoo/parmoo">GitHub</a>! We have refactored custom embedding tools, improved our optimization algorithms, and are now using jax to propagate gradients and compile critical code sections!
+    year: Upcoming
+    description: "Keep an eye out for the next release of ParMOO. From a user's perspective, not much has changed. But under the hood, we've made significant structural and documentation changes to support a slew of planned features."
+
+- talk:
+    year: Oct 2025
+    description: 'I gave a talk "Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning" at the SIAM NCC Meeting.'
 
 - paper:
-    year: Apr 2024
-    description: 'A preprint has been posted for our paper <a href="https://arxiv.org/abs/2404.03586">Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning</a> and the corresponding code is available on <a href="https://github.com/LLNL/interpML">the LLNL GitHub page</a> (with A. Gillette and R. Maulik)'
+    year: Mar 2025
+    description: 'Our paper <a href="https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0250">Designing a Framework for Solving Multiobjective Simulation Optimization Problems</a> has been accepted and published online in the INFORMS Journal on Computing.'
 
 - paper:
-    year: Mar 2024
-    description: 'Our Remark on Algorithm 1012 has been accepted for publication in ACM TOMS (with L. Watson, S. Leyffer, T. Lux, and H. Almohri)'
+    year: Jan 2025
+    description: 'Our paper <a href="https://arxiv.org/abs/2404.03586">Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning</a> was published in the Journal of Computational Physics and the corresponding code is available on <a href="https://github.com/LLNL/interpML">the LLNL GitHub page</a> (with A. Gillette and R. Maulik)'
 
-- talk:
-    year: Dec 2023
-    description: 'Presented paper <i>An integrated multi-physics optimization framework for particle accelerator design</i> at WSC 23 in San Antonio, TX'
-
-- talk:
-    year: Aug 2023
-    description: "Gave talk <i>Data sampling for surrogate modeling and optimization</i> at ICIAM 23 in Tokyo"
-
-- talk:
-    year: Jul 2023
-    description: "Gave LANS Seminar <i>Toward interpretable machine learning via Delaunay interpolation</i> at Argonne"
+- release:
+    year: Aug 2024
+    description: 'ParMOO ver. 0.4.1 is available at <a href="https://github.com/parmoo/parmoo">GitHub</a>! We have refactored custom embedding tools, improved our optimization algorithms, and are now using jax to propagate gradients and compile critical code sections!'
