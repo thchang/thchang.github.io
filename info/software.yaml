@@ -1,9 +1,9 @@
 - featured-software:
     title: ParMOO
     subtitle: Python library for parallel multiobjective simulation optimization
-    year: 2022 (latest release 2024)
+    year: 2022 (latest release 2026)
     author: T. H. Chang (lead), S. M. Wild, and H. Dickinson
-    version: 0.4.1
+    version: 0.5.1
     language: Python 3
     git: https://github.com/parmoo/parmoo
     description: >

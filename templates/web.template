@@ -6,6 +6,11 @@ info/meta.yaml, titleWeb: me
 # About Me
 info/about.yaml, paragraphWeb: bio
 
+% News
+# News
+## Upcoming and Recent Events
+info/news.yaml, newsWeb:
+
 % Software
 # Featured Software
 info/software.yaml, softwareWeb: featured-software

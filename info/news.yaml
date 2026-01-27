@@ -1,23 +1,16 @@
-- talk:
+
+- paper:
     year: Upcoming
-    description: "I'll be at the Dagstuhl Seminar on UQ for Multiobjective Simulation Optimization in Jan 2026."
+    description: 'Keep an eye out for our paper <a href="https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0250">Designing a Framework for Solving Multiobjective Simulation Optimization Problems</a>, to appear in the INFORMS Journal on Computing.'
+
+- talk:
+    year: Jan 2026
+    description: 'I attended the <a href="https://www.dagstuhl.de/26041">Dagstuhl Seminar on UQ for Multiobjective Simulation Optimization</a> hosted by the Leibniz Association in Wadern, Germany.'
 
 - release:
-    year: Upcoming
-    description: "Keep an eye out for the next release of ParMOO. From a user's perspective, not much has changed. But under the hood, we've made significant structural and documentation changes to support a slew of planned features."
+    year: Jan 2026
+    description: 'We released version 0.5.1 of <a href="https://github.com/parmoo/parmoo">ParMOO on GitHub, PyPI, and Conda Forge</a>. From a user-perspective, not much has changed. But under the hood, we have made significant structural and documentation changes to support a slew of planned features.'
 
 - talk:
     year: Oct 2025
-    description: 'I gave a talk "Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning" at the SIAM NCC Meeting.'
-
-- paper:
-    year: Mar 2025
-    description: 'Our paper <a href="https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0250">Designing a Framework for Solving Multiobjective Simulation Optimization Problems</a> has been accepted and published online in the INFORMS Journal on Computing.'
-
-- paper:
-    year: Jan 2025
-    description: 'Our paper <a href="https://arxiv.org/abs/2404.03586">Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning</a> was published in the Journal of Computational Physics and the corresponding code is available on <a href="https://github.com/LLNL/interpML">the LLNL GitHub page</a> (with A. Gillette and R. Maulik)'
-
-- release:
-    year: Aug 2024
-    description: 'ParMOO ver. 0.4.1 is available at <a href="https://github.com/parmoo/parmoo">GitHub</a>! We have refactored custom embedding tools, improved our optimization algorithms, and are now using jax to propagate gradients and compile critical code sections!'
+    description: 'I gave a talk "Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning" at the <a href="https://siamncc25.lbl.gov/">SIAM NCC Meeting</a>.'
