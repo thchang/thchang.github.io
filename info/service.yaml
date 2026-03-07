@@ -74,8 +74,21 @@
     title: SIAM
     year: 2016--Present
 
+- siemens:
+    start: Jan 2026
+    title: Member of advisory committee for defining AI Architect Job Role at Siemens
+    description:
+        - Reviewing the proposed job roles and providing expert feedback to management
+
+- siemens:
+    start: May 2025
+    title: Representative of Seimens EDA at SystemX alliance workshop at Stanford
+    description:
+        - Represented Siemens EDA / HAV Division at the Stanford SystemX alliance workshop
+
 - cod:
     start: Jan 2024
+    end: May 2024
     title: Member of Computer and Information Science Advisory Board
     description:
         - Providing insight for planning course offerins in CIS

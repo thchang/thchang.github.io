@@ -101,6 +101,9 @@ info/service.yaml, compilationTex: minisymporg
 info/service.yaml, compilationTex: member
 
 # Institutional Service
+## Siemens
+info/service.yaml, multilineTex: siemens
+
 ## Argonne
 info/service.yaml, multilineTex: argonne
 

@@ -31,6 +31,9 @@ info/about.yaml, numberedListTex: fellowship
 info/about.yaml, numberedListTex: award
 
 # Leadership and Service
+## Recent conferences
+info/recent_talks.bib, talkTex:
+
 ## Interns Advised
 info/meta.yaml, peopleShortTex: advisee
 
@@ -39,6 +42,3 @@ info/about.yaml, experienceShortTex: teaching
 
 ## Journal / Conference Referee
 info/service.yaml, compilationTex: journalref, confref
-
-## Minisymposium Organizer
-info/service.yaml, compilationTex: minisymporg
