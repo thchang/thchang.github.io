@@ -6,14 +6,15 @@
         research in numerical optimization, scientific machine learning, and HPC</a>
         and maintain <a href="https://github.com/thchang">open source software</a>.
     before: >
-        Previously, I was a researcher @
-        <a href="https://www.anl.gov/mcs/lans">Argonne</a>,
+        Previously, I worked in high-performance EDA software and R&D for 2 years.
+        Before that, I was a researcher @
+        <a href="https://www.anl.gov/mcs/lans">Argonne</a> for 4 years,
         where I developed algorithms and open source numerical software
         and performed applied research at
         the interface of numerical optimization, approximation theory,
         and scientific machine learning.
-        Before that, I completed my PhD in Computer Science (specialization in
-        scientific computing) @
+        I have a PhD in Computer Science (specialization in
+        scientific computing) from
         <a href="https://sanghani.cs.vt.edu/">Virginia Tech</a>.
     work: >
         View my publications on
@@ -31,14 +32,14 @@
     - open source software
 
 - interests-stmt:
-    - I am currently a Senior Engineer leading in the design and implementation
-      of a pre-market high-performance computing software tool for EDA.
-      Previously, I have worked for 4 years post-PhD as a Researcher at Argonne
-      National Laboratory with expertise in numerical analysis, optimization,
-      scientific machine learning / AI for science, and high-performance
-      computing. As a researcher, I published 28 peer-reviewed articles,
-      raised nearly $500k in research funding, led 3 open-source numerical
-      software projects, and made significant contributions to 3 others.
+    - I am currently a Founding Engineer at a Stealth Startup.
+      Previously, I spent 2 years working on high-performance EDA software and
+      R&D, and I worked for 4 years as a Researcher at Argonne
+      National Laboratory performing research in numerical optimization,
+      scientific machine learning, and high-performance computing.
+      As a researcher, I published 28 peer-reviewed articles,
+      raised over $400k in research funding, and led 3 open-source numerical
+      software projects.
 
 - research-stmt:
     what: >
@@ -154,16 +155,21 @@
         - bazel
 
 - experience:
-    start: Jun 2024
+    start: Jul 2026
+    title: Founding Engineer
+    institution: Stealth Mode Startup
+
+- experience:
+    start: May 2024
+    end: Jul 2026
     title: Senior Research Engineer
     institution: Siemens Digital Industry Software
     department: EDA / HAV Division
     description:
-        - I research & develop high-performance numerical optimization
-          software and algorithms for EDA / CAD applications
-        - As the senior engineer on an internal start-up project, I contribute
-          to project planning, software design, implementation, and
-          performance-tuning
+        - Performed R&D and engineering for a high-performance EDA software
+        - As the senior engineer on an internal start-up-like project,
+          I contributed to project planning, software design, implementation,
+          and performance-tuning
 
 - experience:
     start: Jun 2020
