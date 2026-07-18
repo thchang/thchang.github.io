@@ -13,7 +13,3 @@
 - release:
     year: Jan 2026
     description: 'We released version 0.5.1 of <a href="https://github.com/parmoo/parmoo">ParMOO on GitHub, PyPI, and Conda Forge</a>. From a user-perspective, not much has changed. But under the hood, we have made significant structural and documentation changes to support a slew of planned features.'
-
-- talk:
-    year: Oct 2025
-    description: 'I gave a talk "Leveraging Interpolation Models and Error Bounds for Verifiable Scientific Machine Learning" at the <a href="https://siamncc25.lbl.gov/">SIAM NCC Meeting</a>.'
