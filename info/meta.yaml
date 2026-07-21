@@ -9,8 +9,8 @@
 
 - me:
     name: Tyler H. Chang
-    institution: Senior Research Engineer
-    department: Numerical Optimization and Scientific Machine Learning
+    institution: Founding Engineer
+    department: Research in AI, Optimization, and HPC
     alias:
         - T. H. Chang
     address: Mountain View, CA, USA
@@ -21,14 +21,14 @@
         Scholar: https://scholar.google.com/citations?user=XvFLOWsAAAAJ&hl=en
         LinkedIn: https://www.linkedin.com/in/tyler-chang-2524b9182
         Orcid: https://orcid.org/0000-0001-9541-7041
-        Twitter: https://twitter.com/thchang94
     images:
         email: img/email-icon.png
         GitHub: img/github-icon.png
         Scholar: img/scholar-icon.png
         LinkedIn: img/linkedin-icon.png
         Orcid: img/orcid-icon.png
-        Twitter: img/twitter-icon.png
+
+- delete_this_line_and_place_below_above:
     tabs:
         CV: ./cv.pdf
 
